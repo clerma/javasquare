@@ -18,7 +18,6 @@ ganalytics: UA-48421544-1
 social: "https://twitter.com/javasquare \nhttps://www.facebook.com/javasquare
   \nhttps://www.instagram.com/javasquare"
 plugins:
-- jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
