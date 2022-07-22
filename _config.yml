@@ -1,5 +1,5 @@
 ---
-title: Ohh Snap Photo Booth
+title: Java Square
 timezone: America/Chicago
 collections:
   posts:
@@ -8,15 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: chat@ohhsnapbooth.com
-baseurl: "/ohhsnap-current"
+email: info@javasquare.cafe
+baseurl: ""
 logo: "/images/logo.png"
 favicon: assets/images/favicon.ico
 locale: en_us
 lang: en_us
 ganalytics: UA-48421544-1
-social: "https://twitter.com/ohhsnapbooth \nhttps://www.facebook.com/ohhsnapbooth
-  \nhttps://www.instagram.com/ohhsnapbooth"
+social: "https://twitter.com/javasquare \nhttps://www.facebook.com/javasquare
+  \nhttps://www.instagram.com/javasquare"
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
