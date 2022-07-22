@@ -1,0 +1,25 @@
+---
+title: Ohh Snap Photo Booth
+timezone: America/Chicago
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: chat@ohhsnapbooth.com
+baseurl: "/ohhsnap-current"
+logo: "/images/logo.png"
+favicon: assets/images/favicon.ico
+locale: en_us
+lang: en_us
+ganalytics: UA-48421544-1
+social: "https://twitter.com/ohhsnapbooth \nhttps://www.facebook.com/ohhsnapbooth
+  \nhttps://www.instagram.com/ohhsnapbooth"
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
