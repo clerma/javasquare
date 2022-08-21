@@ -1,74 +1,79 @@
-<footer class="footer footer-transparent footer-big">
-						<div class="container">
+ <!-- FOOTER -->
+<footer class="py-7 py-md-9 bg-black">
+  <div class="container px-4">
+	<div class="row gx-7">
+	  <div class="col-sm-4">
 
-							<div class="content">
-								<div class="row">
+		<!-- Heading -->
+		<h5 class="text-xs text-primary">
+		  About Us
+		</h5>
 
-									<div class="col-md-6">
-										<h5>{{ site.author }}<span>&trade;</span></h5>
-										<p>is nothing without the silly faces that join us. If we don't have people getting wild in front of the camera, we haven't done our job! Let Ohh Snap help to get your party started!</p>
-										<h5>Serving all of South Louisiana</h5>
-										<ul class="social-buttons" style=" margin-top: -20px;">
-											
-											<li><a href="https://ohhsnaplafayette.com" title="Lafayette LA photo booth Rental Company">Lafayette, LA Photo Booth Rental</a> </li>
-											
-										</ul>
-										<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fohhsnapbooth&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;colorscheme=dark&amp;height=35&amp;appId=116232648529752" scrolling="no" frameborder="0" style="border: none; overflow: hidden; height: 35px;" allowtransparency="true"></iframe>
-										
-										<ul class="">
-								<li>
-									<a href="http://facebook.com/ohhsnapbooth" target="_blank" class="btn btn-just-icon btn-simple btn-facebook">
-										<i class="fa fa-facebook-square"></i>
-									</a>
-								</li>
-								<li>
-									<a href="http://www.instagram.com/ohhsnapbooth/" target="_blank" class="btn btn-just-icon btn-simple btn-instagram">
-										<i class="fa fa-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="http://twitter.com/ohhsnapbooth" target="_blank" class="btn btn-just-icon btn-simple btn-twitter">
-										<i class="fa fa-twitter"></i>
-									</a>
-								</li>
-								
-							</ul>
-									</div>
-																		
-								<div class="col-md-6">
-										<h5>Subscribe to Newsletter</h5>
-										<p>
-											Join our newsletter and get Ohh Snap news in your inbox! We hate spam too, so no worries about that happening.
-										</p>
-										<script type="text/javascript" src="CatalystScripts/ValidationFunctions-vs=b2249.r504726-phase1.js"></script>
-										<form name="catemaillistform5445" class="form form-newsletter" onsubmit="return checkWholeForm5445(this)" method="post" action="CampaignProcess.aspx-ListID=43908.html">
-										
-											<div class="form-group is-empty">
-												<input type="text" class="form-control" name="FullName" id="CLFullName" placeholder="Your Name">
-											<span class="material-input"></span></div>
+		<!-- Text -->
+		<p class="mb-6">
+		  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi saepe.
+		</p>
 
-											<div class="form-group is-empty">
-												<input type="email" class="form-control" name="EmailAddress" id="CLEmailAddress" placeholder="Your Email...">
-											<span class="material-input"></span></div>
+	  </div>
+	  <div class="col-sm-4">
 
-											<button type="submit" class="btn btn-primary btn-just-icon" value="Subscribe" id="catlistbutton">
-												<i class="material-icons">mail</i>
-											</button>
-												<script type="text/javascript">
-//<![CDATA[
-function checkWholeForm5445(theForm){var why = "";if (theForm.FullName) why += isEmpty(theForm.FullName.value, "Full Name");if (why != "");if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value);if (why != ""){alert(why);return false;}theForm.submit();return false;}
-//]]>
-</script>
-										</form>
-									</div>
+		<!-- Heading -->
+		<h5 class="text-xs text-primary">
+		  Contact info
+		</h5>
 
-								</div>
-							</div>
+		<!-- List -->
+		<ul class="list-unstyled mb-6">
+		  <li class="d-flex mb-2">
+			<div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+			1234 Altschul, Los Angeles, CA 10027-0000
+		  </li>
+		  <li class="d-flex mb-2">
+			<div class="fas fa-phone me-3 mt-2 fs-sm"></div>
+			+1 987 654 3210
+		  </li>
+		  <li class="d-flex">
+			<div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:admin@domain.com">admin@domain.com</a>
+		  </li>
+		</ul>
 
-							<hr>
+	  </div>
+	  <div class="col-sm-4">
 
-							<div class="copyright pull-center">
-								Copyright © {{ "now" | date: "%Y" }} Ohh Snap! Photo Booth&trade; All Rights Reserved.
-							</div>
-						</div>
-					</footer>
+		<!-- Heading -->
+		<h5 class="text-xs text-primary">
+		  Opening hours
+		</h5>
+
+		<!-- Text -->
+		<div class="mb-3">
+		  <div class="text-xs">Monday - Thursday</div>
+		  <div class="font-serif">10:00 AM - 11:00 PM</div>
+		</div>
+
+		<!-- Text -->
+		<div class="mb-6">
+		  <div class="text-xs">Friday - Sunday</div>
+		  <div class="font-serif">12:00 AM - 03:00 AM</div>
+		</div>
+
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-12">
+
+		<!-- Copyright -->
+		<div class="d-flex align-items-center">
+		  <hr class="hr-sm me-3" style="height: 1px;" /> &copy; 2021 Touche. All rights reserved.
+		</div>
+
+	  </div>
+	</div>
+  </div>
+</footer>
+<!-- TOAST -->
+<div class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5" id="notification" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+	<div class="toast-body mx-auto"></div>
+  </div>
+</div>

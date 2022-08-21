@@ -1,6 +1,4 @@
 ---
-title: Java Square
-timezone: America/Chicago
 collections:
   posts:
     title: Posts
@@ -9,11 +7,10 @@ collections:
     title: Uploads
     output: true
 email: info@javasquare.cafe
-baseurl: ""
+baseurl: 
 logo: "/images/logo.png"
 favicon: assets/images/favicon.ico
 locale: en_us
-lang: en_us
 ganalytics: UA-48421544-1
 social: "https://twitter.com/javasquare \nhttps://www.facebook.com/javasquare
   \nhttps://www.instagram.com/javasquare"

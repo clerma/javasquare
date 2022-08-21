@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about-us.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/contact-us.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gallery.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/menu.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/news-and-events.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/reservation.html</loc>
+<lastmod>2021-06-23T14:26:40-05:00</lastmod>
+</url>
+</urlset>
