@@ -7,24 +7,30 @@
 <body>
 {% include nav.html %}
    <!-- WELCOME -->
+   {% case page.pagename %}
+	  {% when 'home' %}
 <header data-jarallax data-speed=".8" style="background-image: url(assets/img/hero.jpg);">
   <div class="d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0">
 	<div class="container my-auto">
 	  <div class="row justify-content-center">
 		<div class="col-12 col-md-8 col-lg-6 text-center">
+		<!-- Preheading -->
+		  <h6 class="text-xs text-white-75">
+			Java Square's NEW Site
+		  </h6>
 		  <!-- Heading -->
 		  <h1 class="display-1 text-white mb-4">
-			Java Square
+			Coming Soon
 		  </h1>
 
 		  <!-- Subheading -->
 		  <p class="text-center text-white-75 mb-7">
-			A unique cafe located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
+			We are working on new things, please check back soon!
 		  </p>
 
 		  <!-- Button -->
-		  <a class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0" href="#reservation">
-			Make reservation
+		  <a class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0" href="https://www.doordash.com/store/java-square-opelousas-649112/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6IiIsInZlcnRpY2FsX2lkIjpudWxsLCJ2ZXJ0aWNhbF9uYW1lIjoiIn0sImlzX3NpYmxpbmciOmZhbHNlfQ==&pickup=false" target="_blank">
+			Order Online
 		  </a>
 
 		</div>
@@ -65,7 +71,24 @@
 	</div>
   </div>
 </header>
+	  {% when 'market' %}
+<header data-jarallax="" data-speed=".8" style="background-image: none; position: relative; z-index: 0;" data-jarallax-original-styles="background-image: url(assets/img/36.jpg);">
+  <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black-50">
+	<div class="container">
+	  <div class="row justify-content-center">
+		<div class="col-12 col-md-8 col-lg-6 text-center">
 
+		  <!-- Heading -->
+		  <h1 class="display-6 fw-bold text-white">
+			Opelousas Downtown Market
+		  </h1>
+
+		</div>
+	  </div>
+	</div>
+  </div>
+<div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;file:///Users/carloslerma/Desktop/Touche-3.0.0/dist/assets/img/36.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1417px; height: 546.4px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 84.8px; transform: translate3d(0px, -84.8px, 0px);"></div></div></header>
+{% endcase %}
  {{ content }}
 
 {% comment %}

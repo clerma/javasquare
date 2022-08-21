@@ -2,7 +2,7 @@
   <div class="container">
 
 	<!-- Navbar brand (mobile) -->
-	<a class="navbar-brand d-lg-none" href="./index.html">Touche</a>
+	<a class="navbar-brand d-lg-none" href="/"><img src="assets/img/logo.png"/></a>
 
 	<!-- Navbar toggler -->
 	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,38 +11,40 @@
 
 	<!-- Navbar collapse -->
 	<div class="collapse navbar-collapse" id="navbarCollapse">
-	{% comment %}
+	
 	  <!-- Navbar nav -->
 	  <ul class="navbar-nav">
+		  {% comment %}
 		<li class="nav-item">
 		  <a class="nav-link " href="./about-us.html">About Us</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link " href="./menu.html">Menu</a>
 		</li>
+		{% endcomment %}
 		<li class="nav-item">
-		  <a class="nav-link " href="./reservation.html">Reservation</a>
+		  <a class="nav-link phone" href="tel:(337) 678-1055">(337) 678-1055</a>
 		</li>
 	  </ul>
-	  {% endcomment %}
 	  <!-- Navbar brand -->
-	  <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="./index.html">
+	  <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="/">
 		<img src="assets/img/logo.png"/>
 	  </a>
-	  {% comment %}
+
 	  <!-- Navbar nav -->
 	  <ul class="navbar-nav">
 		<li class="nav-item">
-		  <a class="nav-link " href="./news-and-events.html">News & Events</a>
+		  <a class="nav-link " href="./news-and-events.html">Downtown Market</a>
 		</li>
+		{% comment %}
 		<li class="nav-item">
 		  <a class="nav-link " href="./gallery.html">Gallery</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link " href="./contact-us.html">Contact</a>
 		</li>
+		{% endcomment %}
 	  </ul>
-	  {% endcomment %}
 	</div>
   </div>
 </nav>
