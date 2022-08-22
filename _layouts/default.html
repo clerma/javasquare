@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+ {% capture seo %}
+   {% seo %}
+   <meta name="keywords" content="{{page.keywords}}">
+   <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+   {% endcapture %}
+   {{seo | remove: "Jekyll"}}
 <!-- Styles -->
 {% include head.html %}
- {% capture seo %}
- {% seo %}
- <meta name="keywords" content="{{page.keywords}}">
- <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
- {% endcapture %}
- {{seo | remove: "Jekyll"}}
 </head>
 <body>
 {% include nav.html %}
