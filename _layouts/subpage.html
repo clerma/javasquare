@@ -1,18 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+ {% capture seo %}
+   {% seo %}
+   <meta name="keywords" content="{{page.keywords}}">
+   {% endcapture %}
+   {{seo | remove: "Jekyll"}}
 <!-- Styles -->
 {% include head.html %}
 </head>
 <body>
 {% include nav.html %}
-
  {{ content }}
-
-{% comment %}
 {% include footer.html %}   
-{% endcomment %} 
-{% include scripts.html %}         	
-					
+{% include scripts.html %}         				
 </body>
 </html>
