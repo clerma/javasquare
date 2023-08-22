@@ -15,7 +15,9 @@
 <body>
 {% include nav.html %}
  {{ content }}
+{% if page.name == 'downtown-market.html' %} {% else %}
 {% include footer.html %}   
+{% endif %}
 {% include scripts.html %}         				
 </body>
 </html>
