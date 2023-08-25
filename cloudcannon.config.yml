@@ -1,0 +1,82 @@
+source: assets
+paths:
+  uploads: uploads
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+collections_config_override: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+_select_data:
+  jekyll-archives:
+    layout: archive
+    enabled: []
+    permalinks:
+      year: /:year/
+      month: /:year/:month/
+      day: /:year/:month/:day/
+      tag: /tag/:name/
+      category: /category/:name/
+  archives: []
+_structures: {}
+_editables:
+  text:
+    bold: true
+    copyformatting: true
+    italic: true
+    link: true
+    paths: {}
+    removeformat: true
+    strike: true
+    underline: true
+    undo: true
+  block:
+    blockquote: true
+    bold: true
+    bulletedlist: true
+    center: text-center
+    code: true
+    copyformatting: true
+    embed: true
+    horizontalrule: true
+    image: true
+    image_size_attributes: true
+    left: text-start
+    link: true
+    resize_style: contain
+    right: text-end
+  image:
+    correct_orientation: true
+    expandable: true
+    image_size_attributes: true
+    resize_style: contain
+    width: 0
+data_config: {}
+editor: {}
+timezone: Etc/UTC
