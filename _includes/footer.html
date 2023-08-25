@@ -1,17 +1,16 @@
  <!-- FOOTER -->
-<footer class="py-7 py-md-9 bg-black">
+<footer class="py-7 py-md-9 bg-primary">
   <div class="container px-4">
 	<div class="row gx-7">
 	  <div class="col-sm-4">
 
 		<!-- Heading -->
 		<h5 class="text-xs text-primary">
-		  About Us
+		  About Java Square
 		</h5>
-
 		<!-- Text -->
 		<p class="mb-6">
-		  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi saepe.
+		 Java Square, nestled in the heart of historic downtown Opelousas, is more than just a cafe. It's a blend of rich history and modern coffee culture, housed in the iconic 1927 Parish & Trust Bank building. Venture inside and discover the old bank vault, now transformed into an intimate seating nook for our guests. 
 		</p>
 
 	  </div>
@@ -26,14 +25,14 @@
 		<ul class="list-unstyled mb-6">
 		  <li class="d-flex mb-2">
 			<div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
-			1234 Altschul, Los Angeles, CA 10027-0000
+			<a href="https://goo.gl/maps/UwcHfyuvyTECuF999" target="_blank">{{site.address}}</a>
 		  </li>
 		  <li class="d-flex mb-2">
 			<div class="fas fa-phone me-3 mt-2 fs-sm"></div>
-			+1 987 654 3210
+			<a href="tel:{{site.phone}}" class="phone">{{site.phone}}</a>
 		  </li>
 		  <li class="d-flex">
-			<div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:admin@domain.com">admin@domain.com</a>
+			<div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:{{site.email}}">{{site.email}}</a>
 		  </li>
 		</ul>
 
@@ -46,15 +45,15 @@
 		</h5>
 
 		<!-- Text -->
-		<div class="mb-3">
+		<div class="mb-3 text-white">
 		  <div class="text-xs">Monday - Thursday</div>
-		  <div class="font-serif">10:00 AM - 11:00 PM</div>
+		  <div>7:00 AM - 6:00 PM</div>
 		</div>
 
 		<!-- Text -->
-		<div class="mb-6">
-		  <div class="text-xs">Friday - Sunday</div>
-		  <div class="font-serif">12:00 AM - 03:00 AM</div>
+		<div class="mb-6 text-white">
+		  <div class="text-xs">Saturday - Sunday</div>
+		  <div>8:00 AM - 04:00 PM</div>
 		</div>
 
 	  </div>
@@ -63,8 +62,8 @@
 	  <div class="col-12">
 
 		<!-- Copyright -->
-		<div class="d-flex align-items-center">
-		  <hr class="hr-sm me-3" style="height: 1px;" /> &copy; 2021 Touche. All rights reserved.
+		<div class="d-flex align-items-center text-white">
+		  <hr class="hr-sm me-3" style="height: 1px;" /> &copy;{{ site.time | date: "%Y" }} {{site.name}}. All rights reserved.
 		</div>
 
 	  </div>

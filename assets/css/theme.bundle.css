@@ -19,7 +19,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #e8e6dd;
+    --bs-primary: #b26c4b;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -368,6 +368,9 @@ progress {
 }
 .blockquote>:last-child {
     margin-bottom: 0
+}
+footer p, footer h5, footer li{
+    color: white !important
 }
 .blockquote-footer {
     color: #adb5bd;
@@ -7056,7 +7059,7 @@ textarea.form-control-lg {
     word-break: break-word!important
 }
 .text-primary, .text-primary-hover:hover {
-    color: #e8e6dd!important
+    color: #b26d4b!important;
 }
 .text-secondary, .text-secondary-hover:hover {
     color: #6c757d!important
@@ -7104,7 +7107,7 @@ textarea.form-control-lg {
     color: inherit!important
 }
 .bg-primary {
-    background-color: #e8e6dd!important
+    background-color: #b26c4b!important
 }
 .bg-secondary {
     background-color: #6c757d!important
