@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Square API endpoint for fetching catalog items (replace with actual endpoint if different)
+API_ENDPOINT="https://connect.squareup.com/v2/catalog/list"
+
+# Your Square application credentials
+APPLICATION_ID="sandbox-sq0idb-pt3Xs8bzGV3pzO2SFjnblw"
+ACCESS_TOKEN="EAAAlzfZbtj_RsaJSX4xVueNdl8kNHD2gguAbEWxYAzHAiHmSXxzZ0Vhre_nlDJ3"
+
+# Curl command to fetch menu data
+curl -o data/menu.json \
+  -H "Authorization: Bearer $ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  -H "Square-Version: 2022-11-16" \
+  "$API_ENDPOINT"
+
+echo "Menu data fetched successfully."

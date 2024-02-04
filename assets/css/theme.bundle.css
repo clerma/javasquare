@@ -21,6 +21,7 @@
     --bs-gray-dark: #343a40;
     --bs-primary: #b26c4b;
     --bs-secondary: #6c757d;
+    --bs-dark-brown: #4c2f22
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -7108,6 +7109,9 @@ textarea.form-control-lg {
 }
 .bg-primary {
     background-color: #b26c4b!important
+}
+.bg-dark-brown {
+    background-color: #4c2f22!important
 }
 .bg-secondary {
     background-color: #6c757d!important
