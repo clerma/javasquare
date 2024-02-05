@@ -78,7 +78,7 @@ _editables:
     resize_style: contain
     width: 0
 data_config: {
-  path: 'data/menu',
+  path: '_data/menu',
   parser: 'json'
   }
 editor: {}
