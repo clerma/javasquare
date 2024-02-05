@@ -77,6 +77,9 @@ _editables:
     image_size_attributes: true
     resize_style: contain
     width: 0
-data_config: {}
+data_config: {
+  path: 'data/menu',
+  parser: 'json'
+  }
 editor: {}
 timezone: Etc/UTC
