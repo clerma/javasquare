@@ -77,6 +77,5 @@ _editables:
     image_size_attributes: true
     resize_style: contain
     width: 0
-data_config: 
-  menu: true
+data_config: true
 timezone: Etc/UTC
