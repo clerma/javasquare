@@ -1,56 +1,103 @@
-Token,Item Name,Variation Name,SKU,Description,Category,SEO Title,SEO Description,Permalink,Square Online Item Visibility,Weight (lb),Shipping Enabled,Self-serve Ordering Enabled,Delivery Enabled,Pickup Enabled,Price,Online Sale Price,Sellable,Stockable,Skip Detail Screen in POS,Option Name 1,Option Value 1,Current Quantity Java Square Cafe LLC,New Quantity Java Square Cafe LLC,Stock Alert Enabled Java Square Cafe LLC,Stock Alert Count Java Square Cafe LLC,Modifier Set - 1/2 Sandwich,Modifier Set - Conference Room Add ons,Modifier Set - Croissant,Modifier Set - Extra Shot,Modifier Set - Sandwiches,Modifier Set - Scone,Modifier Set - Substitutes & Addons,Modifier Set - Syrup Add On,Modifier Set - Syrup Flavors Grande,Modifier Set - Syrup Flavors Super Grande,Modifier Set - Syrup Flavors Tall,Modifier Set - Triple Flavor Options,Tax - Default (10.2%)
-T4ZBYHY6QBG6BHOSHBKDKWI4,1/2 Sandwich & Soup Combo,Regular,,,,,,,,,Y,Y,Y,Y,6.45,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-YHMM2XGVQOHGGKUI45EY7T7A,10 Inch Dough Bowl Candle,Champagne Toast,,"This is a 10-12 oz candle. The entire candle is handmade, down to the bowl which is hand carved by artists.
+Name,Description,Category,Price
+Java Square Blend Beans,,Coffee Beans,13.95
+Bottled Water,,Cold drinks,1.00
+Can Soda,,Cold drinks,1.00
+Dirty Soda,,Cold drinks,4.29
+Fredda,,Cold drinks,3.95
+Fredda,,Cold drinks,4.43
+Fredda,,Cold drinks,4.95
+Gallon of tea,,Cold drinks,15.50
+Hibiscus Mint Tea,,Cold drinks,2.35
+Hibiscus Mint Tea,,Cold drinks,2.55
+Hibiscus Mint Tea,,Cold drinks,2.75
+Iced Americano,,Cold drinks,2.65
+Iced Americano,,Cold drinks,3.15
+Iced Americano,,Cold drinks,3.65
+Iced Cafe Au Lait,,Cold drinks,2.35
+Iced Cafe Au Lait,,Cold drinks,2.85
+Iced Cafe Au Lait,,Cold drinks,2.60
+Iced Chai,,Cold drinks,2.35
+Iced Chai,,Cold drinks,3.95
+Iced Chai,,Cold drinks,4.45
+Iced Cold Brew,,Cold drinks,2.49
+Iced Cold Brew,,Cold drinks,2.99
+Iced Cold Brew,,Cold drinks,3.49
+Iced Gelato,,Cold drinks,3.20
+Iced Gelato,,Cold drinks,3.70
+Iced Gelato,,Cold drinks,4.10
+Iced Latte,,Cold drinks,3.07
+Iced Latte,,Cold drinks,3.57
+Iced Latte,,Cold drinks,4.07
+Iced Macchiato,,Cold drinks,3.40
+Iced Macchiato,,Cold drinks,3.90
+Iced Macchiato,,Cold drinks,4.40
+Iced Mocha,,Cold drinks,3.25
+Iced Mocha,,Cold drinks,3.75
+Iced Mocha,,Cold drinks,4.15
+Iced Tea,,Cold drinks,2.15
+Iced Tea,,Cold drinks,2.35
+Iced Tea,,Cold drinks,2.65
+Juice,,Cold drinks,1.69
+La Croix Sparkling Water,,Cold drinks,1.00
+Lemonade,,Cold drinks,2.00
+Lemonade,,Cold drinks,2.75
+Lemonade,,Cold drinks,2.45
+Matcha Fredda,,Cold drinks,3.42
+Matcha Fredda,,Cold drinks,3.92
+Matcha Fredda,,Cold drinks,4.40
+Milk,,Cold drinks,1.60
+Milk,,Cold drinks,1.85
+Milk,,Cold drinks,1.99
+Milkshake,,Cold drinks,3.10
+Milkshake,,Cold drinks,3.72
+Milkshake,,Cold drinks,3.99
+Ocean Breeze,,Cold drinks,5.16
+Passion Lemonade,,Cold drinks,2.60
+Passion Lemonade,,Cold drinks,3.05
+Passion Lemonade,,Cold drinks,3.60
+S.Pellegrino Sparkling Water,,Cold drinks,1.65
+Smoothie,,Cold drinks,3.75
+Smoothie,,Cold drinks,4.25
+Smoothie,,Cold drinks,4.75
+10 Inch Dough Bowl Candle,"This is a 10-12 oz candle. The entire candle is handmade, down to the bowl which is hand carved by artists.
 Hansel & Gretel - A sweet base of vanilla frosting and Tonka Bean supports mid notes of cinnamon sticks, nutmeg, and graham crackers, with top notes of bergamot and cherry.
 Pumpkin Souffle - This fragrance is so good the description just doesn't do it justice! A rich pumpkin flavor blended with a fruity bouquet of cherry and mimosa as well as fresh nutmeg, clove, and cinnamon finished off with nuances of caramel, sweet brown sugar, and vanilla.
 Creme Brule - This one smells like a rich, creamy French coffee blend
 Mahogany Teakwood - Green, citrus, and fruity top notes with floral noes of jasmine, rose, and lily enhanced by sweet woody and musky base notes.
-Creamy Vanilla - A rich and creamy blend of coconut and berries with mid notes of soft butter and mimosa all on a bed of sweet vanilla and warm Tonka Bean.",Faire,,,,visible,,Y,,,,29.99,,,,N,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-XFXADKESO5UBBWRZBFE3J2K2,17 OZ Large Coffee Mugs with lid and Removeable Cork Base,white,,"【17 OZ Coffee Mug】  The  coffee mug has a large capacity of 17 oz, large coffee mug perfect for coffee, tea, cocoa, soups, mocha, cappuccino, hot chocolate, or all types of daily drinks.
+Creamy Vanilla - A rich and creamy blend of coconut and berries with mid notes of soft butter and mimosa all on a bed of sweet vanilla and warm Tonka Bean.",Faire,29.99
+17 OZ Large Coffee Mugs with lid and Removeable Cork Base,"【17 OZ Coffee Mug】  The  coffee mug has a large capacity of 17 oz, large coffee mug perfect for coffee, tea, cocoa, soups, mocha, cappuccino, hot chocolate, or all types of daily drinks.
 【Removable Cork Base】Our ceramic coffee mugs have a removable cork base. It can be easily removed and the coffee mug can be washed in the dishwasher or heated in the microwave. After cleaning, assemble the cork to the bottom of the mug and continue to use it.
 【Large Comfortable Handle】Our uniquely designed large handle coffee mug allows you to hold your coffee more comfortably and enjoy your coffee to the fullest.
 【Splash Proof Lid】Ceramic coffee mug with lid, the splash-proof lid prevents liquid from splashing, but not from spilling. If you flip a full coffee cup or invert the cup, the liquid will leak.
-【Great Gift】The matte  finish and cork bottom of this ceramic coffee mug make it the perfect option of gift giving for man or woman. Whether it is a Birthd",Faire,,,,visible,,Y,,,,15.00,,,,,,,9,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-GJBY64GXNA2626LPXRUCTYB5,18oz Glass Tumbler  - Live Well,Regular,,"G2828.
-Glass Silicone Bamboo Plastic",Faire,,,,,,Y,,,,variable,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-H7W7ZPLWNAD77B2RYDCHMRWB,18oz Glass Tumbler  - Live Well,default,G2828,,Faire,,,,,,,,,,19.95,,,,N,,,-1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-PT3V6FOONFXOOWA66HY2XLE3,20 oz RTIC Tumbler - White,Regular,,"RTIC stainless steel drinkware is double wall Vacuum insulated. Keeps your drinks ice cold longer - works great for hot beverages. The included all-new Shaded splash proof lid lets you know exactly how much drink you have. The Flip-Top closure resists spills and is straw friendly. Easy to clean.
-Keeps ice Longer - holds ice for up to 24 hours
-Keeps it hot - works great for hot beverages
-18/8 stainless steel - strong stainless steel construction
-Narrow and tall design. Easy grip base. No sweat exterior",Merchandise,,,,visible,0.65,Y,Y,Y,Y,19.95,,,,N,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-SRRFYRHVOQT5M6YQ437DQKE5,20oz Tall Mug with Flip Lid,Black,T20000022,"The double-wall vacuum-insulated walls give you a worry-free mind knowing your beverages are kept icy cold or piping hot for hours.  Made of lightweight 18/8 food-grade stainless steel that is non-leaching and will not retain taste or odor. The double-wall technology prevents condensation on the outside for those hot sunny days while keeping the heat within the inner wall so you don’t have to worry about burning your hand while holding your mug.
+【Great Gift】The matte  finish and cork bottom of this ceramic coffee mug make it the perfect option of gift giving for man or woman. Whether it is a Birthd",Faire,15.00
+18oz Glass Tumbler  - Live Well,"G2828.
+Glass Silicone Bamboo Plastic",Faire,variable
+18oz Glass Tumbler  - Live Well,,Faire,19.95
+20oz Tall Mug with Flip Lid,"The double-wall vacuum-insulated walls give you a worry-free mind knowing your beverages are kept icy cold or piping hot for hours.  Made of lightweight 18/8 food-grade stainless steel that is non-leaching and will not retain taste or odor. The double-wall technology prevents condensation on the outside for those hot sunny days while keeping the heat within the inner wall so you don’t have to worry about burning your hand while holding your mug.
 
 The 20oz tall mug is perfect to use as your everyday coffee cup and is designed to fit in most car cup holders. The easy-grip handle makes it convenient for you to hold while on the go and the double-wall vacuum-insulated technology ensures your hot beverage will stay piping hot and your cold beverages will stay icy cold until the next refill.
 
-The 20oz tall mug includes a screw-on flip lid with a flipping mechanism that clicks in place to keep it splashproof. It has a silicone ring that ensures a snug fit retaining the beverages’ ideal tempe",Faire,,,,,,Y,,,,28.00,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-RZNYZDJOVP2IFXESBA2U7ASO,3 oz. Yogurt Pretzels,default,64212,"Crunchy, salty pretzels are smothered in a sweet vanilla yogurt coating creating a perfectly indulgent snack. Reach for these when you're craving a salty-sweet option any time of the day. Add to your favorite trail mix, mix them with some nuts, or enjoy on their own!",Faire,,,,,,Y,,,,2.25,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-ZLPONSCGXAKCGSJQJUKKB3AL,"4.5 oz. Cherries, Berries & Nuts",Regular,,"Nationally recognized for quality and flavor, this fruit and nut mix is the ultimate balanced pairing of sweet and salty. Roasted and salted buttery cashews, premium almonds, and crunchy pecan halves pair with 100% Michigan-grown dried cherries and tart cranberries for a game-changing snacking experience. See what everyone's talking about with this crowd favorite!",Faire,,,,,,Y,,,,variable,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-PISMACR7XHD7WS42AN3FXSND,"4.5 oz. Cherries, Berries & Nuts",default,64201,,Faire,,,,,,,,,,4.15,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-ZZZV66PTFQNML2YTWJ2HPKRL,5.5 oz. Cranberry Crunch,default,64208,"Blanched roasted and salted peanuts, almonds mix with seedless raisins, dried tart cranberries, and sweet yogurt-covered raisins for the perfect combination of crunchy and sweet. Simply irresistible, you'll be wishing you bought twice as much! Mix it up and add some crunch to your yogurt!",Faire,,,,,,Y,,,,3.15,,,,N,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-UZUVW2656KNQ7NUKTCNDR6MI,750ml Double-Wall Vacuum-Insulated Wine Growlers w/Flat Top,Marble Wine,W25000005,"The double-wall vacuum-insulated walls give you a worry-free mind knowing your favorite wines are kept at their optimal temperature. Made of lightweight 18/8 food-grade stainless steel that is non-leaching and will not retain taste or odor. The double-wall technology prevents condensation on the outside of the growler so you don’t have to worry about ruining your attire while carrying it by your side.
+The 20oz tall mug includes a screw-on flip lid with a flipping mechanism that clicks in place to keep it splashproof. It has a silicone ring that ensures a snug fit retaining the beverages’ ideal tempe",Faire,28.00
+3 oz. Yogurt Pretzels,"Crunchy, salty pretzels are smothered in a sweet vanilla yogurt coating creating a perfectly indulgent snack. Reach for these when you're craving a salty-sweet option any time of the day. Add to your favorite trail mix, mix them with some nuts, or enjoy on their own!",Faire,2.25
+"4.5 oz. Cherries, Berries & Nuts","Nationally recognized for quality and flavor, this fruit and nut mix is the ultimate balanced pairing of sweet and salty. Roasted and salted buttery cashews, premium almonds, and crunchy pecan halves pair with 100% Michigan-grown dried cherries and tart cranberries for a game-changing snacking experience. See what everyone's talking about with this crowd favorite!",Faire,variable
+"4.5 oz. Cherries, Berries & Nuts",,Faire,4.15
+5.5 oz. Cranberry Crunch,"Blanched roasted and salted peanuts, almonds mix with seedless raisins, dried tart cranberries, and sweet yogurt-covered raisins for the perfect combination of crunchy and sweet. Simply irresistible, you'll be wishing you bought twice as much! Mix it up and add some crunch to your yogurt!",Faire,3.15
+750ml Double-Wall Vacuum-Insulated Wine Growlers w/Flat Top,"The double-wall vacuum-insulated walls give you a worry-free mind knowing your favorite wines are kept at their optimal temperature. Made of lightweight 18/8 food-grade stainless steel that is non-leaching and will not retain taste or odor. The double-wall technology prevents condensation on the outside of the growler so you don’t have to worry about ruining your attire while carrying it by your side.
 
-The wine growler is the ideal traveling companion for transporting your favorite wine or spritzer. With its sleek and narrow design, you can enjoy your elegant social event knowing your growler won't be an eyesore on the beverage table. Holding a full bottle of wine it is ideal to use for sharing with the bridal party or hosting a springtime brunch. The vacuum-insulated walls ensure your wine is kept at its optimal temperature amid each pour. The double-wall technology prevents sweating on the outside of the bottle, so you don't have to worry about it leaving a water ring on your table.",Faire,,,,,,Y,,,,13.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-WNJS4KOSNC7S7GPURZHBMYX5,AIN'T NO MAMA,default,1348,"Greeting: ""AIN'T NO MAMA LIKE THE ONE I GOT"" (Blank Inside)
+The wine growler is the ideal traveling companion for transporting your favorite wine or spritzer. With its sleek and narrow design, you can enjoy your elegant social event knowing your growler won't be an eyesore on the beverage table. Holding a full bottle of wine it is ideal to use for sharing with the bridal party or hosting a springtime brunch. The vacuum-insulated walls ensure your wine is kept at its optimal temperature amid each pour. The double-wall technology prevents sweating on the outside of the bottle, so you don't have to worry about it leaving a water ring on your table.",Faire,13.95
+AIN'T NO MAMA,"Greeting: ""AIN'T NO MAMA LIKE THE ONE I GOT"" (Blank Inside)
 Printing: Orange Gloss Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,visible,,Y,,,,7.45,,,,N,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-TUPSCAN34H2RAK5HWY5KMPMJ,AMAZING MAN & FATHER,default,1350,"Greeting: ""You're an Amazing Man and One Helluva Father"" (Blank Inside)
+Paper: thick colored stock with coordinating A2 envelope",Faire,7.45
+AMAZING MAN & FATHER,"Greeting: ""You're an Amazing Man and One Helluva Father"" (Blank Inside)
 Printing: Gold Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,visible,,Y,,,,5.95,,,,N,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-EJKFRUY637LL6AO5FJS5APE6,Americano,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.67,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-GO3UF7DKOXH7NK3PPH2YVRS7,Americano,Grande,,,Hot Drinks,,,,,,,,,,3.17,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-3AW4XO3MMS5GTEXTUPQL3CGY,Americano,Super Grande,,,Hot Drinks,,,,,,,,,,3.67,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-LUC6BL5KTVYHMUDQ2JMKX3ZL,Autumn Squash Soup,Regular,,10oz soup,Food,,,,visible,,,,,,3.97,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-TBRUYFIAI5IJUFM5INFSMX3Y,Bagel,Regular,,,Food,,,,,,Y,Y,Y,Y,1.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-337CNVG5EDWPESCAUY6VTJKX,Bamboo Travel Mugs,Regular,,,Faire,,,,,,Y,,,,18.75,,,,N,,,-5,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-TFLW4KOCJT5VP6WXV4NFUREC,Banana Nut Muffin,Regular,,,Food,,,,,,Y,Y,Y,Y,2.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-WP54I2QVTTM4D27X7OYTAZTM,Bayou Bar,Regular,,,Great Harvest,,,,,,Y,N,N,N,3.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-QC5C5WRBQVDF4NSHKVSBCGE3,Be a Nice Human Vinyl Sticker,default,S-be nice,"If only humans could be as amazing as our dogs. This sticker is a good reminder to all of us...just be nice!
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.95
+Bamboo Travel Mugs,,Faire,18.75
+Be a Nice Human Vinyl Sticker,"If only humans could be as amazing as our dogs. This sticker is a good reminder to all of us...just be nice!
 Our stickers are printed on a premium vinyl here is the USA. Each one is coated with a protective laminate that makes them durable & resistant to fading, scratching, tearing, and moisture.
-Sticker measures 2 1/2"" wide x 2 1/2"" tall",Faire,,,,visible,,Y,,,,3.00,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-WZ4BATJTDOCVDCPMI7UMLNY5,"Be Kind, It's Free Positivity Lettering Sticker",default,BM-0001-2681,"Be Kind, It's Free Positivity Lettering Sticker. Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more. This positivity sticker can be found in our Positivity Collection, and makes a wonderful gift or positive reinforcement for yourself!
+Sticker measures 2 1/2"" wide x 2 1/2"" tall",Faire,3.00
+"Be Kind, It's Free Positivity Lettering Sticker","Be Kind, It's Free Positivity Lettering Sticker. Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more. This positivity sticker can be found in our Positivity Collection, and makes a wonderful gift or positive reinforcement for yourself!
 
 
 Details:
@@ -61,172 +108,131 @@ Details:
 • Waterproof and weatherproof
 
 
-We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,visible,,Y,,,,3.00,,,,,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-YAXJFJ2ULG6KER33USPPIP7D,Berry Parfait,Regular,,,Food,,,,,,Y,Y,Y,Y,3.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-YHAPTPT7U4ND27KGZJXJK53D,Blueberry Banana Mix,Regular,,,Food,,,,,,Y,,,,3.15,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-SLNUOJEMCLRLJYDLL6TOROFM,Blueberry Banana Nut Mix 4.5 oz.,default,64204,"Dried cranberries and blueberries pair perfectly with crunchy banana chips for a burst of fruity flavor balanced with roasted cashews, blanched peanuts, and almonds. Fell transported far away to the sands of an island with a light breeze and plentiful sunshine in every bite.
+We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,3.00
+Blueberry Banana Nut Mix 4.5 oz.,"Dried cranberries and blueberries pair perfectly with crunchy banana chips for a burst of fruity flavor balanced with roasted cashews, blanched peanuts, and almonds. Fell transported far away to the sands of an island with a light breeze and plentiful sunshine in every bite.
 
 Shelf life: 6 months
-Ingredients: Dried Cranberries (Cranberries, Sugar, Sunflower Oil), Almonds, Peanuts, Cashews, Dried Blueberries (Blueberries, Sugar, Sunflower Oil), Banana Chips (Bananas, Vegetable Oil, Sugar, Natural Banana Flavor), Peanut Oil, Salt",Faire,,,,,,Y,,,,2.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-RHIOWXUICZJKWIN6VFDLPOA5,Blueberry CC Muffins,Regular,,,Great Harvest,,,,,,Y,,,,4.10,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-3LQHDB77IVCDLSNMV4AUV3QJ,Blueberry Cheese Cake Muffins,Regular,,,Food,,,,visible,,Y,,,,4.10,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JF5ONGML4RPDTHPW7DYZDFC2,Blueberry fig bar,Regular,,,Food,,,,,,Y,,,,0.98,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-BRVMWJQHTXFUKKSMJ2N2UIXG,Blueberry Muffins,Regular,,,Food,,,,,,Y,Y,Y,Y,2.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-VE5CJSRPUZQEB37OMIVMY7R2,Bottled Water,Regular,,,Cold drinks,,,,,,Y,Y,Y,Y,1.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-7OTR4D7ALDJG4SVTHNIKMUX6,Brownie,Regular,,,Food,,,,,,Y,Y,Y,Y,2.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JOUWSKVSJCW4EYV4CAHROOGQ,Cafe au Lait,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.35,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-XEPO7CE27D6GFKC6K3O46DL2,Cafe au Lait,Grande,,,Hot Drinks,,,,,,,,,,2.85,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-L45DMEUP23FDCGXP6Z6765QK,Cafe au Lait,super Grande,,,Hot Drinks,,,,,,,,,,3.35,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-N6VEUDALMO4J2ABT246EUFYB,Camper 12oz. Mug,Black Lip,,"Our Custom printed 12 ounce enamel mugs our great for souvenirs, special events or the kitchen/dining room. These cups are great additions to gift baskets. Available in white with black lip, yellow, red, blue or pink. Please specify color when ordering 8 cup minimum order. Discounts available for volume orders. All mugs are designed, printed and shipped from the USA.",Faire,,,,,,Y,,,,16.00,,,,N,,,9,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-LBSJB5O54W6NDYTETB4OXKPB,Can Soda,Regular,,,Cold drinks,,,,,,Y,Y,Y,Y,1.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-3JNPXNPKL6JSM242RYLAFREZ,CAP & GOWN,default,1349,"""CAP & GOWN IT'S ABOUT TO GO DOWN!""
+Ingredients: Dried Cranberries (Cranberries, Sugar, Sunflower Oil), Almonds, Peanuts, Cashews, Dried Blueberries (Blueberries, Sugar, Sunflower Oil), Banana Chips (Bananas, Vegetable Oil, Sugar, Natural Banana Flavor), Peanut Oil, Salt",Faire,2.50
+Camper 12oz. Mug,"Our Custom printed 12 ounce enamel mugs our great for souvenirs, special events or the kitchen/dining room. These cups are great additions to gift baskets. Available in white with black lip, yellow, red, blue or pink. Please specify color when ordering 8 cup minimum order. Discounts available for volume orders. All mugs are designed, printed and shipped from the USA.",Faire,16.00
+CAP & GOWN,"""CAP & GOWN IT'S ABOUT TO GO DOWN!""
 Printing: BLACK METALLIC FOIL
-Card size: 5.5"" x 4.25"", Folded, BLANK INSIDE WITH COORDINATING ENVELOPE",Faire,,,,visible,,Y,,,,6.00,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-ZOEZ744NDAZYPSNEFKY7Z3HP,Cappuccino,Tall,,,Hot Drinks,,,,,,Y,,,,3.17,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-ARIQPSXBOO5M2UJYYQPHS3FZ,Cappuccino,Grande,,,Hot Drinks,,,,,,,,,,3.67,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-3ERU5IKNT5L7JSBXFFKGB2YZ,Cappuccino,Super Grande,,,Hot Drinks,,,,,,,,,,4.17,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-PUUMCBXDOXXWYID3722OPTR5,Chai Latte,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,3.47,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-L34ANOBGWYMCWSU6YEGAN4T7,Chai Latte,Grande,,,Hot Drinks,,,,,,,,,,3.97,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-NTQDDJFC2724D6FK7B4GVFNS,Chai Latte,Super Grande,,,Hot Drinks,,,,,,,,,,4.47,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-R25L5UBI6SDSDE5UWAI2UEXD,Cheddar Chive Biscuit,Regular,,,Great Harvest,,,,,,Y,,,,2.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JLYDWUWRGNLJCGRVVW4O5TNE,Cherry Thank you Card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-LRQHIRJYH4X4DKD2VVQHQAYY,Chocolate Bar Bourbon Pecan Pie,Regular,,,Faire,,,,,,Y,,,,3.64,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-EIKVLMAFG5WBHR2B4FHZ4K3H,Chocolate Bar Mint Choc Chip 2.25oz,default,OC160312,"Dark Chocolate with Mint creme center.
+Card size: 5.5"" x 4.25"", Folded, BLANK INSIDE WITH COORDINATING ENVELOPE",Faire,6.00
+Cherry Thank you Card,,Faire,4.50
+Chocolate Bar Bourbon Pecan Pie,,Faire,3.64
+Chocolate Bar Mint Choc Chip 2.25oz,"Dark Chocolate with Mint creme center.
 
-Shelf life- 5 months guaranteed from receipt of goods.",Faire,,,,,,Y,,,,3.64,,,,,,,-10,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-LDERFQJGDHDYQYBTABRR2VQT,Chocolate Bar Peanut Butter Cup,Regular,,,Faire,,,,,,Y,,,,3.64,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-63ACAGBGSJCV2KYHQEQFAHKN,Chocolate Bar Sea Side Caramel,Regular,,,Faire,,,,,,Y,,,,3.64,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-3XKTJCVAZM54YRZK7VYVBLX7,Chocolate Brownie Bread - loaf,Regular,,,Great Harvest,,,,,,Y,,,,7.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-DJ55VXPFOTWF3NYCN7YYM55R,Chocolate Brownie Bread - slice,Regular,,,Great Harvest,,,,,,Y,,,,1.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-YXGPCS4WFRVYNEPJI77BKST4,Chocolate chip pumpkin Muffin,Regular,,,Great Harvest,,,,,,Y,,,,3.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-M2LVR3JGQ7ZUMPSAGSVBBON7,Chocolate Muffin,Regular,,,Food,,,,,,Y,,,,3.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-AMBSAVNR3MWW3ZKYCHSSO5AE,Chocolate Pretzels,Regular,,,Faire,,,,,,Y,,,,2.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-ZECAAI3ZGICNJ3BJ7CEULFN4,Choose Kindness Multicolor Lettering Sticker,default,BM-0001-1404,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
+Shelf life- 5 months guaranteed from receipt of goods.",Faire,3.64
+Chocolate Bar Peanut Butter Cup,,Faire,3.64
+Chocolate Bar Sea Side Caramel,,Faire,3.64
+Chocolate Pretzels,,Faire,2.95
+Choose Kindness Multicolor Lettering Sticker,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
 Details:
 •3.3 x 1.68 inches
 • Printed and shipped with care from the U.S.A.
 • High quality and durable vinyl, indoor and outdoor use
-• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,,,Y,,,,3.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-DVOUCCK7ROP7GLZFVWXIWJ5L,Christmas Cookie,Regular,,,Food,,,,visible,,,,,,1.00,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-HXQ3WDJFPHFSCDKJO42KD7UV,Christmas Marble Holiday Card,default,1125-B,"Greeting: ""Merry Christmas"" (Blank Inside).
+• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,3.00
+Christmas Marble Holiday Card,"Greeting: ""Merry Christmas"" (Blank Inside).
 Printing: Full Color with Gold Foil.
 Card size: 5.5"" x 4.25"", Folded.
 Paper: Natural White Stock with coordinating A2 envelope.
-(Boxed set of 6).",Faire,,,,,,Y,,,,20.00,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-KSO72S54YMQSSZYQD2EYZWKX,Cinnamon Roll,Regular,,,Great Harvest,,,,,,Y,N,N,N,4.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-J2UQ3NCPQIFWTF2KE56FR5QS,Clawhammer Certified Organic Mints - Strong Peppermint,Regular,,"Our Clawhammer Organic Mints will satisfy the most discerning mint lover.  They're made with organic cane sugar and the highest quality natural flavors to deliver intense taste and breath freshening with no artificial colors, flavors or sweeteners.  All are USDA and Canada Organic certified.  Available in four great flavors:
+(Boxed set of 6).",Faire,20.00
+Clawhammer Certified Organic Mints - Strong Peppermint,"Our Clawhammer Organic Mints will satisfy the most discerning mint lover.  They're made with organic cane sugar and the highest quality natural flavors to deliver intense taste and breath freshening with no artificial colors, flavors or sweeteners.  All are USDA and Canada Organic certified.  Available in four great flavors:
 
-As seen here:  Strong Peppermint",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-HACJFJBRBTXVI36U7OUHBZ4A,Clawhammer Certified Organic Mints - Strong Peppermint,default,6 28371 19030 6,,Faire,,,,,,,,,,2.99,,,,,,,29,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-WE6XGU22LUI3BAA6MJHRGFIU,Coffee & Plants Sticker,default,ST127,"A sticker for when someone asks what your love languages are 😉
+As seen here:  Strong Peppermint",Faire,variable
+Clawhammer Certified Organic Mints - Strong Peppermint,,Faire,2.99
+Coffee & Plants Sticker,"A sticker for when someone asks what your love languages are 😉
 
 This Coffee and Plants Sticker is a necessary addition to your laptop, water bottle, or journal. Made for those who love their morning latte and can always talk themselves into just *one more* leafy friend
 
 • Size: 4.22 x 1""
 • Durable weatherproof vinyl sticker
 
-Note: Colors may vary slightly from device screen to printed item.",Faire,,,,visible,,,,,,4.00,,,,,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-OZIMKMKI7CPYLMSOMWV5R2J5,Coffee Cake Muffin,Regular,,,Food,,,,,,Y,Y,Y,Y,2.35,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-NBEE2YJMHHMXFAYXXZHYB6J7,Coffee Date Greeting Card,default,GC104-A2,"Give the gift of your time with this coffee date greeting card. Use it as an invitation to catch up with a friend; old or new.
+Note: Colors may vary slightly from device screen to printed item.",Faire,4.00
+Coffee Date Greeting Card,"Give the gift of your time with this coffee date greeting card. Use it as an invitation to catch up with a friend; old or new.
 It's a way to say thank you for a kind gesture, say congratulations on a great milestone, or celebrate life's moments - birthdays, graduations, a new career, or just because.
 • Four spacious lines for your personal message
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,4.50,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-XNDQMA3DDMBIUP7DUAGOZYCT,Coffee is my Love Language Sticker,Regular,,"Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
+• Professionally printed in Omaha, NE",Faire,4.50
+Coffee is my Love Language Sticker,"Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
 Design: Anna Alsup.
 Instagram: @anna_alsup
 2.7 x 4 inches.
 High quality and durable vinyl, indoor and outdoor use.
 Waterproof and weatherproof.
-We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-FOHQKWJ2UDIBLD2PH2NQO26U,Coffee is my Love Language Sticker,default,BM-0015-0101,,Faire,,,,,,,,,,3.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-6YPIVBVJGQGTURMUTK4IP3CP,Coffee is My Love Language Sticker,default,ST145,"• Size: 3 x 1.1""
+We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,variable
+Coffee is my Love Language Sticker,,Faire,3.00
+Coffee is My Love Language Sticker,"• Size: 3 x 1.1""
 • Durable weatherproof vinyl sticker
 
-Note: Colors may vary slightly from device screen to printed item.",Faire,,,,visible,,,,,,3.00,,,,,,,9,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-6JI4HO4FGTXGU4WV4YMCQOPY,Coffee Pray Repeat,Regular,,"""This sticker makes a great gift to any person who holds a strong faith! This sticker is part of our Faith Sticker Collection.
+Note: Colors may vary slightly from device screen to printed item.",Faire,3.00
+Coffee Pray Repeat,"""This sticker makes a great gift to any person who holds a strong faith! This sticker is part of our Faith Sticker Collection.
 Details:2.74 x 3 inches printed and shipped with care from the U.S.A. High quality and durable vinyl, indoor and outdoor use waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.
-""",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-ELKUNW6UQ76NZABBAF4PGNYG,Coffee Pray Repeat,default,BM-0001-1032,,Faire,,,,,,,,,,3.00,,,,,,,7,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-EJMM3CWTMBWYSUWIPIQSRR75,Coffee Teach Repeat,Regular,,"Teachers can't mold the minds of the future without coffee right? This vinyl sticker is a part of our teacher stickers collection.
-Details: 3 x 2.15 inches printed and shipped with care from the U.S.A. High quality and durable vinyl, indoor and outdoor use, waterproof and weatherproof we are partnered with activeminds.org to help spread mental health awareness.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BW56B5QAZBJU7O2N7LGHROFJ,Coffee Teach Repeat,default,BM-0001-859,,Faire,,,,,,,,,,3.00,,,,,,,7,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-64VJJOGILUQDEY4W2QVMW7GH,Cookie,Regular,,,Food,,,,,,Y,Y,Y,Y,1.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-3AP43YFZPBLIZ63QNVYXHQKN,Cookie Dough Milk Chocolate Candy Bar  2.25oz,default,OC18512,"Just like baking fresh cookies, without the mess! This sweet milk chocolate Cookie Dough candy bar is loaded with a delicious cookie dough filling.
-Size. 2.25 oz.",Faire,,,,,,Y,,,,3.64,,,,,,,24,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-MH7BGXIRFD5PHRLZW3Z27J77,Cool chick card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-63H3NHEDLEHIFE7SFBC2B5FG,Country Mix,Regular,,,Faire,,,,,,Y,,,,2.65,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-RUWBQZRURUW7ZCVN542BZDGT,Create Mug,Regular,,,Merchandise,,,,,,Y,,,Y,16.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-P3NHL3FM3NXWMRI5UPWYFKQ3,Custom City State Sticker,default,SD3106_,"Custom City State Sticker, show some hometown love! This is a local best seller. Each sticker is approx 3inches and comes individually packaged, ready for display.
+""",Faire,variable
+Coffee Pray Repeat,,Faire,3.00
+Coffee Teach Repeat,"Teachers can't mold the minds of the future without coffee right? This vinyl sticker is a part of our teacher stickers collection.
+Details: 3 x 2.15 inches printed and shipped with care from the U.S.A. High quality and durable vinyl, indoor and outdoor use, waterproof and weatherproof we are partnered with activeminds.org to help spread mental health awareness.",Faire,variable
+Coffee Teach Repeat,,Faire,3.00
+Cookie Dough Milk Chocolate Candy Bar  2.25oz,"Just like baking fresh cookies, without the mess! This sweet milk chocolate Cookie Dough candy bar is loaded with a delicious cookie dough filling.
+Size. 2.25 oz.",Faire,3.64
+Cool chick card,,Faire,4.50
+Country Mix,,Faire,2.65
+Custom City State Sticker,"Custom City State Sticker, show some hometown love! This is a local best seller. Each sticker is approx 3inches and comes individually packaged, ready for display.
 Individually Packaged
 Weatherproof & UV Resistant
 Free Graphic Design-Work directly with our designer
 Stickers will have a UV layer that is 3.2mil thick
 Fade-resistant, scratch-resistant
 Peel here tab
-3M backer, water-resistant adhesive",Faire,,,,visible,,Y,,,,4.50,,,,,,,19,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-OJBPQ4FHIQPI7XZYHHDNEL3B,Custom company logo coffee beer glass can,16 oz / Clear,,"Great looking glass perfect for your coffee shop, available to fully customize for your shop or brand! Please send logo or image via message as an attachment- if too large email Hello@nreales.com",Faire,,,,visible,,Y,,,,26.00,,,,,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-RSVHOSHHA6HCFNUNV4IEQL64,Custom State & City Mug,Regular,,"☁️ Oversized 15-ounce size
+3M backer, water-resistant adhesive",Faire,4.50
+Custom company logo coffee beer glass can,"Great looking glass perfect for your coffee shop, available to fully customize for your shop or brand! Please send logo or image via message as an attachment- if too large email Hello@nreales.com",Faire,26.00
+Custom State & City Mug,"☁️ Oversized 15-ounce size
 ☁️ Microwave safe; dishwasher safe
 ☁️ Ceramic
 ☁️ White and glossy
 ☁️ Mug artwork is inkjet printed, using special dye-sublimation inks. The print becomes a part of the mug!
-☁️ Send Me a Dream Mugs are Made to Order",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-CNLITWYJD6VO7X4276I2U6PS,Custom State & City Mug,default,,,Faire,,,,,,,,,,20.00,,,,,,,11,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-QKVYV73PPORR4ZCR75DW7MSC,Daily Schedule Notepad,default,NP101,"55 tear-off, sturdy pages.
+☁️ Send Me a Dream Mugs are Made to Order",Faire,variable
+Custom State & City Mug,,Faire,20.00
+Daily Schedule Notepad,"55 tear-off, sturdy pages.
 8.5 x 11 inches.
 Undated; fill in each week accordingly.
 Cream, birch paper with black ink .
 Vintage-inspired typography.
-Professionally printed and bound in Omaha, NE.",Faire,,,,visible,,Y,,,,15.00,,,,,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-PXLVBPSJP53OQF4MN52KHKRW,Dirty Soda,Regular,,,Cold drinks,,,,visible,,Y,,,,4.29,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-6DTRKMIH2IITTAK2PDJUKWAN,Dog years mug,Regular,,,Faire,,,,,,Y,,,,12.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-LAROZ3ZTVMXHLBY5JYVTDFQY,Dogs People Sticker,default,103,"Show your support for man's best friend with this dogs > people sticker!
+Professionally printed and bound in Omaha, NE.",Faire,15.00
+Dog years mug,,Faire,12.00
+Dogs People Sticker,"Show your support for man's best friend with this dogs > people sticker!
 Details:
 3.15"" x 1"".
 Water and weather resistant.
 High quality and durable.
-High-quality vinyl stickers - Our stickers are perfect as water bottle stickers, skateboard stickers, laptop stickers and more.",Faire,,,,visible,,Y,,,,3.00,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-22IY3B2W4VGYOMUIMNXHW4UB,Double Shot Espresso,Regular,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.49,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-DIME4SYP2AE7VDW4QJUXECWQ,Downtown Market,Regular,,,Events,,,,visible,,N,Y,N,N,10.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-GJCWDXFH44YFMEDFO4PKMNBV,Drip Coffee,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.47,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-LYNTMLNCJVRAWQJIEVXLJ2VR,Drip Coffee,Grande,,,Hot Drinks,,,,,,,,,,2.97,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-D6LC23RWZMOUCF6RZWJY73LT,Drip Coffee,Super Grande,,,Hot Drinks,,,,,,,,,,3.47,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-POL2E2HONROIUISJ3Z3UIQZ5,Drip Refill,Tall,,,Hot Drinks,,,,,,Y,,,,0.90,,,,N,,,,,,,N,N,N,N,N,N,N,Y,N,N,Y,N,Y
-DWMSGMA6GKRGH3IHIKKEPOHN,Drip Refill,Grande,,,Hot Drinks,,,,,,,,,,1.30,,,,N,,,,,,,N,N,N,N,N,N,N,Y,N,N,Y,N,Y
-UEW56YOZHPPSUFCKZ5HTFXIH,Drip Refill,Super Grande,,,Hot Drinks,,,,,,,,,,1.45,,,,N,,,,,,,N,N,N,N,N,N,N,Y,N,N,Y,N,Y
-EENG2CKTKFXI3ZFG7OBUDRZ5,Each Day is a Fresh Start Sticker,default,ST146,"• Size: 3 x 2.46""
+High-quality vinyl stickers - Our stickers are perfect as water bottle stickers, skateboard stickers, laptop stickers and more.",Faire,3.00
+Each Day is a Fresh Start Sticker,"• Size: 3 x 2.46""
 • Durable weatherproof vinyl sticker
 
-Note: Colors may vary slightly from device screen to printed item.",Faire,,,,visible,,,,,,3.00,,,,,,,7,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-IONW3NGDIU4CZ6NOBHBDCDYH,Everyday Gummy Bears 7oz,default,OG01215,"Bear gummies gift bag 7oz 15/cs 
-Sweet & bright and oh so nice! You'll love our NEW everyday Gummi Bears.",Faire,,,,visible,,,,,,4.80,,,,N,,,7,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-Z65PEY7E2AFGDSB37352WTOQ,Everything’s ok card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-Q2UWW5URPILPBYGMWTDDLVAW,"Ew, David Sweater Sticker",default,BM-0011-0011,"Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
+Note: Colors may vary slightly from device screen to printed item.",Faire,3.00
+Everyday Gummy Bears 7oz,"Bear gummies gift bag 7oz 15/cs 
+Sweet & bright and oh so nice! You'll love our NEW everyday Gummi Bears.",Faire,4.80
+Everything’s ok card,,Faire,4.50
+"Ew, David Sweater Sticker","Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
 Illustration by @kayla_writesstuff
 2.8 x 3 inches.
 High quality and durable vinyl, indoor and outdoor use.
 Waterproof and weatherproof.
-We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,,,Y,,,,3.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-LKZNZ3RNK4WCZ4BZ3AXFIHCZ,Extra Birthday,default,1297,"Greeting: ""Have a Very Extra Birthday!"" (Blank Inside)
+We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,3.00
+Extra Birthday,"Greeting: ""Have a Very Extra Birthday!"" (Blank Inside)
 Printing: Silver Hologram Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BIOOMI6D7F3RL2SNWOM63POV,Face Masks,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,1.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-B4BGQETT6VC4UPMGMXSMXPGD,"Father’s Day Doesn’t Suck, Mom/Dad Card",default,1180,"Greeting: ""Hope Your Father's Day Doesn't Suck"" (Blank Inside).
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+"Father’s Day Doesn’t Suck, Mom/Dad Card","Greeting: ""Hope Your Father's Day Doesn't Suck"" (Blank Inside).
 Printing: Black Foil.
 Card size: 5.5"" x 4.25"", Folded.
-Paper: thick colored stock with coordinating A2 envelope.",Faire,,,,visible,,Y,,,,6.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-OGF4XI5HDT5XJTNFVGFIDTEX,Foragers Mix (Raw) 5 oz.,default,64203,"An energizing snack made for adventure- this mix has it all! Juicy raisins, crunchy sunflower seeds, pumpkin seeds, cashews, and almonds all blend together into a mix that will get you to the top of the mountain! Enjoy this roasted, un-salted mix of nuts and seeds on the go, at home, or where-ever life takes you!
+Paper: thick colored stock with coordinating A2 envelope.",Faire,6.00
+Foragers Mix (Raw) 5 oz.,"An energizing snack made for adventure- this mix has it all! Juicy raisins, crunchy sunflower seeds, pumpkin seeds, cashews, and almonds all blend together into a mix that will get you to the top of the mountain! Enjoy this roasted, un-salted mix of nuts and seeds on the go, at home, or where-ever life takes you!
 Shelf life: 6 months
-Ingredients: Raisins (Raisins, Sunflower Oil), Cashews, Almonds, Sunflower Seeds, Pumpkin Seeds, Peanut Oil.",Faire,,,,visible,,Y,,,,3.70,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-MBUUAN4XRRDJXNAC7MCOA5XH,Fredda,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.95,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-ELPAFHMD7A7LSQEJVWS4I2OP,Fredda,Grande,,,Cold drinks,,,,,,,,,,4.43,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-XFTYZBB6Z7AAU6P7V3UIOY7S,Fredda,Super Grande,,,Cold drinks,,,,,,,,,,4.95,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-GTK6RYIE5QBILPAQPG3GYM54,Frother for Perfect Latte Prep,default,FRT-STL,"This nifty re-chargable milk frother is hands down our favorite way to prep Clevr! Why? Let us count the ways:
+Ingredients: Raisins (Raisins, Sunflower Oil), Cashews, Almonds, Sunflower Seeds, Pumpkin Seeds, Peanut Oil.",Faire,3.70
+Frother for Perfect Latte Prep,"This nifty re-chargable milk frother is hands down our favorite way to prep Clevr! Why? Let us count the ways:
 
 
 * No clean up—just rinse under running water after use.
@@ -240,143 +246,96 @@ Prep Tips:
 
 * Make sure your cup is big enough so the latte has room to froth without spilling over! Around 1/2 full should be perfect.
 * If using a smaller cup, just froth with half your water, then add the remaining water.
-* For extra fancy prep: we sometimes like to froth our lattes in a barista jug, then pour into a mug. Totally unnecessary, but makes you feel posh.",Faire,,,,visible,,Y,,,,17.98,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-NVU75PXCFEDIEL6HMFSQFHL7,Full Carafe Drip,Regular,,,Hot Drinks,,,,,,Y,Y,Y,Y,25.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-ATDT7AIYF7E6XXHWUK4WRQCB,Galentine's Day Greeting Card | Valentine's Day,default,GC118-A2,"• Size: A2 folded, 4.25 x 5.5 inches
+* For extra fancy prep: we sometimes like to froth our lattes in a barista jug, then pour into a mug. Totally unnecessary, but makes you feel posh.",Faire,17.98
+Galentine's Day Greeting Card | Valentine's Day,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-YVODD6BEX2FN5UPZ3KGZ5CFN,Gallon of tea,Regular,,,Cold drinks,,,,,,Y,,,,15.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-UK2LM7EFQFLOIEJ7LR7LV3NB,Gelato,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,3.25,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-XPBRXZ4SRE6VFV3LX646M2EW,Gelato,Grande,,,Hot Drinks,,,,,,,,,,3.80,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-GQ4XJGWDEWWNXUVXBTROBSTY,Gelato,super Grande,,,Hot Drinks,,,,,,,,,,4.35,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-Z2VHCCWGSW3IPWIIPAEXZ7XR,Give Yourself Grace Sticker,default,ST144,"• Size: 4.34 x 1""
+• Professionally printed in Omaha, NE",Faire,5.00
+Give Yourself Grace Sticker,"• Size: 4.34 x 1""
 • Durable weatherproof vinyl sticker
 
-Note: Colors may vary slightly from device screen to printed item.",Faire,,,,visible,,,,,,4.00,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-5PPULPWPB5KOSSJPWV74EAXL,Gls Bottle - Wander,Regular,,"F3740.
-Bamboo Glass Silicone. Hand Wash Only.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-QICXGJAPRUYT4IVNCPRFH5YX,Gls Bottle - Wander,default,F3740,,Faire,,,,,,,,,,20.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-PRAAQU6VIMRUENPVKPZ5YLVX,Go Bars,Regular,,,Great Harvest,,,,,,Y,N,N,N,4.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-Y4ETRWNJV7W2L7HE7UZYCCSS,Gobble Wobble,default,1337,"Greeting: ""Gobble til ya Wobble"" (Blank Inside).
+Note: Colors may vary slightly from device screen to printed item.",Faire,4.00
+Gls Bottle - Wander,"F3740.
+Bamboo Glass Silicone. Hand Wash Only.",Faire,variable
+Gls Bottle - Wander,,Faire,20.00
+Gobble Wobble,"Greeting: ""Gobble til ya Wobble"" (Blank Inside).
 Printing: Full Color with Copper Foil
 Card size: 5.5"" x 4.25"", Folded.
-Paper: Natural White Stock with coordinating A2 envelope.",Faire,,,,,,Y,,,,5.50,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-CRKHBHJOACDPQDJR4ON2TLB5,Going to be good mug,Regular,,,Merchandise,,,,,,Y,,,,12.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-UWUBKTYM5JKQ5T4DMF377QTQ,Gonna Be OK,default,1044,"Greeting: ""Everything's Gonna Be OK"" (Blank Inside).
+Paper: Natural White Stock with coordinating A2 envelope.",Faire,5.50
+Gonna Be OK,"Greeting: ""Everything's Gonna Be OK"" (Blank Inside).
 Printing: White Pigment Foil
 Card size: 4.25"" x 5.5"" Folded
-Paper: thick colored stock with coordinating A2 envelope.",Faire,,,,,,Y,,,,5.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-ANHQ5KRZVVGUOUWYPPPWRDND,Good News I'm Still Not Bored of You Greeting Card,default,GC112-A2,"This funny greeting card gets right to the point. Perfect for an anniversary, Valentine's Day or just because. Lots of room to write your own sentimental note inside.
+Paper: thick colored stock with coordinating A2 envelope.",Faire,5.50
+Good News I'm Still Not Bored of You Greeting Card,"This funny greeting card gets right to the point. Perfect for an anniversary, Valentine's Day or just because. Lots of room to write your own sentimental note inside.
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,4.50,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-37YTEWR5TKACMB7QNABBRANA,Gumbo,Regular,,,Seasonal,,,,,,Y,Y,Y,Y,4.75,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-DJAITUCWBEFMGBMPV6YIEQHD,Gummi Bears 7 oz.,default,64221,You won't be able to get enough of these bear-shaped gummies in 12 assorted fruity flavors. Transport yourself back to childhood with every juicy bite!,Faire,,,,visible,,Y,,,,2.92,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-DZESUYPSN7BIDYSWHU4VDWI3,Handsome Devil Birthday,default,1335,"Greeting: ""Happy Birthday you Handsome Devil"" (Blank Inside)
+• Professionally printed in Omaha, NE",Faire,4.50
+Gummi Bears 7 oz.,You won't be able to get enough of these bear-shaped gummies in 12 assorted fruity flavors. Transport yourself back to childhood with every juicy bite!,Faire,2.92
+Handsome Devil Birthday,"Greeting: ""Happy Birthday you Handsome Devil"" (Blank Inside)
 Printing: Silver Mirror Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-HRKR3OEOOVYCZLWNSBPI4Z57,Happy Birthday Bestie,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-7GQSACSR4BCXNYYENXXJ2IVM,HAPPY BIRTHDAY HONEY,default,1336,"Greeting: ""Happy Birthday Honey"" (Blank Inside)
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+Happy Birthday Bestie,,Faire,4.50
+HAPPY BIRTHDAY HONEY,"Greeting: ""Happy Birthday Honey"" (Blank Inside)
 Printing: Gold Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,6.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-MFW37RPU3YGWAGFZFIJRGSEY,Happy Birthday Lady Card,default,1019,"Greeting: ""Happy Birthday Lady"" (Blank Inside).
+Paper: thick colored stock with coordinating A2 envelope",Faire,6.00
+Happy Birthday Lady Card,"Greeting: ""Happy Birthday Lady"" (Blank Inside).
 Printing: Red Pigment.
 Card size: 5.5"" x 4.25"", Folded.
-Paper: thick colored stock with coordinating A2 envelope.",Faire,,,,,,Y,,,,5.00,,,,,,,-3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-O35I3NAXXVSQAB5775DBWJUB,Happy Valentine's Day Greeting Card,default,GC121-A2,"Tell that special someone Happy Valentine’s Day with this greeting card. Your Valentine deserves to know how loved they are. Pair this card with a bouquet, a box of chocolates and a romantic dinner and your significant other will love it. Card is perfect for your husband, wife, boyfriend or girlfriend.
+Paper: thick colored stock with coordinating A2 envelope.",Faire,5.00
+Happy Valentine's Day Greeting Card,"Tell that special someone Happy Valentine’s Day with this greeting card. Your Valentine deserves to know how loved they are. Pair this card with a bouquet, a box of chocolates and a romantic dinner and your significant other will love it. Card is perfect for your husband, wife, boyfriend or girlfriend.
 
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-UALJXADLTSCCTJXXJFP2NGY5,Hey Birthday Girl Card,default,1053,"Greeting: ""Hey Birthday Girl!"" (Blank Inside).
+• Professionally printed in Omaha, NE",Faire,5.00
+Hey Birthday Girl Card,"Greeting: ""Hey Birthday Girl!"" (Blank Inside).
 Printing: White pigment.
 Card size: 5.5"" x 4.25"", Folded.
-Paper: thick colored stock with coordinating A2 envelope.",Faire,,,,,,Y,,,,5.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-E3S2GVAJH6BZCYKGGKNPD2QE,Hibiscus Mint Tea,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.35,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-ZRVTYRUW3NOQD5E7OACJ6VIY,Hibiscus Mint Tea,Grande,,,Cold drinks,,,,,,,,,,2.55,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-CYRJ5NZJ3LKTYWLJBK63BJGC,Hibiscus Mint Tea,Super Grande,,,Cold drinks,,,,,,,,,,2.75,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-GRRYNRFOQNM2XKX2WDI3XDY5,Holiday Drip Coffee,Tall,,,Hot Drinks,,,,visible,,Y,Y,Y,Y,2.48,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-I3AAQCLGW4IWBRA5GIDEGLWJ,Holiday Drip Coffee,Grande,,,Hot Drinks,,,,visible,,,,,,3.00,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-7MRCGAHB3BTHM4THDTQEQQ5L,Holiday Drip Coffee,Super Grande,,,Hot Drinks,,,,visible,,,,,,3.51,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,Y,N,Y
-HUHAB6KWKK76RBZUEJTWZYGB,Holiday Mug,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,10.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-U4LUR5ZBTSEV6IOXZK6LHRI4,Hot Chocolate,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.42,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-V4MK3YHLXZQHDTDIBVD5Z2PP,Hot Chocolate,Grande,,,Hot Drinks,,,,,,,,,,2.92,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-6KC6JMD3MTJGATPUSNIKP654,Hot Chocolate,super Grande,,,Hot Drinks,,,,,,,,,,3.42,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-KST6MRPV6G66THOW7H2FZIXD,Hug In A Mug,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,12.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-IVR3GOFV5BL45VIJDMAD7CYP,Hustle Mug,Regular,,,Merchandise,,,,,,Y,,,Y,16.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-KHBJZUT3DLOXQYICN56W5XII,I Choose You Greeting Card | Anniversary or Valentine's Day,default,GC126-A2,"This card is perfect for the one you choose to love everyday.  Say I love you to your husband or wife by saying I choose you — and choose this thoughtful card for your person. A simple, elegant design lets the words be the focus of this intentional card.. Ideal for wedding, Valentine's Day, anniversary, or just because.
+Paper: thick colored stock with coordinating A2 envelope.",Faire,5.00
+I Choose You Greeting Card | Anniversary or Valentine's Day,"This card is perfect for the one you choose to love everyday.  Say I love you to your husband or wife by saying I choose you — and choose this thoughtful card for your person. A simple, elegant design lets the words be the focus of this intentional card.. Ideal for wedding, Valentine's Day, anniversary, or just because.
 
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-VFAX2OU256TRNHB6YRGGJQZR,I Just Really Love You Greeting Card,default,GC127-A2,"Tell your husband, wife, boyfriend or girlfriend just how much you love them with the I Just Really Love You card. Perfect for Valentine's Day, a wedding anniversary or just because. The earthy terra cotta color is perfect for any recipient. A sweet and meaningful love card.
+• Professionally printed in Omaha, NE",Faire,5.00
+I Just Really Love You Greeting Card,"Tell your husband, wife, boyfriend or girlfriend just how much you love them with the I Just Really Love You card. Perfect for Valentine's Day, a wedding anniversary or just because. The earthy terra cotta color is perfect for any recipient. A sweet and meaningful love card.
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,4.50,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-CB2PGVP4EZXCUUPHOCNJ4T52,I Love Louisiana Sticker,Regular,,"This sticker is great for any person, family, or friend who loves the state of Louisiana!
-Details: 3"" x 2.73"". Printed and shipped with care from the U.S.A. High quality and durable vinyl, indoor and outdoor use. Waterproof and weatherproof. We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,,,Y,,,,variable,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BSMQP2GLA6NB4UE26F5M6AAM,I Love Louisiana Sticker,default,BM-0001-1581,,Faire,,,,,,,,,,3.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-XUIJWQL3B3KUFND3PG75E3AY,I Love You More Than Tacos Greeting Card (Tan) | Funny Card,default,GC129-A2-TAN,"Taco Tuesday, anyone? Whether margaritas and cheese dip are your weekly tradition or you’re a foodie, saying I love you more than tacos is a pretty big statement. We think this funny love card is best accompanied by a gift card to your favorite Mexican restaurant. A great anniversary card for your boyfriend or girlfriend.
+• Professionally printed in Omaha, NE",Faire,4.50
+I Love Louisiana Sticker,"This sticker is great for any person, family, or friend who loves the state of Louisiana!
+Details: 3"" x 2.73"". Printed and shipped with care from the U.S.A. High quality and durable vinyl, indoor and outdoor use. Waterproof and weatherproof. We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,variable
+I Love Louisiana Sticker,,Faire,3.00
+I Love You More Than Tacos Greeting Card (Tan) | Funny Card,"Taco Tuesday, anyone? Whether margaritas and cheese dip are your weekly tradition or you’re a foodie, saying I love you more than tacos is a pretty big statement. We think this funny love card is best accompanied by a gift card to your favorite Mexican restaurant. A great anniversary card for your boyfriend or girlfriend.
 
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-C6VCB6ZITPI2QGQ7KLMMVYQ4,I’d hike that mug,Regular,,,Faire,,,,,,Y,,,,12.00,,,,N,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-CSSPROAPBL5A4ZSTMD7O77MQ,Iced Americano,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.65,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-BQYXJE4F4AEHO7UCUPFF3NVI,Iced Americano,Grande,,,Cold drinks,,,,,,,,,,3.15,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-UPN4HSUXRN4HRPW45K37EJB6,Iced Americano,Super Grande,,,Cold drinks,,,,,,,,,,3.65,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-4F5T4ULACJ7RZXOCKCDBZE5D,Iced Cafe Au Lait,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.35,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,Y,N,N,Y
-5QZT2TRGLCYKDWM3ZGNH3EBC,Iced Cafe Au Lait,Grande,,,Cold drinks,,,,,,,,,,2.85,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,Y,N,N,Y
-ZQZAF7QGVTQHW5LTQL5ZA7ON,Iced Cafe Au Lait,super Grande,,,Cold drinks,,,,,,,,,,2.60,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,Y,N,N,Y
-MXKBWZ2433QVGFWENJPFOMVO,Iced Chai,Tall,,,Cold drinks,,,,,,Y,,,,2.35,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-DZ5JGC6XSWPHU2AG66RECUUH,Iced Chai,Grande,,,Cold drinks,,,,,,,,,,3.95,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-RNKHYSEUN3JZDRT2THBCJC55,Iced Chai,Super Grande,,,Cold drinks,,,,,,,,,,4.45,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-GJCVK5CSFPH4O256MFPDLJTW,Iced Coffee To Go Cup Aesthetic Sticker,Regular,,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
+• Professionally printed in Omaha, NE",Faire,5.00
+I’d hike that mug,,Faire,12.00
+Iced Coffee To Go Cup Aesthetic Sticker,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
 Details:
 •1.98 x 3 inches
 • Printed and shipped with care from the U.S.A.
 • High quality and durable vinyl, indoor and outdoor use
-• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-YWPN5UKOHUW7VIZ7ARFZZFBR,Iced Coffee To Go Cup Aesthetic Sticker,default,BM-0001-1382,,Faire,,,,,,,,,,3.00,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-WJA6VPY6TPK5AFNUMARPC2KM,Iced Cold Brew,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.49,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,N,Y
-6MPAEU5HAFF5VXFQTH73HIDX,Iced Cold Brew,Grande,,,Cold drinks,,,,,,,,,,2.99,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,N,Y
-BFHGA4NW73LPAKBEZHCMCPSB,Iced Cold Brew,Super Grande,,,Cold drinks,,,,,,,,,,3.49,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,N,Y
-RJJGB2DATCQHL4C6UGHCQC7T,Iced Gelato,Tall,,,Cold drinks,,,,,,Y,,,,3.20,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,N,N,Y
-XK7M6W4OS2KHILJNZMQRY7LQ,Iced Gelato,grande,,,Cold drinks,,,,,,,,,,3.70,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,N,N,Y
-HXTAZZBHCHAAJKG5MBXKM7SN,Iced Gelato,Super Grande,,,Cold drinks,,,,,,,,,,4.10,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,Y,Y,N,N,Y
-ULQVJGLN2TFGKRYLMXDDT7ZR,Iced Latte,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.07,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-JFZERRKXAIWVKYMW4PZX6CKE,Iced Latte,Grande,,,Cold drinks,,,,,,,,,,3.57,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-ANBBEBLGG7BUEMKQZFW4HBOP,Iced Latte,Super Grande,,,Cold drinks,,,,,,,,,,4.07,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-RWKBRYVLVC26BA56GHZQ6JRW,Iced Macchiato,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.40,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,Y,Y
-IOEBJGXUHHVPMT67HWJCONFR,Iced Macchiato,Grande,,,Cold drinks,,,,,,,,,,3.90,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,Y,Y
-CVL3DLMVM6XOAIR7PUJFO2DC,Iced Macchiato,Super Grande,,,Cold drinks,,,,,,,,,,4.40,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,Y,N,Y,Y
-XIWH3NA3ZCGFQLJWKYTE7F5J,Iced Mocha,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.25,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-HATMQICGVARRR3TA4VBS52AN,Iced Mocha,grande,,,Cold drinks,,,,,,,,,,3.75,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-4MH7HUWTKT7PYRJ7WWRZZQHS,Iced Mocha,super Grande,,,Cold drinks,,,,,,,,,,4.15,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-BPZB2722V7YWDFIZMLUMAJQI,Iced Tea,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.15,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-UMP5HNESCJQ7U5B4QR62DVXQ,Iced Tea,Grande,,,Cold drinks,,,,,,,,,,2.35,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-IMN34HFCEI34M4COECZONMU4,Iced Tea,Super Grande,,,Cold drinks,,,,,,,,,,2.65,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,N,Y
-PZY73IE43PL775CXQ5WZSP5M,It's Better In Louisiana Candle,Regular,,"Louisiana State Candle
+• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,variable
+Iced Coffee To Go Cup Aesthetic Sticker,,Faire,3.00
+It's Better In Louisiana Candle,"Louisiana State Candle
 Scent Profile:
 Top: Amber.
 Middle: Vanilla
@@ -388,16 +347,11 @@ About our Candle:
 White Metal Lid
 Vegan & Non-Toxic
 100% American Grown Soy Wax
-100% Cotton Core Wick",Faire,,,,,,Y,,,,variable,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-GJUMKSZKBIAYK2N6O7AVGFUL,It's Better In Louisiana Candle,default,,,Faire,,,,,,,,,,23.75,,,,N,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-EVDJ7KNDQAYTDWUWZLMRZCMY,Jalapeno Sausage Bread,Regular,,,Food,,,,visible,,Y,,,,4.10,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-GYMGDKHAW4RV56TLGJUJZUPQ,Java Square Blend Beans,Whole Bean,,"A sweet and slightly earthy blend featuring notes of caramel, nuts, and dark chocolate.",Coffee Beans,,,,visible,,Y,,,Y,13.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-VQ2DW45A5DLNATLENTDPFT6K,Java Square Blend Beans,Ground,,,Coffee Beans,,,,visible,,,,,,13.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-HW5F6A7MGALKQDGK6NBNXTC2,Java Square Mug,Regular,,"Handcrafted — 14 oz; 4.25″h. Dishwasher, microwave and oven safe. 100% lead-free. FDA and California Proposition 65 compliant. Ounces may vary. The Java Square mug is shown in frothy brown glaze. Due to the nature of our process, styles and glazes will vary a little.",Merchandise,,,,visible,0.75,Y,Y,Y,Y,21.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-NC2DYCQ4FD56KDNUUZM5R7HZ,Joy is on the Horizon Sticker,default,ST134,"• Size: 3.11"" x 4""
-• Durable weatherproof vinyl sticker",Faire,,,,visible,,,,,,4.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-7WEJ2H3OP3Y4H4AA3EMBAJ3K,Juice,Regular,,,Cold drinks,,,,,,Y,Y,Y,Y,1.69,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-ACHQQNWLPRMYYEQRLMJ6VV4A,"Keep Going, Keep Growing Floral Sticker",default,SD2989S,"☁️ Ready to ship
+100% Cotton Core Wick",Faire,variable
+It's Better In Louisiana Candle,,Faire,23.75
+Joy is on the Horizon Sticker,"• Size: 3.11"" x 4""
+• Durable weatherproof vinyl sticker",Faire,4.00
+"Keep Going, Keep Growing Floral Sticker","☁️ Ready to ship
 ☁️ Approximately 3 x 2.75 in, scratch resistant, glossy
 ☁️ Peel here tab
 ☁️ Laminated Glossy Vinyl Sticker
@@ -405,37 +359,23 @@ ACHQQNWLPRMYYEQRLMJ6VV4A,"Keep Going, Keep Growing Floral Sticker",default,SD298
 ☁️ Durable vinyl, perfect for indoor use, ideal for flat surfaces
 ☁️ Water Resistant
 ☁️ Don't forget to clean the surface before applying the sticker
-Stickers will ship separately from mugs",Faire,,,,visible,,Y,,,,4.00,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BS2YOD43YWEKNJ5AMLCWJ4TU,Kettle Chips,Regular,,,Food,,,,,,Y,Y,Y,Y,1.40,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-R4SXOJGMGEVPGDSQOPQCOIVM,Kettle Cooked Chile Lime Peanuts 4.5 oz.,default,64216,"Jumbo blanched runner peanuts are coated generously with flavorful chili spices with a hint of lime to create a mild and tangy snack. Roasted to perfection and packed with flavor, these kettle cooked peanuts deliver the right amount of crunchiness. Perfect for Taco Tuesday celebrations paired with a margarita!
+Stickers will ship separately from mugs",Faire,4.00
+Kettle Cooked Chile Lime Peanuts 4.5 oz.,"Jumbo blanched runner peanuts are coated generously with flavorful chili spices with a hint of lime to create a mild and tangy snack. Roasted to perfection and packed with flavor, these kettle cooked peanuts deliver the right amount of crunchiness. Perfect for Taco Tuesday celebrations paired with a margarita!
 
 Shelf life: 6 months
-Ingredients: Peanuts, Chile Lime Seasoning (Dried Chiles, Salt, Lime Juice Powder [Maltodextrin, Lime Juice Solids], Citric Acid, Cellulose, Paprika, Spices, Garlic), Salt, De Arbol Chile Powder, Peanut Oil.",Faire,,,,visible,,Y,,,,2.38,,,,,,,13,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-QITU3PCO3VJ7ZAGUIAYY3KVS,King cake,Regular,,,Food,,,,,,Y,Y,Y,Y,2.75,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-TH3XSJ3PGUUFTOLAB3GA7GNM,La Croix Sparkling Water,Regular,,,Cold drinks,,,,,,Y,,,,1.00,,,,N,,,,,Y,2,N,N,N,N,N,N,N,N,N,N,N,N,Y
-FPVLHOVFMA532UI2ARYXMW7R,Latte,Tall,TALL,,Hot Drinks,,,,,,Y,,,,3.27,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-WPGSPAO37NDBXTBAMGUCIWQK,Latte,Grande,,,Hot Drinks,,,,,,,,,,3.67,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-MN5FATNXSFNL2OVY7XM7OD4V,Latte,Super  Grande,,,Hot Drinks,,,,,,,,,,4.47,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,Y,N,N,N,Y
-6LNQ7U5E5PZ2SULZGZDNVRRF,Latte Coffee Aesthetic Sticker,default,BM-0001-1389,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
+Ingredients: Peanuts, Chile Lime Seasoning (Dried Chiles, Salt, Lime Juice Powder [Maltodextrin, Lime Juice Solids], Citric Acid, Cellulose, Paprika, Spices, Garlic), Salt, De Arbol Chile Powder, Peanut Oil.",Faire,2.38
+Latte Coffee Aesthetic Sticker,"This aesthetic sticker will surely add character to your phone, laptop, water bottle, and much more!
 Details:
 •3 x 2.17 inches
 • Printed and shipped with care from the U.S.A.
 • High quality and durable vinyl, indoor and outdoor use
-• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,visible,,Y,,,,3.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-5SOW6DTPVG4LHZ4GM6Q6WQCZ,Leaf Thank You Foil Greeting Card,default,GC190F-A2,"• Size: A2 folded, 4.25 x 5.5 inches
+• Waterproof and weatherproof We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,3.00
+Leaf Thank You Foil Greeting Card,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
-• High-quality, heavyweight paper",Faire,,,,visible,,Y,,,,6.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-XAJ56S766F2OG3G5YLZPQYGW,Lemon Blueberry Poppyseed - loaf,Regular,,,Great Harvest,,,,,,Y,,,,8.55,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-TVUMZN4VT7JEDVDP3TG7VISR,Lemon Blueberry Poppyseed - slice,Regular,,,Great Harvest,,,,,,Y,,,,2.55,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-NO7NP3ESUQCIPSIXC72ICUFG,Lemonade,Tall,,,Cold drinks,,,,,,Y,,,,2.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,Y
-LFS6EWHA6NZW5P4ZJCOXXY77,Lemonade,super Grande,,,Cold drinks,,,,,,,,,,2.75,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,Y
-XE4HBW67LQ5VKVPBU6EOO4KK,Lemonade,Grande,,,Cold drinks,,,,,,,,,,2.45,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,Y
-Q2HUALKT25P6MJEAO4SI6QZA,Less Monday Mug,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,12.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-FFSAWJAMZOKTSJPDRAMTXJUS,Life Happens Mug,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,12.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-5D2DWQASVADDREIIXY52IO5H,Life Is short,Regular,,,Merchandise,,,,,,Y,Y,Y,Y,12.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-MOFGNAI6FTI6DOVPPXO7T27D,Live Life in Full Bloom Spring Vinyl Floral Sticker,default,,"Live Life in Full Bloom Spring Vinyl Floral Sticker
+• High-quality, heavyweight paper",Faire,6.00
+Live Life in Full Bloom Spring Vinyl Floral Sticker,"Live Life in Full Bloom Spring Vinyl Floral Sticker
 ☁️ Ready to ship
 ☁️ Approximately 2.5x3.5
 ☁️ Glossy Vinyl Sticker
@@ -444,85 +384,66 @@ MOFGNAI6FTI6DOVPPXO7T27D,Live Life in Full Bloom Spring Vinyl Floral Sticker,def
 ☁️ Not made for a dishwasher or microwave
 ☁️ Don't forget to clean the surface before applying the sticker
 ☁️ Designed and Printed in Illinois
-Stickers will ship separately from mugs",Faire,,,,visible,,Y,,,,4.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-DFUSL5BN4EE67I2STDODMD5J,Love your stupid face card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JWQTCJ6UWDPQH2TWKF5VUGMN,Loving Mom,default,1308,"Greeting: ""Mom, Thanks for Loving Me Even When I Make it Difficult"" (Blank Inside)
+Stickers will ship separately from mugs",Faire,4.00
+Love your stupid face card,,Faire,4.50
+Loving Mom,"Greeting: ""Mom, Thanks for Loving Me Even When I Make it Difficult"" (Blank Inside)
 Printing: Rose Gold
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-GBYEAFWCDHTDOUEURTYJIZHI,Macchiato,Regular,,,Hot Drinks,,,,,,Y,Y,Y,Y,3.40,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-T5DXJLPZ3NWVUO3LKHC7OTYC,Macchiato,Grande,,,Hot Drinks,,,,,,,,,,3.90,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-H76MQVPGNXGCCVQ7DC25QAN7,Macchiato,Super Grande,,,Hot Drinks,,,,,,,,,,4.40,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,Y,Y
-GHSKELC3N3BP3BRMLNPLTQMB,Mask love,Regular,,,Merchandise,,,,,,Y,,,,4.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-XCBYE7L6MMXBHNR33XIRVUOU,Mason Jar Sweet Sours 13oz,default,OJ011306,"Sweet Sours Assorted flavors
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+Mason Jar Sweet Sours 13oz,"Sweet Sours Assorted flavors
 13oz
-6/case",Faire,,,,visible,,,,,,8.90,,,,N,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-45LJOSOKYDWIT7RLQU6SP3SA,Matcha Fredda,Tall,,,Cold drinks,,,,,,Y,,,,3.42,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,N,N,Y,Y
-Z7X3K6KJHPNC5OJQW7CQERH4,Matcha Fredda,Grande,,,Cold drinks,,,,,,,,,,3.92,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,N,N,Y,Y
-EJBO4DPT3ZOOEZKXFNYURPTY,Matcha Fredda,super  Grande,,,Cold drinks,,,,,,,,,,4.40,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,N,N,Y,Y
-X22YM5RETSCBUQEABEM6ZLNX,Merry and Bright Christmas Greeting Card,default,GC178-A2-CM,"Wish your friends and family the merriest and brightest days with this rustic 'Merry and Bright' Christmas card.
+6/case",Faire,8.90
+Merry and Bright Christmas Greeting Card,"Wish your friends and family the merriest and brightest days with this rustic 'Merry and Bright' Christmas card.
 
 ""• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE""",Faire,,,,visible,,Y,,,,5.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-F64AGERQ5FHRBSKCLCPFDZZY,Merry Christmas Card - BOX SET of 5,default,,"• Blank on the inside, ready for your personal message
+• Professionally printed in Omaha, NE""",Faire,5.00
+Merry Christmas Card - BOX SET of 5,"• Blank on the inside, ready for your personal message
 • Kraft envelope included
 • Size: A2, 4.25 x 5.5 inches
 • Sturdy, high-quality paper
 • Individually packaged in a cello sleeve
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,18.00,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-CJ6CGD5FWKTMO7WXJBLVCOT5,Merry Christmas Greeting Card,default,GC188-A2-CM,"• Size: A2 folded, 4.25 x 5.5 inches
+• Professionally printed in Omaha, NE",Faire,18.00
+Merry Christmas Greeting Card,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,5.00,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-72DHJLDKT6CZ63SGDEAATQO7,Merry Little Christmas Greeting Card,default,GC179-A2-CM,"• Size: A2 folded, 4.25 x 5.5 inches
+• Professionally printed in Omaha, NE",Faire,5.00
+Merry Little Christmas Greeting Card,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,5.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BGV3KD6LYORZF2UTNLRVYEJ7,Midnight Snack Milk Chocolate Candy Bar 2.25oz,default,OC42812,"Pretzels, cookies, brittle, marshmallow and cereal—this Hammond's Chocolate Bar has it all. It is the ultimate midnight snack!
-Size. 2.25 oz.",Faire,,,,,,Y,,,,3.64,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-RAW3NEN4LMY4YPCNUUPLRZNW,Milk,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,1.60,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,Y,N,N,Y
-KGCEDEYSF25JN4YXODIPNFG3,Milk,Grande,,,Cold drinks,,,,,,,,,,1.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,Y,N,N,Y
-MYXLKNXC24WONTBIG2U5MWNH,Milk,Super Grande,,,Cold drinks,,,,,,,,,,1.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,Y,N,N,Y
-TXKBO56SPAOVURR4NZYMHPZM,Milkshake,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.10,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,Y,Y
-77TTD5KHVEHVQRFJH25TLZT3,Milkshake,Grande,,,Cold drinks,,,,,,,,,,3.72,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,Y,Y
-MKUCFCZ26TE7VGA7ACWVP4IQ,Milkshake,Super Grande,,,Cold drinks,,,,,,,,,,3.99,,,,N,,,,,,,N,N,N,N,N,N,Y,N,Y,N,N,Y,Y
-FNU34KWREVCBHXHT74HM7RQI,Mini Kingcake,Regular,,,Great Harvest,,,,visible,,Y,,,,10.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-4MQN4ZMRKEVKTSGDDWK4CUSJ,Mocha,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,3.49,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-33NGONSRJBGXBGDXOSTMWMNU,Mocha,Grande,,,Hot Drinks,,,,,,,,,,3.99,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-XJOV7AJNLHPC3R6VQEEALVLU,Mocha,Super Grande,,,Hot Drinks,,,,,,,,,,4.49,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,Y,N,N,Y
-ZUYYO27WQG57ELQNBHW2YA7F,Morning Glory Muffin,Regular,,,Great Harvest,,,,,,Y,,,,3.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JFS3HTWDJ3IGX2L77AXZQECX,Mother Like No Other,default,1330,"Greeting: ""You're A Mother Like No Other"" (Blank Inside)
+• Professionally printed in Omaha, NE",Faire,5.00
+Midnight Snack Milk Chocolate Candy Bar 2.25oz,"Pretzels, cookies, brittle, marshmallow and cereal—this Hammond's Chocolate Bar has it all. It is the ultimate midnight snack!
+Size. 2.25 oz.",Faire,3.64
+Mother Like No Other,"Greeting: ""You're A Mother Like No Other"" (Blank Inside)
 Printing: Gilded Gold Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,visible,,Y,,,,6.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-WXRLYPD6FM22X5LRO24UNUIF,Mountains with Sunglasses Hiking & Camping  Sticker,default,BM-0001-1235,"This sticker is a perfect aesthetic to represent nature! Great for laptops, water bottles, and much more!
+Paper: thick colored stock with coordinating A2 envelope",Faire,6.00
+Mountains with Sunglasses Hiking & Camping  Sticker,"This sticker is a perfect aesthetic to represent nature! Great for laptops, water bottles, and much more!
 Details: 3.5 x 1.55 inches
 Printed and shipped with care from the U.S.A.
 High quality and durable vinyl, indoor and outdoor use
 Waterproof and weatherproof
-We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,,,,visible,,Y,,,,3.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-SOTABV2I5IFIGBKEA7BJBM7F,Natural Caramel Chocolate Popcorn,default,ZPO14206,"Satisfy your popcorn cravings and your sweet tooth with Caramel Chocolate Popcorn. Scrumptious!
-Size. 6 oz.",Faire,,,,visible,,Y,,,,5.84,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-2PXRFTRBEN7KSO72BNPHUPCU,Natural Caramel Corn Popcorn,default,ZPO13606,"Hammond's crave-worthy Caramel Corn is popped to perfection! One bag is never enough.
-Size. 6 oz.",Faire,,,,visible,,Y,,,,5.84,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-LQD6MXWSQAGDHU2TVPCQLLTV,Natural Sea Side Caramel Milk Chocolate Candy Bar  2.25oz,default,OC15012,"Creamy, salty caramel and sweet milk chocolate are the flavor heroes in this yummy Hammond's Chocolate Bar.
-Size. 2.25 oz.",Faire,,,,,,Y,,,,3.64,,,,,,,39,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BKYOW4X4ZQ66PNX3EZ3A75V4,Need Coffee Sticker - Cup,Regular,,"Details:
+We are partnered with ActiveMinds.Org to help spread mental health awareness.",Faire,3.00
+Natural Caramel Chocolate Popcorn,"Satisfy your popcorn cravings and your sweet tooth with Caramel Chocolate Popcorn. Scrumptious!
+Size. 6 oz.",Faire,5.84
+Natural Caramel Corn Popcorn,"Hammond's crave-worthy Caramel Corn is popped to perfection! One bag is never enough.
+Size. 6 oz.",Faire,5.84
+Natural Sea Side Caramel Milk Chocolate Candy Bar  2.25oz,"Creamy, salty caramel and sweet milk chocolate are the flavor heroes in this yummy Hammond's Chocolate Bar.
+Size. 2.25 oz.",Faire,3.64
+Need Coffee Sticker - Cup,"Details:
 3"" x 2.71"".
 Water and weather resistant.
-High quality and durable.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-IZXYXZRZ5F5ZHTHBYO3XWSNT,Need Coffee Sticker - Cup,default,107,,Faire,,,,,,,,,,3.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-CABZCZ6YCISCP5SYPD6PNULU,Ocean Breeze,Regular,,,Cold drinks,,,,visible,,Y,,,,5.16,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-7NNAO2BJHAQL3XUMIBY63MXJ,Oh Happy Day Card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-CT72WM7FJGT3S355D4CFLCT2,Olivia Ceramic Owl Mug,default,10582,"This sweet, wise owl mug is sure to bring a smile to your face over morning coffee or a bedtime cup of tea. The dimensional design gives this mug a pleasant tactile effect, while the ergonomic handle makes it comfortable to hold.
+High quality and durable.",Faire,variable
+Need Coffee Sticker - Cup,,Faire,3.00
+Oh Happy Day Card,,Faire,4.50
+Olivia Ceramic Owl Mug,"This sweet, wise owl mug is sure to bring a smile to your face over morning coffee or a bedtime cup of tea. The dimensional design gives this mug a pleasant tactile effect, while the ergonomic handle makes it comfortable to hold.
 
 
 Quantity: 1 mug
@@ -536,22 +457,19 @@ Details: 3D details, cute “Life’s a hoot” message inside
 Care: Hand wash, do not microwave
 
 
-Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,,,,visible,,,,,,17.50,,,,N,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-JWHWM7PSYWP7HONSDXN4YWKM,One Hot Mama Card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-SJF242EKKKTGRGUHP5XMKJIL,Passion Lemonade,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,2.60,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,N
-MIZOP37JYXNURE47C2RDDMCF,Passion Lemonade,Grande,,,Cold drinks,,,,,,,,,,3.05,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,N
-4W7ZVWYNNM36D7EMTHY574M4,Passion Lemonade,Super Grande,super Grande,,Cold drinks,,,,,,,,,,3.60,,,,N,,,,,,,N,N,N,N,N,N,N,N,Y,N,N,N,N
-K4ROT3XI4VCJQSDUYZSOVTAX,Peanut Butter Cup Dark Chocolate Candy Bar  2.25ozs,default,OC12012,"Give in to the tempting combination of peanut butter and chocolate! This gourmet candy bar features decadent dark chocolate with tasty bits of peanut butter.
-Size. 2.25 oz.",Faire,,,,,,Y,,,,3.64,,,,,,,62,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-55NKBPMLJVIHBV4UH3H3YTKT,Pelican State Louisiana Sticker,Regular,,"Pelican State Louisiana Sticker. Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
+Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,17.50
+One Hot Mama Card,,Faire,4.50
+Peanut Butter Cup Dark Chocolate Candy Bar  2.25ozs,"Give in to the tempting combination of peanut butter and chocolate! This gourmet candy bar features decadent dark chocolate with tasty bits of peanut butter.
+Size. 2.25 oz.",Faire,3.64
+Pelican State Louisiana Sticker,"Pelican State Louisiana Sticker. Great to decorate water bottles, laptops, phone cases, coolers, car windows, journals, notebooks, planners, bikes, skateboards, kayaks, and more.
 High quality and durable vinyl, indoor and outdoor use.
 Waterproof and weatherproof.
 We are partnered with ActiveMinds.Org to help spread mental health awareness.
 Design: Anna Alsup.
 Instagram: @anna_alsup
-3 x 3 inches.",Faire,,,,,,Y,,,,variable,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-J4O2YMZJFJBB756YB4ANWWWR,Pelican State Louisiana Sticker,default,BM-0015-0171,,Faire,,,,,,,,,,3.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-C7DH2IAFSEWFBN65ROBH7NTQ,Penny Ceramic Puppy Mug,default,10157,"With cute floppy ears and gold spots, our Penny Ceramic Puppy Mug is a must-have for tea-sipping dog-lovers. This adorable mug will brighten your day with a white ceramic exterior, pink interior, and metallic gold spots and accents. For an extra little treat, the bottom of the inside of the mug says ""love"" in cute lettering.
+3 x 3 inches.",Faire,variable
+Pelican State Louisiana Sticker,,Faire,3.00
+Penny Ceramic Puppy Mug,"With cute floppy ears and gold spots, our Penny Ceramic Puppy Mug is a must-have for tea-sipping dog-lovers. This adorable mug will brighten your day with a white ceramic exterior, pink interior, and metallic gold spots and accents. For an extra little treat, the bottom of the inside of the mug says ""love"" in cute lettering.
 
 
 Capacity: Holds 16 oz.
@@ -562,102 +480,72 @@ Care: Hand wash recommended
 
 
  
-Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,,,,visible,,,,,,17.50,,,,N,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-NRRW3NT5X44Z5D33OLY7BKWR,Phone Mom,default,1313,"Greeting: ""Thanks for Always Picking Up the Phone Mom"" (Blank Inside)
+Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,17.50
+Phone Mom,"Greeting: ""Thanks for Always Picking Up the Phone Mom"" (Blank Inside)
 Printing: Pink Matte Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,visible,,Y,,,,6.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-IGABD7WDTFN3AGWEZPPNAWYO,Pigs N' Taters Milk Chocolate Candy Bar 2.25oz,default,OC41412,"Deliciously sweet and salty! This yummy Pigs N' Taters Chocolate Bar combines a delicious mix of bacon, potato chips and milk chocolate.
-Size. 2.25 oz.",Faire,,,,,,Y,,,,3.64,,,,,,,22,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-OA4UCI7Z2SZOGFYA5S4PGLMU,Piper™ Gold Press Pot by Pinky Up®,default,5806,"French style and press! This 34 oz. gold french press has a gold-plated stainless steel frame to serve the hottest drinks while staying cool to the touch. 
+Paper: thick colored stock with coordinating A2 envelope",Faire,6.00
+Pigs N' Taters Milk Chocolate Candy Bar 2.25oz,"Deliciously sweet and salty! This yummy Pigs N' Taters Chocolate Bar combines a delicious mix of bacon, potato chips and milk chocolate.
+Size. 2.25 oz.",Faire,3.64
+Piper™ Gold Press Pot by Pinky Up®,"French style and press! This 34 oz. gold french press has a gold-plated stainless steel frame to serve the hottest drinks while staying cool to the touch. 
 
 34 oz. capacity gold finish. Holds 34 oz. Borosilicate glass and gold finish. Brews tea and coffee within minutes.
-Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,,,,visible,,,,,,26.50,,,,N,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-NPF3BUO7EQNL7PIH365MJZ2Y,Plantain Chips,Regular,,,Faire,,,,,,Y,,,,2.65,,,,N,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-BE6YLDIZY7WN3VFPFQC3DKMD,Pothead Coffee Sticker,default,106,"Details: 2.62"" x 3"".
+Pinky Up tea is all about making loose leaf tea brewing easy and fun for everyone. With delicious dessert-inspired loose leaf teas, tea infuser mugs, cute teapots, electric kettles, tea strainers, and everything a tea-lover could dream of, our products are perfect for tea parties or brewing on the go. Complete with cute packaging, Pinky Up tea and teaware makes a beautiful gift or charming addition to any home.",Faire,26.50
+Plantain Chips,,Faire,2.65
+Pothead Coffee Sticker,"Details: 2.62"" x 3"".
 Water and weather resistant.
 High quality and durable.
 
-High-quality vinyl stickers - Our stickers are perfect as water bottle stickers, skateboard stickers, laptop stickers and more.",Faire,,,,,,Y,,,,3.00,,,,,,,10,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-6EMCAZ4VMKA2RTODXH6XVKZT,Pumpkin Bread,Regular,,,Seasonal,,,,,,Y,Y,Y,Y,2.90,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-BXVER2WM7ECRF3UUF2KYEZ57,Pumpkin cheesecake stuffed croissant,Regular,,,Food,,,,visible,,,,,,3.72,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-DNRAHHB6TDAWGHEEMEKJRNOK,Pumpkin Yaya Muffins,Regular,,,Seasonal,,,,visible,,Y,Y,Y,Y,2.85,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-ZX6Y6J6HJDZJMVUEMU6DRJFO,Raspberry fig bar,Regular,,,Food,,,,,,Y,,,,0.98,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-R7FNQBCBKQK2FB3HL4H3JNKY,RedEye,Regular,,,Hot Drinks,,,,,,Y,,,,4.24,,,,N,,,,,,,N,N,N,Y,N,N,Y,Y,N,N,Y,N,Y
-LBSPXMVPO4GCLABJCTBVCKTQ,Refresh Glass Bottle,Regular,,,Faire,,,,,,Y,,,,19.99,,,,N,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-H244OTKERTXPDECF24KRK6H4,RX A.M. Oats Apple Cinnamon Oat Cups,default,,"Our gluten-free Apple Cinnamon oatmeal cups are made with real, simple ingredients like crisp apples, sliced almonds, egg whites for protein, and cinnamon spices. Finally, quick and easy breakfast on the go is a meal you don’t want to miss. Ready in minutes with hot water or a microwave, or you can fill it and chill it to make overnight oats.
+High-quality vinyl stickers - Our stickers are perfect as water bottle stickers, skateboard stickers, laptop stickers and more.",Faire,3.00
+Refresh Glass Bottle,,Faire,19.99
+RX A.M. Oats Apple Cinnamon Oat Cups,"Our gluten-free Apple Cinnamon oatmeal cups are made with real, simple ingredients like crisp apples, sliced almonds, egg whites for protein, and cinnamon spices. Finally, quick and easy breakfast on the go is a meal you don’t want to miss. Ready in minutes with hot water or a microwave, or you can fill it and chill it to make overnight oats.
 2.18 oz
-12 cups",Faire,,,,,,Y,,,,3.49,,,,,,,2,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-7UIJAJLZ3VZK2IQGSZFI5BVM,RX A.M. Oats Maple Oat Cups,default,,"Our gluten-free Maple oatmeal cups are made with real, simple ingredients like egg whites for protein, sliced almonds, and a pinch of natural maple sugar. Quick and easy breakfast on the go is finally worth waking up for. Ready in minutes with hot water or a microwave, or you can fill it and chill it to make overnight oats.
+12 cups",Faire,3.49
+RX A.M. Oats Maple Oat Cups,"Our gluten-free Maple oatmeal cups are made with real, simple ingredients like egg whites for protein, sliced almonds, and a pinch of natural maple sugar. Quick and easy breakfast on the go is finally worth waking up for. Ready in minutes with hot water or a microwave, or you can fill it and chill it to make overnight oats.
 2.18 oz
-12 cups",Faire,,,,,,Y,,,,3.49,,,,,,,4,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-Z5BYEAVRBAB4IKGUIRXSPHZV,RXBAR Blueberry Protein Bar,default,,"Picking the perfect protein snack just got a whole lot easier. Made with blueberries and real food ingredients–egg whites for protein, dates to bind, and nuts for texture. This real food protein bar is the perfect breakfast time (or anytime) energy boost you need.",Faire,,,,,,Y,,,,2.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-7UOQS7BZNNF54JDQDUURSI7J,RXBAR Chocolate Chip Protein Bar,default,,"These chocolate chip protein bars are made with rich 100% chocolate and a few other real food ingredients - egg whites for protein, dates to bind, and nuts for texture. This gluten-free, guilt-free protein bar is the perfect wholesome snack for a healthy lifestyle.
+12 cups",Faire,3.49
+RXBAR Blueberry Protein Bar,"Picking the perfect protein snack just got a whole lot easier. Made with blueberries and real food ingredients–egg whites for protein, dates to bind, and nuts for texture. This real food protein bar is the perfect breakfast time (or anytime) energy boost you need.",Faire,2.99
+RXBAR Chocolate Chip Protein Bar,"These chocolate chip protein bars are made with rich 100% chocolate and a few other real food ingredients - egg whites for protein, dates to bind, and nuts for texture. This gluten-free, guilt-free protein bar is the perfect wholesome snack for a healthy lifestyle.
 1.83 oz.
-12 count.",Faire,,,,,,Y,,,,2.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-P6SPQJ3V5JYRG3EH6XCBKFTW,RXBAR Chocolate Sea Salt Protein Bar,default,,"We made a brownie without the guilt–or gluten. Packed with 100% chocolate, a sprinkle of sea salt, and a few real food ingredients–egg whites for protein, dates to bind, and nuts for texture. This decadent wholesome protein bar is truly one of a kind.
+12 count.",Faire,2.99
+RXBAR Chocolate Sea Salt Protein Bar,"We made a brownie without the guilt–or gluten. Packed with 100% chocolate, a sprinkle of sea salt, and a few real food ingredients–egg whites for protein, dates to bind, and nuts for texture. This decadent wholesome protein bar is truly one of a kind.
 1.83 oz.
-12 count.",Faire,,,,,,Y,,,,2.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-OEJRQGHKM5N2MIOVFRJQWLUA,RXBAR Peanut Butter Protein Bar,default,,"We turned your post-workout snack into a bar and packed it with protein. Made with real food––egg whites for protein, dates to bind and nuts for texture. Our gluten-free high protein bar is sure to pack a peanut buttery punch.
+12 count.",Faire,2.99
+RXBAR Peanut Butter Protein Bar,"We turned your post-workout snack into a bar and packed it with protein. Made with real food––egg whites for protein, dates to bind and nuts for texture. Our gluten-free high protein bar is sure to pack a peanut buttery punch.
 1.83 oz.
-12 count.",Faire,,,,,,Y,,,,2.99,,,,,,,15,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-4FREGHLSKLMGVHGUMBZOKFUQ,RXBAR Strawberry Protein Bar,default,,"We all love strawberries; drizzled on cheesecake or thrown into your favorite smoothie recipe. But what about in a 12g protein bar paired with a few other simple ingredients? Egg whites for protein, dates to bind and nuts for texture. Strawberry goodness you know you and love – all packed into a portable protein bar that matches your active lifestyle. Simple ingredients, No B.S",Faire,,,,visible,,Y,,,,2.33,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BYFXLEQ3CQGCQRPCMTSV5XQL,S.Pellegrino Sparkling Water,Regular,,,Cold drinks,,,,,,Y,,,,1.65,,,,N,,,,,Y,2,N,N,N,N,N,N,N,N,N,N,N,N,Y
-ZYAAK2QKGL3OOKVNEXIF4KTI,Sandwich,Regular,,,Food,,,,,,Y,Y,Y,Y,4.85,,,,N,,,,,,,N,N,N,N,Y,N,N,N,N,N,N,N,Y
-PKAAWPQB2KI6UEAUEOH2XNQL,Sandwich [half],Regular,,,Food,,,,,,Y,Y,Y,Y,2.55,,,,N,,,,,,,Y,N,N,N,N,N,N,N,N,N,N,N,Y
-43YFZFYSQ5OF3QHCHN37GE5V,Sandwich/8oz Soup Combo,Regular,,,Food,,,,,,Y,Y,Y,Y,8.89,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-WUWZZTZ7JPLBKXQJSOUXKFHS,Scone,Regular,,,Food,,,,,,Y,Y,Y,Y,2.75,,,,N,,,,,,,N,N,N,N,N,Y,N,N,N,N,N,N,Y
-P7ZBKSQMVOAMGZWVBLHZ6MFZ,Single Shot Espresso,Regular,,,Hot Drinks,,,,,,Y,Y,Y,Y,1.79,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-GKZRQOVNMKM5VNDOGHUGCALV,Smoothie,Tall,,,Cold drinks,,,,,,Y,Y,Y,Y,3.75,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,N,Y,N,Y
-YQKCTCHYFZWMBB32VFFDBUKJ,Smoothie,Grande,,,Cold drinks,,,,,,,,,,4.25,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,N,Y,N,Y
-QRLMJMBMR37K5HA6Y45VMC66,Smoothie,Super Grande,,,Cold drinks,,,,,,,,,,4.75,,,,N,,,,,,,N,N,N,Y,N,N,Y,N,N,N,Y,N,Y
-HVGMHS3G2BNI74SXSGHWDX7R,So Glad You're Mine Happy Valentine's Day Greeting Card,default,GC205-A2,"• Size: A2 folded, 4.25 x 5.5 inches
+12 count.",Faire,2.99
+RXBAR Strawberry Protein Bar,"We all love strawberries; drizzled on cheesecake or thrown into your favorite smoothie recipe. But what about in a 12g protein bar paired with a few other simple ingredients? Egg whites for protein, dates to bind and nuts for texture. Strawberry goodness you know you and love – all packed into a portable protein bar that matches your active lifestyle. Simple ingredients, No B.S",Faire,2.33
+So Glad You're Mine Happy Valentine's Day Greeting Card,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-GA5PCRHPZA4XYMA4IS7RYMFI,Soup (bowl),Regular,,,Food,,,,,,Y,Y,Y,Y,6.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-EIDPLU2T6O36N62ZYPSAL47W,Soup (cup),Regular,,,Food,,,,,,Y,Y,Y,Y,4.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-R6F7RCHZHQKDP22YWFAZXRBJ,Southwest Salad,Regular,,,Food,,,,visible,,Y,,,,4.56,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-J2W5P3AKHFY4HBRYPV3YBUJH,Steamer,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.15,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y
-6KYI7L7SSZPD4LN5M7V2LZD4,Steamer,Grande,,,Hot Drinks,,,,,,,,,,3.95,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y
-DVM3CUDUI3ZSIG2CC7YJ5ZSC,Steamer,Super Grande,,,Hot Drinks,,,,,,,,,,3.15,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,Y,Y,Y,N,Y
-QCAC2QDQL6L5BOA53TJRGIHA,Strawberry Poundcake - loaf,Regular,,,Great Harvest,,,,,,Y,,,,8.05,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-MKZSEGKJK4CH25OF3SZMEKYQ,Strawberry Poundcake - slice,Regular,,,Great Harvest,,,,,,Y,,,,2.05,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-IOEVLYXUN37EEUHIMFFHCH5Q,Strength Friendship Card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-JIY245TGFOPPJ2FNPPSZPONE,Stuffed Croissant,Regular,,,Food,,,,,,Y,Y,Y,Y,4.25,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-4UABTDJUK4JAYL6ZLOHOZ2HE,Sweet Kale Salad,Regular,,,Food,,,,visible,,Y,,,,4.56,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-SC7LGKFAMM2YD6B4ZJS35FGZ,Sweetest Mama Birthday,default,1338,"Greeting: ""Happy Birthday to the Sweetest Mama"" (Blank Inside)
+• Professionally printed in Omaha, NE",Faire,5.00
+Strength Friendship Card,,Faire,4.50
+Sweetest Mama Birthday,"Greeting: ""Happy Birthday to the Sweetest Mama"" (Blank Inside)
 Printing: Bright Red Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-J7IK45X5PLAS7IOAJNEW4X2Q,Tea,Tall,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.15,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-VKNW2PTXQZE6CNUJB3ISGKW3,Tea,Grande,,,Hot Drinks,,,,,,,,,,2.65,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-5RVNNMRVAS2CZQRS3C5UIH2T,Tea,Super Grande,,,Hot Drinks,,,,,,,,,,3.15,,,,N,,,,,,,N,N,N,N,N,N,Y,Y,N,Y,N,N,Y
-N47PLBT7ABJACKJLZJHXWYFD,Thank you Blobs,Single,1296,"Greeting: ""Thank you!"" (Blank Inside)
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+Thank you Blobs,"Greeting: ""Thank you!"" (Blank Inside)
 Printing: Copper Spectrum Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-3H7AO6UY3AYKO6ZQZNKABUQR,Thanks Mom,default,1257,"Greeting: ""Thanks for Being My Mom"" (Blank Inside)
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+Thanks Mom,"Greeting: ""Thanks for Being My Mom"" (Blank Inside)
 Printing: White Foil
 Card size: 5.5"" x 4.25"", Folded
-Paper: thick colored stock with coordinating A2 envelope",Faire,,,,,,Y,,,,5.50,,,,,,,-1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-DQRGFN5E6EM32TGE4QYJ45SM,Triple Flavor Addition,Regular,,,Extras,,,,,,Y,Y,Y,Y,0.75,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-5SCVH2ZD7K6EOG7ZSMETWAEG,Triple Shot Espresso,Regular,,,Hot Drinks,,,,,,Y,Y,Y,Y,2.95,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-NCMXKFZ7IBWAHV7SUVHGSIAZ,Two Pack | Coco Coir Pole for Plant Support (Large),default,COCOL1,"Ideal plant support for indoor climbing plants and vines while maintaining moisture for aerial roots absorption. Made from natural and biodegradable coconut husk, the pole is safe and sturdy for training climbing plants Monsteras to grow upright. As your plant grow bigger, new poles are easily stacked on top of each other to accommodate the new height.
+Paper: thick colored stock with coordinating A2 envelope",Faire,5.50
+Two Pack | Coco Coir Pole for Plant Support (Large),"Ideal plant support for indoor climbing plants and vines while maintaining moisture for aerial roots absorption. Made from natural and biodegradable coconut husk, the pole is safe and sturdy for training climbing plants Monsteras to grow upright. As your plant grow bigger, new poles are easily stacked on top of each other to accommodate the new height.
 What is coco coir?
 Coco coir is a byproduct of coconut processing leaving behind fibrous coconut husk.  Although the properties are similar to peat moss in terms of weight and texture, however, coco coir is much more environmentally friendly than peat moss with less impact on the ecosystem.
 Large Coco Coir Pole:
-Measurements: 2in Diameter x 11in height (5in wooden stake height)",Faire,,,,visible,,Y,,,,18.94,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-L5UVXW3ZO3YKEEDA3HWDTLDS,Two Pack | Coco Coir Pole for Plant Support (Small),default,COCOS1,"Ideal plant support for indoor climbing plants and vines while maintaining moisture for aerial roots absorption. Made from natural and biodegradable coconut husk, the pole is safe and sturdy for training climbing plants Monsteras to grow upright.
+Measurements: 2in Diameter x 11in height (5in wooden stake height)",Faire,18.94
+Two Pack | Coco Coir Pole for Plant Support (Small),"Ideal plant support for indoor climbing plants and vines while maintaining moisture for aerial roots absorption. Made from natural and biodegradable coconut husk, the pole is safe and sturdy for training climbing plants Monsteras to grow upright.
 What is coco coir?
 Coco coir is a byproduct of coconut processing leaving behind fibrous coconut husk.  Although the properties are similar to peat moss in terms of weight and texture, however, coco coir is much more environmentally friendly than peat moss with less impact on the ecosystem.
 Small Coco Coir Pole:
-Measurements: 0.75in Diameter x 11in height (3.15in wooden stake height)",Faire,,,,visible,,Y,,,,16.46,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-JVH7VZAKF762HJET2TATBFP7,Valentines Heart Gummies 7oz,default,OG00115,"Celebrate Someone you love with these sweet, heart gummies. Great gift for a friend or to treat yourself. Strawberry-Banna and Wild Cherry Flavored. Great for Valentines day and Mother's Day. 12/cs",Faire,,,,visible,,,,,,7.70,,,,,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-QYJ75UQIJYKRU4EX5AY5QM3B,Vegan Breakfast Sandwich,Regular,,,Food,,,,,,Y,,,,5.45,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-KMJW2L3T5FRROFL3Z32NYG3N,"Vinyl Sticker We're More than Friends, Friends Gift",Set of 1,SD3083_1,"☁️ Ready to ship, Scratch & Fade Resistant, Peel Here Tab for easy application
+Measurements: 0.75in Diameter x 11in height (3.15in wooden stake height)",Faire,16.46
+Valentines Heart Gummies 7oz,"Celebrate Someone you love with these sweet, heart gummies. Great gift for a friend or to treat yourself. Strawberry-Banna and Wild Cherry Flavored. Great for Valentines day and Mother's Day. 12/cs",Faire,7.70
+"Vinyl Sticker We're More than Friends, Friends Gift","☁️ Ready to ship, Scratch & Fade Resistant, Peel Here Tab for easy application
 ☁️ Approximately 3 x 3 (3 X 4 inches packaged)
 ☁️  Glossy Vinyl laminate Sticker
 ☁️ Individually Packaged in cellophane
@@ -667,41 +555,132 @@ KMJW2L3T5FRROFL3Z32NYG3N,"Vinyl Sticker We're More than Friends, Friends Gift",S
 ☁️ Designed in Illinois
 Set of one has one sticker in package
 Set of 3 has 3 stickers in one package. The set of 3 is popular gift for friend groups.
-Stickers will ship separately from mugs.",Faire,,,,visible,,Y,,,,4.50,,,,,,,5,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-2FWM2HE4BW7DMNB5AKGENDN7,Warm Wishes Holiday Card,default,1077-B,"Greeting: ""Warm Wishes, And Holiday Kisses"" (Blank Inside).
+Stickers will ship separately from mugs.",Faire,4.50
+Warm Wishes Holiday Card,"Greeting: ""Warm Wishes, And Holiday Kisses"" (Blank Inside).
 Printing: Gold Foil.
 Card size: 5.5"" x 4.25"", Folded.
 Paper: thick colored stock with coordinating A2 envelope.
-(Boxed set of 6).",Faire,,,,,,Y,,,,20.00,,,,,,,3,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-RAXYGZVWN7W2MMCWBMQGEWUR,Welcome To Opelousas Mug,Regular,,,Faire,,,,,,Y,Y,Y,Y,13.99,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-6EFT2BWIJRZDCWLQ5VFFZBRJ,Where God Guides He Provides Sticker,default,ST114,"• Size: 3"" sticker
-• Durable weatherproof vinyl sticker",Faire,,,,visible,,Y,,,,3.00,,,,,,,0,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-BH6K2AKFGJMJK3H4QGG3T2GL,Wishing You a Merry Christmas Greeting Card,default,GC196-A2-CM,"• Size: A2 folded, 4.25 x 5.5 inches
+(Boxed set of 6).",Faire,20.00
+Welcome To Opelousas Mug,,Faire,13.99
+Where God Guides He Provides Sticker,"• Size: 3"" sticker
+• Durable weatherproof vinyl sticker",Faire,3.00
+Wishing You a Merry Christmas Greeting Card,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,5.00,,,,,,,6,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-DXRPKVKXOGHMV3TXE7PLYZIB,Wraps,Regular,,,Food,,,,,,Y,Y,Y,Y,7.55,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
-KFRNEHAWJ2V5AGP56BTNFP22,Yoga Class,Regular,,,Events,,,,,,Y,,,,6.00,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-2GQ6YR4REMEEIISJWOHBJQWI,You are So Loved Greeting Card | Valentine's Day,default,GC204-A2,"• Size: A2 folded, 4.25 x 5.5 inches
+• Professionally printed in Omaha, NE",Faire,5.00
+You are So Loved Greeting Card | Valentine's Day,"• Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,,,,,5.00,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-2366YZOLCXKPWIYJMFQWOZXS,You Are Weird and Wonderful Greeting Card,default,GC163-A2,"The perfect greeting card for your sibling, best friend, or significant other. This card sums them up in a nutshell - all things weird and wonderful. A funny sentiment with some sass makes this a great card for a birthday, anniversary, or anything in between.
+• Professionally printed in Omaha, NE",Faire,5.00
+You Are Weird and Wonderful Greeting Card,"The perfect greeting card for your sibling, best friend, or significant other. This card sums them up in a nutshell - all things weird and wonderful. A funny sentiment with some sass makes this a great card for a birthday, anniversary, or anything in between.
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,4.50,,,,,,,1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-5LUEONSZLM3BW6Z3TOE7X2MC,You're the Bee's Knees Greeting Card,default,GC175-A2,"A vintage-inspired card for someone who is the bee's knees, this funny friendship card can say thank you, happy birthday, or offer encouragement. Sweet like honey and ready for your handwritten touch on the inside.
+• Professionally printed in Omaha, NE",Faire,4.50
+You're the Bee's Knees Greeting Card,"A vintage-inspired card for someone who is the bee's knees, this funny friendship card can say thank you, happy birthday, or offer encouragement. Sweet like honey and ready for your handwritten touch on the inside.
 • Size: A2 folded, 4.25 x 5.5 inches
 • Individually packaged in a clear sleeve, ready to display
 • Kraft envelope included
 • Blank on the inside
 • High-quality, heavyweight paper
-• Professionally printed in Omaha, NE",Faire,,,,visible,,Y,,,,4.50,,,,,,,-1,,,,N,N,N,N,N,N,N,N,N,N,N,N,N
-MC6AVNVGK6UQ7EUEBEV7WHFJ,You’re the worst card,Regular,,,Faire,,,,,,Y,,,,4.50,,,,N,,,,,,,N,N,N,N,N,N,N,N,N,N,N,N,Y
+• Professionally printed in Omaha, NE",Faire,4.50
+You’re the worst card,,Faire,4.50
+Autumn Squash Soup,10oz soup,Food,3.97
+Bagel,,Food,1.85
+Banana Nut Muffin,,Food,2.95
+Berry Parfait,,Food,3.95
+Blueberry Banana Mix,,Food,3.15
+Blueberry Cheese Cake Muffins,,Food,4.10
+Blueberry fig bar,,Food,0.98
+Blueberry Muffins,,Food,2.95
+Brownie,,Food,2.25
+Chocolate Muffin,,Food,3.95
+Christmas Cookie,,Food,1.00
+Coffee Cake Muffin,,Food,2.35
+Cookie,,Food,1.85
+Jalapeno Sausage Bread,,Food,4.10
+Kettle Chips,,Food,1.40
+King cake,,Food,2.75
+Pumpkin cheesecake stuffed croissant,,Food,3.72
+Raspberry fig bar,,Food,0.98
+Sandwich,,Food,4.85
+Sandwich [half],,Food,2.55
+Sandwich/8oz Soup Combo,,Food,8.89
+Scone,,Food,2.75
+Soup (bowl),,Food,6.25
+Soup (cup),,Food,4.25
+Southwest Salad,,Food,4.56
+Stuffed Croissant,,Food,4.25
+Sweet Kale Salad,,Food,4.56
+Vegan Breakfast Sandwich,,Food,5.45
+Wraps,,Food,7.55
+Americano,,Hot Drinks,2.67
+Americano,,Hot Drinks,3.17
+Americano,,Hot Drinks,3.67
+Cafe au Lait,,Hot Drinks,2.35
+Cafe au Lait,,Hot Drinks,2.85
+Cafe au Lait,,Hot Drinks,3.35
+Cappuccino,,Hot Drinks,3.17
+Cappuccino,,Hot Drinks,3.67
+Cappuccino,,Hot Drinks,4.17
+Chai Latte,,Hot Drinks,3.47
+Chai Latte,,Hot Drinks,3.97
+Chai Latte,,Hot Drinks,4.47
+Double Shot Espresso,,Hot Drinks,2.49
+Drip Coffee,,Hot Drinks,2.47
+Drip Coffee,,Hot Drinks,2.97
+Drip Coffee,,Hot Drinks,3.47
+Full Carafe Drip,,Hot Drinks,25.00
+Gelato,,Hot Drinks,3.25
+Gelato,,Hot Drinks,3.80
+Gelato,,Hot Drinks,4.35
+Holiday Drip Coffee,,Hot Drinks,2.48
+Holiday Drip Coffee,,Hot Drinks,3.00
+Holiday Drip Coffee,,Hot Drinks,3.51
+Hot Chocolate,,Hot Drinks,2.42
+Hot Chocolate,,Hot Drinks,2.92
+Hot Chocolate,,Hot Drinks,3.42
+Latte,,Hot Drinks,3.27
+Latte,,Hot Drinks,3.67
+Latte,,Hot Drinks,4.47
+Macchiato,,Hot Drinks,3.40
+Macchiato,,Hot Drinks,3.90
+Macchiato,,Hot Drinks,4.40
+Mocha,,Hot Drinks,3.49
+Mocha,,Hot Drinks,3.99
+Mocha,,Hot Drinks,4.49
+RedEye,,Hot Drinks,4.24
+Single Shot Espresso,,Hot Drinks,1.79
+Steamer,,Hot Drinks,2.15
+Steamer,,Hot Drinks,3.95
+Steamer,,Hot Drinks,3.15
+Tea,,Hot Drinks,2.15
+Tea,,Hot Drinks,2.65
+Tea,,Hot Drinks,3.15
+Triple Shot Espresso,,Hot Drinks,2.95
+20 oz RTIC Tumbler - White,"RTIC stainless steel drinkware is double wall Vacuum insulated. Keeps your drinks ice cold longer - works great for hot beverages. The included all-new Shaded splash proof lid lets you know exactly how much drink you have. The Flip-Top closure resists spills and is straw friendly. Easy to clean.
+Keeps ice Longer - holds ice for up to 24 hours
+Keeps it hot - works great for hot beverages
+18/8 stainless steel - strong stainless steel construction
+Narrow and tall design. Easy grip base. No sweat exterior",Merchandise,19.95
+Create Mug,,Merchandise,16.99
+Face Masks,,Merchandise,1.00
+Going to be good mug,,Merchandise,12.00
+Holiday Mug,,Merchandise,10.00
+Hug In A Mug,,Merchandise,12.99
+Hustle Mug,,Merchandise,16.99
+Java Square Mug,"Handcrafted — 14 oz; 4.25″h. Dishwasher, microwave and oven safe. 100% lead-free. FDA and California Proposition 65 compliant. Ounces may vary. The Java Square mug is shown in frothy brown glaze. Due to the nature of our process, styles and glazes will vary a little.",Merchandise,21.99
+Less Monday Mug,,Merchandise,12.99
+Life Happens Mug,,Merchandise,12.99
+Life Is short,,Merchandise,12.99
+Mask love,,Merchandise,4.25
+Gumbo,,Seasonal,4.75
+Pumpkin Bread,,Seasonal,2.90
+Pumpkin Yaya Muffins,,Seasonal,2.85
+1/2 Sandwich & Soup Combo,,,6.45
