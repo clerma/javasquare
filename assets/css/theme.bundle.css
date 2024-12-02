@@ -3712,7 +3712,7 @@ textarea.form-control-lg {
     color: #e8e6dd
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #b26c4b
+    color: #bc814b
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #885239
@@ -7060,7 +7060,7 @@ textarea.form-control-lg {
     word-break: break-word!important
 }
 .text-primary, .text-primary-hover:hover {
-    color: #b26d4b!important;
+    color: #bc814b!important;
 }
 .text-secondary, .text-secondary-hover:hover {
     color: #6c757d!important
@@ -7133,6 +7133,9 @@ textarea.form-control-lg {
 }
 .bg-dark {
     background-color: #212529!important
+}
+.bg-blue{
+  background-color:#1b2a40 !important;
 }
 .bg-body, .bg-white {
     background-color: #fff!important
@@ -14090,7 +14093,7 @@ textarea.form-control-lg {
     color: #fff
 }
 .navbar:before {
-    background-color: #f2e9e4;
+    background-color: #1b2a40;
     bottom: 0;
     content: "";
     left: 0;
