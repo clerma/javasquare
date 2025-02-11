@@ -22,10 +22,9 @@
 					<div id="text-3" class="widget widget-footer widget_text">
 					   <h5 class="widgettitle"><span>Address</span></h5>
 					   <div class="textwidget">
-						  <p>58 Ralph Ave<br>
-							 New York, New York 1111
+						  <p>{{site.address}}
 						  </p>
-						  <p>P: +1 800 000 111<br>
+						  <p>P: {{site.phone}}<br>
 							 E: contact@example.com
 						  </p>
 					   </div>
@@ -40,11 +39,8 @@
 					<div id="text-4" class="widget widget-footer widget_text">
 					   <h5 class="widgettitle"><span>Hours</span></h5>
 					   <div class="textwidget">
-						  <p>Monday – Sunday<br>
-							 Lunch: 12PM – 2PM<br>
-							 Dinner: 6PM – 10PM
+						  <p>{% for item in site.hours %}{{item.time}}<br/>{% endfor %}
 						  </p>
-						  <p>Happy Hours: 4PM – 6PM</p>
 					   </div>
 					</div>
 				 </div>
@@ -57,10 +53,9 @@
 					<div id="text-5" class="widget widget-footer widget_text">
 					   <h5 class="widgettitle"><span>More Info</span></h5>
 					   <div class="textwidget">
-						  <ul>
-							 <li><a href="#">Careers</a></li>
-							 <li><a href="#">Get in Touch</a></li>
-							 <li><a href="#">Privacy Policy</a></li>
+						  <ul>{% for item in site.data.nav %}
+							 <li><a href="{{item.url}}">{{item.name}}</a></li>
+							 {% endfor %}
 						  </ul>
 					   </div>
 					</div>
@@ -75,7 +70,7 @@
 		<div class="copyright">
 		   <!-- COPYRIGHT -->
 		   <div class="footer-copy">
-			  <p>Copyright &copy; 2021, Caverta . Designed by MatchThemes</p>
+			  <p>Copyright &copy;{{ site.time | date: "%Y" }}, <a href="https://carloslerma.com" target="_blank">Carlos Lerma</a></p>
 		   </div>
 		   <!-- SOCIAL ICONS -->
 		   <ul class="footer-social">
