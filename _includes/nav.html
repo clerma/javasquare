@@ -1,45 +1,57 @@
+<!-- HEADER -->
+<header id="header-1" class="headerHolder header-1">
+  <div class="nav-button-holder">
+	<button type="button" class="nav-button"><span class="icon-bar"></span></button>
+  </div>
 
-  <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top bg-blue">
-  <div class="container">
+  <!-- LOGO -->
+  <div class="logo logo-1">
+	<a href="{{ site.data.nav.logo.url }}">
+	  <img class="img-fluid" src="{{ site.data.nav.logo.image }}" alt="{{ site.data.nav.logo.alt }}">
+	</a>
+  </div>
 
-	<!-- Navbar brand (mobile) -->
-	<a class="navbar-brand d-lg-none" href="/"><img src="assets/img/java.svg"/></a>
-
-	<!-- Navbar toggler -->
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
-	</button>
-
-	<!-- Navbar collapse -->
-	<div class="collapse navbar-collapse" id="navbarCollapse">
-	  <!-- Navbar nav -->{% if page.name == 'downtown-market.html' %} {% else %}
-	  <ul class="navbar-nav me-auto">
-		<li class="nav-item">
-		  <a class="nav-link " href="./about">About Us</a>
+  <!-- MENU -->
+  <nav class="nav-holder nav-holder-1">
+	<ul class="menu-nav menu-nav-1">
+	  {% for item in site.data.nav.menu %}
+		<li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
+		  <a href="{{ item.url }}">{{ item.title }}</a>
+		  {% if item.children %}
+			<ul class="sub-menu">
+			  {% for child in item.children %}
+				<li class="menu-item{% if child.children %} menu-item-has-children{% endif %}">
+				  <a href="{{ child.url }}">{{ child.title }}</a>
+				  {% if child.children %}
+					<ul class="sub-menu">
+					  {% for subchild in child.children %}
+						<li class="menu-item"><a href="{{ subchild.url }}">{{ subchild.title }}</a></li>
+					  {% endfor %}
+					</ul>
+				  {% endif %}
+				</li>
+			  {% endfor %}
+			</ul>
+		  {% endif %}
 		</li>
-		<li class="nav-item">
-		  <a class="nav-link " href="./menu">Menu</a>
-		</li>
+	  {% endfor %}
+	</ul>
+  </nav>
 
-	  </ul>
-  {% endif %}
-	  <!-- Navbar brand -->
-	  <a class="navbar-brand d-none d-lg-flex mx-auto" href="/">
-		<img src="assets/img/java.svg" class="img-fluid w-100"/>
-	  </a>
-   {% if page.name == 'downtown-market.html' %} {% else %}
-	  <!-- Navbar nav -->
-	  <ul class="navbar-nav ms-auto">
-
-		<li class="nav-item">
-		  <a class="nav-link " href="./rewards">Rewards</a>
+  <!-- SOCIAL + CTA -->
+  <div class="social-btn-top1">
+	<ul class="social-media social-media1">
+	  {% for social in site.data.nav.social_links %}
+		<li>
+		  <a class="social-{{ social.platform }}" href="{{ social.url }}" target="_blank">
+			<i class="{{ social.icon }}"></i>
+		  </a>
 		</li>
-
-		<li class="nav-item">
-		  <a class="nav-link " href="./contact">Contact</a>
-		</li>
-	  </ul>
-  {% endif %}
+	  {% endfor %}
+	</ul>
+	<div class="btn-header btn-header1">
+	  <a href="{{ site.data.nav.cta.url }}" class="view-more">{{ site.data.nav.cta.label }}</a>
 	</div>
   </div>
-</nav>
+</header>
+<!-- /HEADER -->

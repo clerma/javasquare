@@ -1,0 +1,194 @@
+logo:
+  url: "/"
+  image: "/assets/images/caverta-logo.png"
+  alt: "Caverta"
+
+cta:
+  label: "Book a Table"
+  url: "/reservation.html"
+
+social_links:
+  - platform: facebook
+    icon: "fab fa-facebook-f"
+    url: "#"
+  - platform: twitter
+    icon: "fab fa-twitter"
+    url: "#"
+  - platform: tripadvisor
+    icon: "fab fa-tripadvisor"
+    url: "#"
+  - platform: instagram
+    icon: "fab fa-instagram"
+    url: "#"
+
+menu:
+  - title: Home
+    url: "/index.html"
+    children:
+      - title: Home 1
+        url: "/index.html"
+      - title: Home 2
+        url: "/home-2.html"
+      - title: Home 3
+        url: "/home-3.html"
+      - title: Home 4
+        url: "/home-4.html"
+      - title: Home Video
+        url: "/home-video.html"
+      - title: Home 6
+        url: "/home-6.html"
+      - title: Home 7
+        url: "/home-7.html"
+      - title: Home 8
+        url: "/home-8.html"
+      - title: Home 9
+        url: "/home-9.html"
+      - title: Home 10
+        url: "/home-10.html"
+      - title: Home 11
+        url: "/home-11.html"
+
+  - title: Menu
+    url: "/menu-2-cols.html"
+    children:
+      - title: Menu 1 Col
+        url: "/menu-1-col.html"
+      - title: Menu 2 Cols
+        url: "/menu-2-cols.html"
+      - title: Menu 3 Cols
+        url: "/menu-3-cols.html"
+      - title: Menu Accordion
+        url: "/menu-accordion.html"
+      - title: Menu 5
+        url: "/menu-5.html"
+      - title: Menu 6
+        url: "/menu-6.html"
+      - title: Menu 7
+        url: "/menu-7.html"
+      - title: Menu 8
+        url: "/menu-8.html"
+      - title: Menu 9
+        url: "/menu-9.html"
+      - title: Menu 10
+        url: "/menu-10.html"
+      - title: Menu 11
+        url: "/menu-11.html"
+      - title: Menu 12
+        url: "/menu-12.html"
+
+  - title: Pages
+    url: "#"
+    children:
+      - title: Top Headers
+        url: "#"
+        children:
+          - title: Header 1
+            url: "/index.html"
+          - title: Header 2
+            url: "/header-2.html"
+          - title: Header 3
+            url: "/header-3.html"
+          - title: Header 4
+            url: "/header-4.html"
+          - title: Header 5
+            url: "/header-5.html"
+          - title: Header 6
+            url: "/header-6.html"
+          - title: Header 7
+            url: "/header-7.html"
+      - title: About Me
+        url: "/about-me.html"
+      - title: About Me 2
+        url: "/about-me-2.html"
+      - title: About Us
+        url: "/about-us.html"
+      - title: About Us 2
+        url: "/about-us-2.html"
+      - title: Pricing
+        url: "/pricing.html"
+      - title: FAQ
+        url: "/faq.html"
+
+  - title: Reservation
+    url: "/reservation.html"
+
+  - title: Blog
+    url: "/blog.html"
+    children:
+      - title: Classic
+        url: "/blog-classic.html"
+      - title: List
+        url: "/blog.html"
+      - title: Grid 2 Cols
+        url: "/blog-grid-2-cols.html"
+      - title: Grid 3 Cols
+        url: "/blog-grid-3-cols.html"
+      - title: Single Post
+        url: "/blog-single-post.html"
+
+  - title: Team
+    url: "/team.html"
+    children:
+      - title: Team 2 Cols
+        url: "/team-2-cols.html"
+      - title: Team 3 Cols
+        url: "/team-3-cols.html"
+      - title: Team 4 Cols
+        url: "/team.html"
+
+  - title: Gallery
+    url: "/gallery-4-cols.html"
+    children:
+      - title: 3 Cols
+        url: "/gallery-3-cols.html"
+      - title: 4 Cols
+        url: "/gallery-4-cols.html"
+      - title: Full Screen 3 Cols
+        url: "/gallery-3-cols-full-screen.html"
+      - title: Full Screen 4 Cols
+        url: "/gallery-4-cols-full-screen.html"
+
+  - title: Contact
+    url: "/contact.html"
+    children:
+      - title: Contact 1
+        url: "/contact.html"
+      - title: Contact 2
+        url: "/contact-2.html"
+      - title: Contact 3
+        url: "/contact-3.html"
+      - title: Contact 4
+        url: "/contact-4.html"
+footer:
+        logo:
+          image: "/assets/images/caverta-logo2.png"
+          alt: "Caverta Logo"
+          description: "For a truly memorable dining experience reserve in advance a table as soon as you can. Come and taste our remarkable food and wine."
+
+        address:
+          title: "Address"
+          lines:
+            - "58 Ralph Ave"
+            - "New York, New York 1111"
+            - "P: +1 800 000 111"
+            - "E: contact@example.com"
+
+        hours:
+          title: "Hours"
+          lines:
+            - "Monday – Sunday"
+            - "Lunch: 12PM – 2PM"
+            - "Dinner: 6PM – 10PM"
+            - "Happy Hours: 4PM – 6PM"
+
+        more_info:
+          title: "More Info"
+          links:
+            - title: "Careers"
+              url: "#"
+            - title: "Get in Touch"
+              url: "#"
+            - title: "Privacy Policy"
+              url: "#"
+
+        copyright: "Copyright © 2021, Caverta . Designed by MatchThemes"
