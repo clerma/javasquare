@@ -1,7 +1,7 @@
 logo:
   url: "/"
-  image: "/assets/images/caverta-logo.png"
-  alt: "Caverta"
+  image: "/assets/images/java-logo2.png"
+  alt: "Java Square Cafe"
 
 cta:
   label: "Book a Table"
@@ -161,8 +161,8 @@ menu:
         url: "/contact-4.html"
 footer:
         logo:
-          image: "/assets/images/caverta-logo2.png"
-          alt: "Caverta Logo"
+          image: "/assets/images/java-logo2.png"
+          alt: "Java Square Logo"
           description: "For a truly memorable dining experience reserve in advance a table as soon as you can. Come and taste our remarkable food and wine."
 
         address:
@@ -191,4 +191,3 @@ footer:
             - title: "Privacy Policy"
               url: "#"
 
-        copyright: "Copyright © 2021, Caverta . Designed by MatchThemes"
