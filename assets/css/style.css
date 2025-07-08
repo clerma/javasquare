@@ -1,3 +1,7 @@
+---
+layout: none
+---
+@import url('https://fonts.cdnfonts.com/css/josef-pro');
 /*
 Version: 1.3.2
 */
@@ -39,20 +43,20 @@ Version: 1.3.2
 :root {
 	--body-font: Work Sans, sans-serif;
 	--body-color: #252525;
-	--body-background: #ffffff;
+	--body-background: #fffefa;
 	--body-font-size: 16px;
 	--body-line-height: 1.5;
-	--headings-font: Lora, serif;
+	--headings-font: Josef Pro;
 	--headings-color: #252525;
-	--primary-color: #8c7459;
+	--primary-color: #324255;
 	--extra-color1: #E1EDF0;
 	--extra-color2: #19303E;
 	--menu-normal-color: #ffffff;
-	--menu-hover-color: #8c7459;
-	--submenu-background-color: #8c7459;
-	--submenu-normal-color: #252525;
+	--menu-hover-color: #324255;
+	--submenu-background-color: #324255;
+	--submenu-normal-color: #fff;
 	--submenu-hover-color: #ffffff;
-	--footer-background-color: #000000;
+	--footer-background-color: #324255;
 	--footer-color: #999999;
 	--footer-title-color: #ffffff;
 	--headings-h1-size: 54px;
@@ -74,7 +78,7 @@ Version: 1.3.2
 
 /* RESET STYLES */
 
-*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0;scroll-behavior: smooth;scroll-margin-top: 90px; }
 table { border-collapse:collapse; border-spacing:0 }
 fieldset, img { border:0 }
 address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal }
@@ -197,19 +201,24 @@ line-height:var(--body-line-height);
 overflow-x:hidden;
 }
 .widgettitle, #respond h3 { font-family:var(--body-font); }
-h1, h2, h3, h4, h5, h6, blockquote, .logo-txt{ font-family:var(--headings-font); }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,  .logo-txt{ font-family:var(--headings-font); }
+h1, h2, h3, {
 	color: var(--headings-color);
 	font-weight: 400;
 	line-height:1.5em;
+
 }
 
 h1{
 	font-size: var(--headings-h1-size);
+  text-transform: uppercase;
+  letter-spacing: -1px !important;
 }
 
 h2{
 	font-size:var(--headings-h2-size);
+  text-transform: uppercase;
+  letter-spacing: -1px !important;
 }
 
 h3{
@@ -789,7 +798,7 @@ flex: 1 1 0;}
     right: 0;
     left: 0;
     z-index: 1030;
-	background: #5a4b3b;
+	background: #324255;
 	margin-top: 0;
 }
 
@@ -1028,7 +1037,7 @@ color: #ffffff;}
 
 /* Parallax Backgrounds */
 
-#home-content-2, #home-content-25, #home-content-33{background-image:url('/assets/images/home/parallax-bkg1.jpg');}
+#home-content-2, #home-content-25, #home-content-33{background-image:url('/assets/images/home/download.jpg');}
 #home-content-4, #home-content-94, #home-content-115{background-image:url('/assets/images/home/parallax-2.jpg');}
 #home-content-6, #home-content-27, #home-content-102, #home-content-104{background-image:url('/assets/images/home/parallax-3.jpg');}
 
@@ -2105,10 +2114,6 @@ flex:1 1 auto;}
 
 ************************************/
 
-/* Home Slider */
-.slide-1{background-image:url('/assets/images/pages-top/reservation-page.jpg');}
-.slide-2{background-image:url('/assets/images/pages-top/slider-2.jpg');}
-.slide-3{background-image:url('/assets/images/pages-top/slider-3.jpg');}
 
 /* Top Pages Image */
 .top-menu-1col, .top-menu-2col, .top-menu-3col, .top-menu-acc, .top-menu-5{background-image:url('/assets/images/pages-top/menu-img.jpg');}

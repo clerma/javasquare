@@ -4,50 +4,29 @@ logo:
   alt: "Java Square Cafe"
 
 cta:
-  label: "Book a Table"
-  url: "/reservation.html"
+  label: "Contact Us"
+  url: "#contact"
 
 social_links:
   - platform: facebook
     icon: "fab fa-facebook-f"
-    url: "#"
-  - platform: twitter
-    icon: "fab fa-twitter"
-    url: "#"
+    url: "https://facebook.com/javasquare"
+  - platform: tiktok
+    icon: "fab fa-tiktok"
+    url: "https://tiktok.com/@javasquarecafe"
   - platform: tripadvisor
     icon: "fab fa-tripadvisor"
-    url: "#"
+    url: "https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html"
+  - platform: Yelp
+    icon: "fab fa-yelp"
+    url: "https://www.yelp.com/biz/java-square-cafe-opelousas"
   - platform: instagram
     icon: "fab fa-instagram"
-    url: "#"
+    url: "https://instagram.com/javasquare"
 
 menu:
   - title: Home
-    url: "/index.html"
-    children:
-      - title: Home 1
-        url: "/index.html"
-      - title: Home 2
-        url: "/home-2.html"
-      - title: Home 3
-        url: "/home-3.html"
-      - title: Home 4
-        url: "/home-4.html"
-      - title: Home Video
-        url: "/home-video.html"
-      - title: Home 6
-        url: "/home-6.html"
-      - title: Home 7
-        url: "/home-7.html"
-      - title: Home 8
-        url: "/home-8.html"
-      - title: Home 9
-        url: "/home-9.html"
-      - title: Home 10
-        url: "/home-10.html"
-      - title: Home 11
-        url: "/home-11.html"
-
+    url: "/"
   - title: Menu
     url: "/menu-2-cols.html"
     children:
@@ -76,65 +55,8 @@ menu:
       - title: Menu 12
         url: "/menu-12.html"
 
-  - title: Pages
-    url: "#"
-    children:
-      - title: Top Headers
-        url: "#"
-        children:
-          - title: Header 1
-            url: "/index.html"
-          - title: Header 2
-            url: "/header-2.html"
-          - title: Header 3
-            url: "/header-3.html"
-          - title: Header 4
-            url: "/header-4.html"
-          - title: Header 5
-            url: "/header-5.html"
-          - title: Header 6
-            url: "/header-6.html"
-          - title: Header 7
-            url: "/header-7.html"
-      - title: About Me
-        url: "/about-me.html"
-      - title: About Me 2
-        url: "/about-me-2.html"
-      - title: About Us
-        url: "/about-us.html"
-      - title: About Us 2
-        url: "/about-us-2.html"
-      - title: Pricing
-        url: "/pricing.html"
-      - title: FAQ
-        url: "/faq.html"
-
-  - title: Reservation
-    url: "/reservation.html"
-
   - title: Blog
     url: "/blog.html"
-    children:
-      - title: Classic
-        url: "/blog-classic.html"
-      - title: List
-        url: "/blog.html"
-      - title: Grid 2 Cols
-        url: "/blog-grid-2-cols.html"
-      - title: Grid 3 Cols
-        url: "/blog-grid-3-cols.html"
-      - title: Single Post
-        url: "/blog-single-post.html"
-
-  - title: Team
-    url: "/team.html"
-    children:
-      - title: Team 2 Cols
-        url: "/team-2-cols.html"
-      - title: Team 3 Cols
-        url: "/team-3-cols.html"
-      - title: Team 4 Cols
-        url: "/team.html"
 
   - title: Gallery
     url: "/gallery-4-cols.html"
@@ -150,44 +72,36 @@ menu:
 
   - title: Contact
     url: "/contact.html"
-    children:
-      - title: Contact 1
-        url: "/contact.html"
-      - title: Contact 2
-        url: "/contact-2.html"
-      - title: Contact 3
-        url: "/contact-3.html"
-      - title: Contact 4
-        url: "/contact-4.html"
+
 footer:
         logo:
           image: "/assets/images/java-logo2.png"
           alt: "Java Square Logo"
-          description: "For a truly memorable dining experience reserve in advance a table as soon as you can. Come and taste our remarkable food and wine."
+          description: "Java Square is a full-service coffee shop proudly serving handcrafted espresso drinks, blended coffees, and fresh-made bites in the heart of Opelousas. Our trained baristas are passionate about delivering the perfect cup-because you deserve nothing less."
 
         address:
           title: "Address"
           lines:
-            - "58 Ralph Ave"
-            - "New York, New York 1111"
-            - "P: +1 800 000 111"
-            - "E: contact@example.com"
+            - "103 West Landry Street"
+            - "Opelousas, LA 70570"
+            - "P: 337-678-0551"
+            - "E: info@javasquare.cafe"
 
         hours:
           title: "Hours"
           lines:
-            - "Monday – Sunday"
-            - "Lunch: 12PM – 2PM"
-            - "Dinner: 6PM – 10PM"
-            - "Happy Hours: 4PM – 6PM"
+            - "Monday – Friday"
+            - "7AM – 6PM"
+            - "Saturday – Sunday"
+            - "8AM – 4PM"
 
         more_info:
           title: "More Info"
           links:
-            - title: "Careers"
+            - title: "Jobs"
               url: "#"
             - title: "Get in Touch"
-              url: "#"
+              url: "#contact"
             - title: "Privacy Policy"
               url: "#"
 
