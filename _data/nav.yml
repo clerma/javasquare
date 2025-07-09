@@ -4,8 +4,8 @@ logo:
   alt: "Java Square Cafe"
 
 cta:
-  label: "Contact Us"
-  url: "#contact"
+  label: "Delivery"
+  url: "https://www.doordash.com/store/java-square-opelousas-649112/2125163/"
 
 social_links:
   - platform: facebook
@@ -28,50 +28,16 @@ menu:
   - title: Home
     url: "/"
   - title: Menu
-    url: "/menu-2-cols.html"
-    children:
-      - title: Menu 1 Col
-        url: "/menu-1-col.html"
-      - title: Menu 2 Cols
-        url: "/menu-2-cols.html"
-      - title: Menu 3 Cols
-        url: "/menu-3-cols.html"
-      - title: Menu Accordion
-        url: "/menu-accordion.html"
-      - title: Menu 5
-        url: "/menu-5.html"
-      - title: Menu 6
-        url: "/menu-6.html"
-      - title: Menu 7
-        url: "/menu-7.html"
-      - title: Menu 8
-        url: "/menu-8.html"
-      - title: Menu 9
-        url: "/menu-9.html"
-      - title: Menu 10
-        url: "/menu-10.html"
-      - title: Menu 11
-        url: "/menu-11.html"
-      - title: Menu 12
-        url: "/menu-12.html"
+    url: "/#menu"
 
   - title: Blog
-    url: "/blog.html"
+    url: "/"
 
-  - title: Gallery
-    url: "/gallery-4-cols.html"
-    children:
-      - title: 3 Cols
-        url: "/gallery-3-cols.html"
-      - title: 4 Cols
-        url: "/gallery-4-cols.html"
-      - title: Full Screen 3 Cols
-        url: "/gallery-3-cols-full-screen.html"
-      - title: Full Screen 4 Cols
-        url: "/gallery-4-cols-full-screen.html"
+  - title: Reviews
+    url: "/#reviews"
 
   - title: Contact
-    url: "/contact.html"
+    url: "/#contact"
 
 footer:
         logo:

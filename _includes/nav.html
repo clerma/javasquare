@@ -50,7 +50,7 @@
 	  {% endfor %}
 	</ul>
 	<div class="btn-header btn-header1">
-	  <a href="{{ site.data.nav.cta.url }}" class="view-more">{{ site.data.nav.cta.label }}</a>
+	  <a href="{{ site.data.nav.cta.url }}" {% if site.data.nav.cta.url contains "http" %}target="_blank"{% endif %}class="view-more">{{ site.data.nav.cta.label }}</a>
 	</div>
   </div>
 </header>

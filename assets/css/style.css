@@ -2091,7 +2091,7 @@ aside table th, .foo-block table th, aside table td, .foo-block table td{ paddin
 ************************************/
 
 footer{padding:81px 0 32px 0;
-margin-top:108px;
+/* margin-top:108px; */
 background:var(--footer-background-color);}
 
 footer, footer a, .footer-social li a{color:var(--footer-color);}
@@ -3149,3 +3149,7 @@ grid-column-gap: 0px;
 margin-left:0;margin-top:8px;}
 
  }
+.crt-logo{
+  color: #fff !important;
+  visibility: hidden !important;
+}
