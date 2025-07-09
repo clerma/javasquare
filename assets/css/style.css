@@ -854,6 +854,12 @@ a.social-skype:hover{color:#24B4F0 !important;}
 height:100vh;
 margin-bottom:108px;
 }
+.slider-container-blog{position:relative;
+height:50vh !important;
+margin-bottom:108px;
+}
+.slider-container-blog .slider-item-box-bkg{height:50vh !important;
+}
 .slider-container2{
 	position:relative;
 	margin-bottom:108px;

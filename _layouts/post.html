@@ -21,33 +21,33 @@
 </head>
 <body class="home">
 	<div class="menu-mask"></div>
-	{% include nav.html %}
+	{% include nav.html header="dark" %}
 	 <!-- HOME SLIDER -->
-	 <div class="slider-container">
+	 <div class="slider-container-blog" style="height: 70vh;margin-bottom: 0px">
 	   <div class="owl-carousel owl-theme home-slider">
-		   {% assign count = 0 %}
-		 {% for slide in page.slider %}
-		 {% assign count = count | plus: 1 %}
-		 <div class="slider-post slider-item-box-bkg">
-		   <div class="slider-img slide-{{count}}"></div>
+
+		 <div class="slider-post slider-item-box-bkg" style="height: 70vh;">
+		   <div class="slider-img" style="background-image: url('{{page.image}}');"></div>
 		   <div class="slider-caption">
 			 <div class="slider-text">
 			   <div class="intro-txt">{{ slide.intro }}</div>
-			   <h2>{{ slide.heading }}</h2>
+			   <h2>{{ page.title }}</h2>
 			   <p>
-				 {{ slide.text }}<br />
-				 <a href="{{ slide.button_url }}" class="slider-btn">{{ slide.button_label }}</a>
+				 {{ slide.text }}
 			   </p>
 			 </div>
 		   </div>
 		 </div>
-		 {% endfor %}
 	   </div>
 	 </div>
 	 <!-- /HOME SLIDER -->
 	  <!-- WRAP CONTENT -->
-		<div id="wrap-content" class="page-content custom-page-template">
+		<div id="wrap-content" class="page-content custom-page-template container">
+			<div class="row">
+				<div class="col-md-12 py-5">
 			{{ content }}
+				</div>
+			</div>
 			</div>
 			  <!-- /WRAP CONTENT -->
 		{% include footer.html %}

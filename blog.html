@@ -14,67 +14,25 @@ permalink: blog
 ---
  <div class="container blog-holder">
  <div class="row">
-    <div class="col-md-9 posts-holder">
+    <div class="col-md-12 posts-holder">
        <section id="wrap-content" class="blog-classic">
 
           {% for post in site.tags.blog %}
-          <article class="blog-item blog-item-1col">
-             <a href="blog-single-post.html">
-                <div class="post-image"> <img src="images/blog/blog2.jpg" class="img-fluid" alt="Chocolate Muffins Gift"></div>
+          <article class="blog-item row">
+             <a href="blog-single-post.html" class="col-3">
+                <div class="post-image"> <img src="{{post.image}}" class="img-fluid" alt="Chocolate Muffins Gift"></div>
              </a>
-             <div class="post-holder post-holder-all">
-                <ul class="post-meta">
-                   <li class="meta-date">March 11, 2021</li>
-                   <li class="meta-categ"><a href="#" rel="category tag">Desserts</a></li>
-                </ul>
-                <h2 class="article-title"><a href="blog-single-post.html">Chocolate Muffins Gift</a></h2>
+             <div class="post-holder post-holder-all col-8">
+                <h2 class="article-title"><a href="{{post.url}}">{{post.title}}</a></h2>
                 <div class="article-excerpt">
-                   <p>Maecenas ornare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et gravida. Maecenas id enim pharetra, sollicitudin dui eget, blandit lorem. Nunc vitae blandit lectus. Donec lacinia magna sit amet arcu aliquet luctus. Maecenas vehicula metus nisi, nec finibus justo vulputate eget. Pellentesque porta felis id erat sodales condimentum. Nam…</p>
+                   <p>{{post.content | truncatewords: 50}}</p>
                 </div>
-                <a class="view-more" href="blog-single-post.html">Read More </a>
+                <a class="view-more" href="{{post.url}}">Read More </a>
              </div>
           </article>
           {% endfor %}
        </section>
     </div>
     <!-- /col-md-9 -->
-    <div class="col-md-3">
-       <aside>
-          <ul>
-             <li id="categories-2" class="widget widget_categories">
-                <h5 class="widgettitle"><span>Categories</span></h5>
-                <ul>
-                   <li class="cat-item cat-item-2"><a href="#">Desserts</a></li>
-                   <li class="cat-item cat-item-3"><a href="#">Food</a></li>
-                   <li class="cat-item cat-item-4"><a href="#">Italian</a></li>
-                   <li class="cat-item cat-item-6"><a href="#">Recipes</a></li>
-                </ul>
-             </li>
-             <li id="search-2" class="widget widget_search">
-                <form method="get" id="search-form" action="#"> <span><input name="s" class="search-string" placeholder="type and hit enter" type="text"></span></form>
-             </li>
-             <li id="recent-posts-2" class="widget widget_recent_entries">
-                <h5 class="widgettitle"><span>Recent Posts</span></h5>
-                <ul>
-                   <li> <a href="#">Chef New Summer Dish</a></li>
-                   <li> <a href="#">Realm of the Spirit Whisky</a></li>
-                   <li> <a href="#">Restaurant Signature Dinner</a></li>
-                </ul>
-             </li>
-             <li id="archives-2" class="widget widget_archive">
-                <h5 class="widgettitle"><span>Archives</span></h5>
-                <ul>
-                   <li><a href="#">March 2021</a></li>
-                   <li><a href="#">March 2021</a></li>
-                   <li><a href="#">March 2021</a></li>
-                </ul>
-             </li>
-             <li id="tag_cloud-2" class="widget widget_tag_cloud">
-                <h5 class="widgettitle"><span>Tags</span></h5>
-                <div class="tagcloud"><a href="#" class="tag-cloud-link tag-link-34 tag-link-position-1">chef</a> <a href="#" class="tag-cloud-link tag-link-8 tag-link-position-2">chicken</a> <a href="#" class="tag-cloud-link tag-link-28 tag-link-position-3" >chocolate</a> <a href="#" class="tag-cloud-link tag-link-30 tag-link-position-4" >cocktail</a> <a href="#" class="tag-cloud-link tag-link-9 tag-link-position-5" >corn</a> <a href="#" class="tag-cloud-link tag-link-35 tag-link-position-6" >dish</a> <a href="#" class="tag-cloud-link tag-link-31 tag-link-position-7" >drink</a> <a href="#" class="tag-cloud-link tag-link-11 tag-link-position-8" >egg</a> <a href="#" class="tag-cloud-link tag-link-13 tag-link-position-9" >mozzarella</a> <a href="#" class="tag-cloud-link tag-link-14 tag-link-position-10" >muffins</a> <a href="#" class="tag-cloud-link tag-link-15 tag-link-position-11" >pizza</a> <a href="#" class="tag-cloud-link tag-link-16 tag-link-position-12" >risotto</a> <a href="#" class="tag-cloud-link tag-link-17 tag-link-position-13" >salad</a> <a href="#" class="tag-cloud-link tag-link-18 tag-link-position-14" >spaghetti</a> <a href="#" class="tag-cloud-link tag-link-29 tag-link-position-15" >steak</a> <a href="#" class="tag-cloud-link tag-link-33 tag-link-position-16" >summer</a> <a href="#" class="tag-cloud-link tag-link-32 tag-link-position-17" >whisky</a></div>
-             </li>
-          </ul>
-       </aside>
-    </div>
-    <!-- /col-md-3 -->
+
  </div>

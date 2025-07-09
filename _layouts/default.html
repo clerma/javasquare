@@ -23,7 +23,7 @@
 	<div class="menu-mask"></div>
 	{% include nav.html %}
 	 <!-- HOME SLIDER -->
-	 <div class="slider-container">
+	 <div class="slider-container{% if page.url contains 'blog' %}-blog{% endif %}">
 	   <div class="owl-carousel owl-theme home-slider">
 		   {% assign count = 0 %}
 		 {% for slide in page.slider %}
