@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Java Square Cafe"
+description: "A full service coffee shop serving espresso coffee drinks, such as lattes, cappuccinos, & much more. Our cafe also has sandwiches, soups, muffins, and more for breakfast and lunch."
+og_image: "/assets/img/logo.png"
+slider:
+  - intro: ""
+    image:
+    heading: "Coffee Blog"
+    text: "Brewed thoughts, local stories, and a little behind-the-scenes from life at Java Square."
+    button_label: ""
+    button_url: ""
+permalink: blog
+---
+ <div class="container blog-holder">
+ <div class="row">
+    <div class="col-md-12 posts-holder">
+       <section id="wrap-content" class="blog-classic">
+
+          {% for post in site.tags.blog %}
+          <article class="blog-item row">
+             <a href="blog-single-post.html" class="col-3">
+                <div class="post-image"> <img src="{{post.image}}" class="img-fluid" alt="Chocolate Muffins Gift"></div>
+             </a>
+             <div class="post-holder post-holder-all col-8">
+                <h2 class="article-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+                <div class="article-excerpt">
+                   <p>{{post.content | truncatewords: 50}}</p>
+                </div>
+                <a class="view-more" href="{{post.url}}">Read More </a>
+             </div>
+          </article>
+          {% endfor %}
+       </section>
+    </div>
+    <!-- /col-md-9 -->
+
+ </div>

@@ -1,0 +1,341 @@
+<!doctype html>
+<html amp>
+<head>
+  <title>Vault Readings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="index.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Vault Readings",
+      "mainEntityOfPage": "https://www.javasquare.cafe",
+      
+      "url": "https://www.javasquare.cafe/news/opelousas-childrens-storytime",
+      "author": {
+        "@type": "Person",
+        "name": "Carlos Lerma"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://images.squarespace-cdn.com/content/v1/5bb904ac29f2cc31b47bdeb8/1538852063371-TGEYA0WLSU082ICIG3TN/ke17ZwdGBToddI8pDm48kMf4Ugojy-MY24GVfc9750pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIABXrhV33wMlVwr_Jn4MdoX6Os59rtmcEvAkSO9xifjM/logo.png",
+          "width": 763,
+          "height": 764
+        },
+        
+        "name": "Java Square Cafe"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=750w",
+        "width": 960,
+        "height": 960
+      },
+      
+      "datePublished": "2018-10-23",
+      "dateModified": "2018-10-23"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../../index.html" target="_blank">Java Square Cafe</a></h1>
+      <small class="amp-view-original"><a href="index.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="960"
+          height="960"
+          src="https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=500w"
+          srcset="https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=2500w 2500w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=1500w 1500w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=1000w 1000w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=750w 750w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=500w 500w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=300w 300w,
+          https://static1.squarespace.com/static/5bb904ac29f2cc31b47bdeb8/5bba5ca14192025ef74a564b/5bcf21b1652dea78e7125e89/1540301502787/44683171_1933518700027352_872013313255407616_n.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Vault Readings</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2018-10-23">
+            October 23, 2018
+          </time>
+          <small class="amp-article-author-name">Carlos Lerma</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p>Java Square now offers weekly storytimes for children. Java's vault readings help foster early literacy skills needed for children to be school-ready. Our storytimes for babies, toddlers, and preschoolers focus on developing early literacy skills—those skills necessary to begin to learn to read. We have selected stories to reach and teach a multi-age audience from 3 to 7-year-olds so come out and join the fun!</p>
+<p data-rte-preserve-empty="true"></p>
+<p><strong>Tuesday’s | 10am</strong></p></div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../index.html" target="_blank"><em>Java Square Cafe</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+</html>

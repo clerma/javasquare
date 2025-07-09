@@ -1,78 +1,99 @@
- <!-- FOOTER -->
-<footer class="py-7 py-md-9 bg-blue">
-  <div class="container px-4">
-	<div class="row gx-7">
-	  <div class="col-sm-4">
+<!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
 
-		<!-- Heading -->
-		<h5 class="text-xs text-primary">
-		  About Java Square
-		</h5>
-		<!-- Text -->
-		<p class="mb-6">
-		 Java Square, nestled in the heart of historic downtown Opelousas, is more than just a cafe. It's a blend of rich history and modern coffee culture, housed in the iconic 1927 Parish & Trust Bank building. Venture inside and discover the old bank vault, now transformed into an intimate seating nook for our guests.
-		</p>
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/a02d59d9-d38f-4ed1-9d32-54b92d78a306.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+<footer>
+  <div class="container">
+	<div class="footer-widgets">
+	  <div class="row">
 
-	  </div>
-	  <div class="col-sm-4">
-
-		<!-- Heading -->
-		<h5 class="text-xs text-primary">
-		  Contact info
-		</h5>
-
-		<!-- List -->
-		<ul class="list-unstyled mb-6">
-		  <li class="d-flex mb-2">
-			<div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
-			<a href="https://goo.gl/maps/UwcHfyuvyTECuF999" target="_blank">{{site.address}}</a>
-		  </li>
-		  <li class="d-flex mb-2">
-			<div class="fas fa-phone me-3 mt-2 fs-sm"></div>
-			<a href="tel:{{site.phone}}" class="phone">{{site.phone}}</a>
-		  </li>
-		  <li class="d-flex">
-			<div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:{{site.email}}">{{site.email}}</a>
-		  </li>
-		</ul>
-
-	  </div>
-	  <div class="col-sm-4">
-
-		<!-- Heading -->
-		<h5 class="text-xs text-primary">
-		  Opening hours
-		</h5>
-
-		<!-- Text -->
-		<div class="mb-3 text-white">
-		  <div class="text-xs">Monday - Thursday</div>
-		  <div>7:00 AM - 6:00 PM</div>
+		<!-- FOOTER COLUMN 1: Logo & Description -->
+		<div class="col-md-3">
+		  <div class="foo-block">
+			<div class="widget widget-footer widget_text">
+			  <div class="textwidget">
+				<p>
+				  <img class="size-full" src="{{ site.data.nav.footer.logo.image }}" alt="{{ site.data.nav.footer.logo.alt }}">
+				</p>
+				<p>{{ site.data.nav.footer.logo.description }}</p>
+			  </div>
+			</div>
+		  </div>
 		</div>
 
-		<!-- Text -->
-		<div class="mb-6 text-white">
-		  <div class="text-xs">Saturday - Sunday</div>
-		  <div>8:00 AM - 04:00 PM</div>
+		<!-- FOOTER COLUMN 2: Address -->
+		<div class="col-md-3">
+		  <div class="foo-block">
+			<div class="widget widget-footer widget_text">
+			  <h5 class="widgettitle"><span>{{ site.data.nav.footer.address.title }}</span></h5>
+			  <div class="textwidget">
+				{% for line in site.data.nav.footer.address.lines %}
+				  <p>{{ line }}</p>
+				{% endfor %}
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- FOOTER COLUMN 3: Hours -->
+		<div class="col-md-3">
+		  <div class="foo-block">
+			<div class="widget widget-footer widget_text">
+			  <h5 class="widgettitle"><span>{{ site.data.nav.footer.hours.title }}</span></h5>
+			  <div class="textwidget">
+				{% for line in site.data.nav.footer.hours.lines %}
+				  <p>{{ line }}</p>
+				{% endfor %}
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- FOOTER COLUMN 4: More Info Links -->
+		<div class="col-md-3">
+		  <div class="foo-block foo-last">
+			<div class="widget widget-footer widget_text">
+			  <h5 class="widgettitle"><span>{{ site.data.nav.footer.more_info.title }}</span></h5>
+			  <div class="textwidget">
+				<ul>
+				  {% for link in site.data.nav.footer.more_info.links %}
+					<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+				  {% endfor %}
+				</ul>
+			  </div>
+			</div>
+		  </div>
 		</div>
 
 	  </div>
 	</div>
-	<div class="row">
-	  <div class="col-12">
 
-		<!-- Copyright -->
-		<div class="d-flex align-items-center text-white">
-		  <hr class="hr-sm me-3" style="height: 1px;" /> &copy;{{ site.time | date: "%Y" }} {{site.name}}. All rights reserved.
-		</div>
-
+	<!-- Copyright & Social -->
+	<div class="copyright">
+	  <div class="footer-copy">
+		<p>Copyright ©{{ site.time | date: "%Y" }}, Java Square Cafe</p>
 	  </div>
+	  <ul class="footer-social">
+		{% for social in site.data.nav.social_links %}
+		  <li>
+			<a class="social-{{ social.platform }}" href="{{ social.url }}" target="_blank">
+			  <i class="{{ social.icon }}"></i>
+			</a>
+		  </li>
+		{% endfor %}
+	  </ul>
 	</div>
+  </div>
+
+  <div class="scrollup">
+	<a class="scrolltop" href="#"><i class="fa fa-chevron-up"></i></a>
   </div>
 </footer>
-<!-- TOAST -->
-<div class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5" id="notification" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-	<div class="toast-body mx-auto"></div>
-  </div>
-</div>

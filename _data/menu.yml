@@ -1,0 +1,300 @@
+Cold drinks:
+- name: Bottled Water
+  price: 1.0
+- name: Can Soda
+  price: 1.0
+- name: Dirty Soda
+  price: 4.29
+- name: Fredda
+  price: 4.15
+- name: Fredda
+  price: 4.75
+- name: Fredda
+  price: 5.15
+- name: Gallon of tea
+  price: 15.5
+- name: Hibiscus Mint Tea
+  price: 2.35
+- name: Hibiscus Mint Tea
+  price: 2.55
+- name: Hibiscus Mint Tea
+  price: 2.75
+- name: Iced Americano
+  price: 3.95
+- name: Iced Americano
+  price: 4.45
+- name: Iced Americano
+  price: 4.95
+- name: Iced Cafe Au Lait
+  price: 4.25
+- name: Iced Cafe Au Lait
+  price: 4.95
+- name: Iced Cafe Au Lait
+  price: 5.45
+- name: Iced Chai
+  price: 4.75
+- name: Iced Chai
+  price: 5.5
+- name: Iced Chai
+  price: 5.95
+- name: Iced Cold Brew
+  price: 3.95
+- name: Iced Cold Brew
+  price: 4.45
+- name: Iced Cold Brew
+  price: 4.95
+- name: Iced Gelato
+  price: 5.25
+- name: Iced Gelato
+  price: 5.95
+- name: Iced Gelato
+  price: 6.45
+- name: Iced Latte
+  price: 4.25
+- name: Iced Latte
+  price: 4.95
+- name: Iced Latte
+  price: 5.45
+- name: Iced Macchiato
+  price: 4.75
+- name: Iced Macchiato
+  price: 5.5
+- name: Iced Macchiato
+  price: 5.95
+- name: Iced Mocha
+  price: 4.75
+- name: Iced Mocha
+  price: 5.5
+- name: Iced Mocha
+  price: 5.95
+- name: Iced Tea
+  price: 2.15
+- name: Iced Tea
+  price: 2.35
+- name: Iced Tea
+  price: 2.65
+- name: Juice
+  price: 2.29
+- name: Juice
+  price: 2.29
+- name: La Croix Sparkling Water
+  price: 1.0
+- name: Lemonade
+  price: 2.75
+- name: Lemonade
+  price: 3.15
+- name: Lemonade
+  price: 3.95
+- name: Matcha Fredda
+  price: 4.15
+- name: Matcha Fredda
+  price: 4.95
+- name: Matcha Fredda
+  price: 5.75
+- name: Milk
+  price: 2.6
+- name: Milk
+  price: 2.85
+- name: Milk
+  price: 3.99
+- name: Milkshake
+  price: 3.1
+- name: Milkshake
+  price: 3.72
+- name: Milkshake
+  price: 3.99
+- name: Ocean Breeze
+  price: 5.16
+- name: Passion Lemonade
+  price: 3.75
+- name: Passion Lemonade
+  price: 4.25
+- name: Passion Lemonade
+  price: 4.95
+- name: S.Pellegrino Sparkling Water
+  price: 1.95
+- name: Smoothie
+  price: 3.95
+- name: Smoothie
+  price: 4.25
+- name: Smoothie
+  price: 4.95
+- name: Strawberries N Cream Fizz
+  price: 4.5
+- name: Topo Chico Sparkling Mineral Water
+  price: 4.14
+- name: Topo Chico Twist of Lime
+  price: 3.11
+Food:
+- name: 1/2 Sandwich & Soup Combo
+  price: 6.45
+- name: Apple Crisp Croissant
+  price: 3.78
+- name: Autumn Squash Soup
+  price: 3.97
+  description: 10oz soup
+- name: Bagel
+  price: 1.95
+- name: Banana Nut Muffin
+  price: 3.95
+- name: Berry Parfait
+  price: 3.95
+- name: Blueberry Banana Mix
+  price: 3.15
+- name: Blueberry Muffin
+  price: 3.95
+  description: Freshly baked blueberry muffin bursting with juicy blueberries.
+- name: Blueberry fig bar
+  price: 0.98
+- name: Boudin Grilled Cheese Sandwich
+  price: 6.75
+- name: Brownie
+  price: 2.25
+  description: Indulge in the decadent chocolate flavor, moist and chewy texture of
+    our irresistibly delicious brownies. Treat yourself to this irresistible indulgence
+    today!
+- name: Chicken Taco Soup
+  price: 6.25
+- name: Chocolate Muffin
+  price: 3.95
+- name: Christmas Cookie
+  price: 1.0
+- name: Cookie
+  price: 1.85
+- name: Jalapeno Sausage Bread
+  price: 4.1
+- name: Kettle Chips
+  price: 1.4
+- name: King cake
+  price: 2.75
+- name: Mardi Gras Stuffed Croissant
+  price: 3.72
+- name: Mexican Spiced Brownie
+  price: 2.75
+  description: Laced with fragrant spices such as cocoa liquor, real vanilla, almond,
+    and cinnamon. Azteca Mexican Spiced Brownies create the most flavorful cocoa brownies
+    found anywhere.
+- name: Pumpkin cheesecake stuffed croissant
+  price: 3.72
+- name: Raspberry fig bar
+  price: 0.98
+- name: Sandwich
+  price: 4.85
+- name: Sandwich [half]
+  price: 2.75
+- name: Sandwich/8oz Soup Combo
+  price: 8.89
+- name: Scone
+  price: 3.65
+- name: Soup (bowl)
+  price: 6.25
+- name: Soup (cup)
+  price: 4.25
+- name: Southwest Salad
+  price: 4.56
+- name: Stuffed Croissant
+  price: 4.25
+- name: Stuffed Croissant
+  price: 4.75
+- name: Stuffed Croissant
+  price: 3.75
+- name: Stuffed Croissant
+  price: 4.65
+- name: Sweet Kale Salad
+  price: 4.56
+- name: Vegan Breakfast Sandwich
+  price: 5.45
+- name: Wraps
+  price: 7.55
+Hot Drinks:
+- name: Affogato
+  price: 3.79
+  description: An affogato, more traditionally known as "affogato al caffè", is an
+    Italian coffee-based dessert. It usually takes the form of a scoop of plain milk-flavored
+    or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso
+- name: Americano
+  price: 3.45
+- name: Americano
+  price: 3.75
+- name: Americano
+  price: 3.95
+- name: Cafe au Lait
+  price: 2.35
+- name: Cafe au Lait
+  price: 2.85
+- name: Cafe au Lait
+  price: 3.35
+- name: Cappuccino
+  price: 3.95
+- name: Cappuccino
+  price: 4.25
+- name: Cappuccino
+  price: 4.75
+- name: Chai Latte
+  price: 4.75
+- name: Chai Latte
+  price: 5.5
+- name: Chai Latte
+  price: 5.95
+- name: Double Shot Espresso
+  price: 2.49
+- name: Drip Coffee
+  price: 2.75
+- name: Drip Coffee
+  price: 2.95
+- name: Drip Coffee
+  price: 3.6
+- name: Full Carafe Drip
+  price: 20.0
+  description: Serves (6) full 12oz cups
+- name: Gelato
+  price: 3.25
+- name: Gelato
+  price: 3.8
+- name: Gelato
+  price: 4.35
+- name: Hot Chocolate
+  price: 4.05
+- name: Hot Chocolate
+  price: 4.75
+- name: Hot Chocolate
+  price: 5.1
+- name: Latte
+  price: 4.25
+- name: Latte
+  price: 4.95
+- name: Latte
+  price: 5.45
+- name: Macchiato
+  price: 3.4
+- name: Macchiato
+  price: 3.9
+- name: Macchiato
+  price: 4.4
+- name: Mocha
+  price: 3.49
+- name: Mocha
+  price: 3.99
+- name: Mocha
+  price: 4.49
+- name: RedEye
+  price: 4.24
+- name: Single Shot Espresso
+  price: 2.95
+- name: Steamer
+  price: 3.05
+- name: Steamer
+  price: 3.5
+- name: Steamer
+  price: 3.9
+- name: Tea
+  price: 2.6
+- name: Tea
+  price: 2.95
+- name: Tea
+  price: 3.5
+- name: To-go Carafe Drip
+  price: 32.0
+  description: '<p><strong>Servings</strong>: 8 full 12 oz cups</p>'
+- name: Triple Shot Espresso
+  price: 3.25
