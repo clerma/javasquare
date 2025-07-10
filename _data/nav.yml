@@ -48,10 +48,9 @@ footer:
         address:
           title: "Address"
           lines:
-            - "103 West Landry Street"
-            - "Opelousas, LA 70570"
-            - "P: 337-678-0551"
-            - "E: info@javasquare.cafe"
+            - "103 West Landry Street Opelousas, LA 70570"
+            - "337-678-0551"
+            - "info@javasquare.cafe"
 
         hours:
           title: "Hours"

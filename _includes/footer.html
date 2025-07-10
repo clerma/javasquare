@@ -36,8 +36,18 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 			  <h5 class="widgettitle"><span>{{ site.data.nav.footer.address.title }}</span></h5>
 			  <div class="textwidget">
 				{% for line in site.data.nav.footer.address.lines %}
-				  <p>{{ line }}</p>
+				  {% case forloop.index0 %}
+					{% when 0 %}
+					  <p><a href="https://g.co/kgs/WZhpdKV" target="_blank">{{ line }}</a></p>
+					{% when 1 %}
+					  <p><a href="tel:{{ line | remove: 'P: ' | strip }}" class="phone" target="_blank">{{ line }}</a></p>
+					{% when 2 %}
+					  <p><a href="mailto:{{ line | remove: 'E: ' | strip }}">{{ line }}</a></p>
+					{% else %}
+					  <p>{{ line }}</p>
+				  {% endcase %}
 				{% endfor %}
+
 			  </div>
 			</div>
 		  </div>

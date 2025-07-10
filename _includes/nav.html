@@ -1,57 +1,118 @@
+<div class="menu-mask"></div>
+<!-- MOBILE MENU HOLDER -->
+<div class="mobile-menu-holder">
+  <div class="modal-menu-container">
+	<div class="exit-mobile">
+	  <span class="icon-bar1"></span>
+	  <span class="icon-bar2"></span>
+	</div>
+	<!-- MOBILE MENU -->
+	<ul class="menu-mobile">
+	  {% for item in site.data.nav.menu %}
+	  <li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
+		<a href="{{ item.url }}">{{ item.title }}</a>
+		{% if item.children %}
+		<ul class="sub-menu">
+		  {% for child in item.children %}
+		  <li class="menu-item{% if child.children %} menu-item-has-children{% endif %}">
+			<a href="{{ child.url }}">{{ child.title }}</a>
+			{% if child.children %}
+			<ul class="sub-menu">
+			  {% for subchild in child.children %}
+			  <li class="menu-item"><a href="{{ subchild.url }}">{{ subchild.title }}</a></li>
+			  {% endfor %}
+			</ul>
+			{% endif %}
+		  </li>
+		  {% endfor %}
+		</ul>
+		{% endif %}
+	  </li>
+	  {% endfor %}
+	</ul>
+	<!-- /MOBILE MENU -->
+  </div>
+  <!-- modal-menu-container -->
+  <div class="menu-contact">
+	<div class="mobile-btn">
+	  <a href="{{ site.data.nav.cta.url }}" class="view-more">{{ site.data.nav.cta.label }}</a>
+	</div>
+	<ul class="mobile-contact">
+	  <li class="mobile-address">
+		{{ site.data.nav.footer.address.lines[0] }}<br />
+		{{ site.data.nav.footer.address.lines[1] }}
+	  </li>
+	  <li class="mobile-phone">{{ site.data.nav.footer.address.lines[2] }}</li>
+	  <li class="mobile-email">{{ site.data.nav.footer.address.lines[3] }}</li>
+	</ul>
+	<ul class="social-media">
+	  {% for social in site.data.nav.social_links %}
+	  <li>
+		<a class="social-{{ social.platform }}" href="{{ social.url }}" target="_blank">
+		  <i class="{{ social.icon }}"></i>
+		</a>
+	  </li>
+	  {% endfor %}
+	</ul>
+  </div>
+  <!-- /menu-contact-->
+</div>
+<!-- /MOBILE MENU HOLDER -->
 <!-- HEADER -->
 <header id="header-1" class="headerHolder header-1 {% if include.header == 'dark' %}bg-dark{% endif %}">
   <div class="nav-button-holder">
-	<button type="button" class="nav-button"><span class="icon-bar"></span></button>
+	<button type="button" class="nav-button">
+	  <span class="icon-bar"></span>
+	</button>
   </div>
-
+  <!-- /nav-button-holder-->
   <!-- LOGO -->
   <div class="logo logo-1">
 	<a href="{{ site.data.nav.logo.url }}">
-	  <img class="img-fluid" src="{{ site.data.nav.logo.image }}" alt="{{ site.data.nav.logo.alt }}">
+	  <img class="img-fluid" src="{{ site.data.nav.logo.image }}" alt="{{ site.data.nav.logo.alt }}" />
 	</a>
   </div>
-
   <!-- MENU -->
   <nav class="nav-holder nav-holder-1">
 	<ul class="menu-nav menu-nav-1">
 	  {% for item in site.data.nav.menu %}
-		<li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
-		  <a href="{{ item.url }}">{{ item.title }}</a>
-		  {% if item.children %}
+	  <li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
+		<a href="{{ item.url }}">{{ item.title }}</a>
+		{% if item.children %}
+		<ul class="sub-menu">
+		  {% for child in item.children %}
+		  <li class="menu-item{% if child.children %} menu-item-has-children{% endif %}">
+			<a href="{{ child.url }}">{{ child.title }}</a>
+			{% if child.children %}
 			<ul class="sub-menu">
-			  {% for child in item.children %}
-				<li class="menu-item{% if child.children %} menu-item-has-children{% endif %}">
-				  <a href="{{ child.url }}">{{ child.title }}</a>
-				  {% if child.children %}
-					<ul class="sub-menu">
-					  {% for subchild in child.children %}
-						<li class="menu-item"><a href="{{ subchild.url }}">{{ subchild.title }}</a></li>
-					  {% endfor %}
-					</ul>
-				  {% endif %}
-				</li>
+			  {% for subchild in child.children %}
+			  <li class="menu-item"><a href="{{ subchild.url }}">{{ subchild.title }}</a></li>
 			  {% endfor %}
 			</ul>
-		  {% endif %}
-		</li>
+			{% endif %}
+		  </li>
+		  {% endfor %}
+		</ul>
+		{% endif %}
+	  </li>
 	  {% endfor %}
 	</ul>
   </nav>
-
-  <!-- SOCIAL + CTA -->
+  <!-- /MENU -->
   <div class="social-btn-top1">
 	<ul class="social-media social-media1">
 	  {% for social in site.data.nav.social_links %}
-		<li>
-		  <a class="social-{{ social.platform }}" href="{{ social.url }}" target="_blank">
-			<i class="{{ social.icon }}"></i>
-		  </a>
-		</li>
+	  <li>
+		<a class="social-{{ social.platform }}" href="{{ social.url }}" target="_blank">
+		  <i class="{{ social.icon }}"></i>
+		</a>
+	  </li>
 	  {% endfor %}
 	</ul>
 	<div class="btn-header btn-header1">
-	  <a href="{{ site.data.nav.cta.url }}" {% if site.data.nav.cta.url contains "http" %}target="_blank"{% endif %}class="view-more">{{ site.data.nav.cta.label }}</a>
+	  <a href="{{ site.data.nav.cta.url }}" {% if site.data.nav.cta.url contains "http" %}target="_blank"{% endif %} class="view-more">{{ site.data.nav.cta.label }}</a>
 	</div>
   </div>
+  <!-- /social-btn-top1 -->
 </header>
 <!-- /HEADER -->
