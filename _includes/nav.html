@@ -38,12 +38,11 @@
 	  <a href="{{ site.data.nav.cta.url }}" class="view-more">{{ site.data.nav.cta.label }}</a>
 	</div>
 	<ul class="mobile-contact">
-	  <li class="mobile-address">
-		{{ site.data.nav.footer.address.lines[0] }}<br />
-		{{ site.data.nav.footer.address.lines[1] }}
+	  <li class="mobile-address pb-3">
+		<a href="https://g.co/kgs/WZhpdKV" target="_blank" class="text-white">{{ site.data.nav.footer.address.lines[0] }}</a>
 	  </li>
-	  <li class="mobile-phone">{{ site.data.nav.footer.address.lines[2] }}</li>
-	  <li class="mobile-email">{{ site.data.nav.footer.address.lines[3] }}</li>
+	  <li class="mobile-address pb-3"><a href="tel:{{ site.data.nav.footer.address.lines[1] }}" class="phone pb-2 text-white">{{ site.data.nav.footer.address.lines[1] }}</a></li>
+	  <li class="mobile-address pb-3"><a href="mailto:{{ site.data.nav.footer.address.lines[2] }}" class=" text-white">{{ site.data.nav.footer.address.lines[2] }}</a></li>
 	</ul>
 	<ul class="social-media">
 	  {% for social in site.data.nav.social_links %}
