@@ -10,13 +10,24 @@ collections:
     title: Uploads
     output: true
 email: info@javasquare.cafe
-baseurl: 
+baseurl:
 logo: "/images/logo.png"
 favicon: assets/images/favicon.png
 locale: en_us
 ganalytics: UA-48421544-1
-social: "https://twitter.com/javasquare \nhttps://www.facebook.com/javasquare
-  \nhttps://www.instagram.com/javasquare"
+twitter:
+  username: "javasquare"
+social:
+  name: Java Square Cafe
+  links:
+    - https://twitter.com/javasquare
+    - https://www.facebook.com/javasquare
+    - https://www.instagram.com/javasquare
+    - https://tiktok.com/@javasquarecafe
+    - https://www.yelp.com/biz/java-square-cafe-opelousas
+    - https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html
+latitude: "30.532928"
+longitude: "-92.083115"
 plugins:
 - jekyll-paginate
 - jekyll-sitemap

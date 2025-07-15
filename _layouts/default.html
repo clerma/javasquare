@@ -4,11 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	{% capture seo %}
-	{% seo %}
-	<meta name="keywords" content="{{page.keywords}}">
-	{% endcapture %}
-	{{seo | remove: "Jekyll"}}
+
 	<!-- Styles -->
 	{% include head.html %}
 	<style>
