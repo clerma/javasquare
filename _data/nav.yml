@@ -1,72 +1,68 @@
 logo:
-  url: "/"
-  image: "/assets/images/java-logo2.png"
-  alt: "Java Square Cafe"
-
+  url: /
+  image: /assets/images/java-logo2.png
+  alt: Java Square Cafe
 cta:
-  label: "Delivery"
-  url: "https://www.doordash.com/store/java-square-opelousas-649112/2125163/"
-
+  label: Delivery
+  url: https://www.doordash.com/store/java-square-opelousas-649112/2125163/
 social_links:
   - platform: facebook
-    icon: "fab fa-facebook-f"
-    url: "https://facebook.com/javasquare"
+    icon: fab fa-facebook-f
+    url: https://facebook.com/javasquare
   - platform: tiktok
-    icon: "fab fa-tiktok"
-    url: "https://tiktok.com/@javasquarecafe"
+    icon: fab fa-tiktok
+    url: https://tiktok.com/@javasquarecafe
   - platform: tripadvisor
-    icon: "fab fa-tripadvisor"
-    url: "https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html"
+    icon: fab fa-tripadvisor
+    url: >-
+      https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html
   - platform: Yelp
-    icon: "fab fa-yelp"
-    url: "https://www.yelp.com/biz/java-square-cafe-opelousas"
+    icon: fab fa-yelp
+    url: https://www.yelp.com/biz/java-square-cafe-opelousas
   - platform: instagram
-    icon: "fab fa-instagram"
-    url: "https://instagram.com/javasquare"
-
+    icon: fab fa-instagram
+    url: https://instagram.com/javasquare
 menu:
   - title: Home
-    url: "/"
+    url: /
   - title: Menu
-    url: "/#menu"
-
+    url: /#menu
   - title: Blog
-    url: "/blog"
-
+    url: /blog
   - title: Reviews
-    url: "/#reviews"
-
+    url: /#reviews
   - title: Contact
-    url: "/#contact"
-
+    url: /#contact
+  - title: eGift Cards
+    url: https://app.squareup.com/gift/GTC4QNAH5B9DT/order
 footer:
-        logo:
-          image: "/assets/images/java-logo2.png"
-          alt: "Java Square Logo"
-          description: "Java Square is a full-service coffee shop proudly serving handcrafted espresso drinks, blended coffees, and fresh-made bites in the heart of Opelousas. Our trained baristas are passionate about delivering the perfect cup-because you deserve nothing less."
-
-        address:
-          title: "Address"
-          lines:
-            - "103 West Landry Street Opelousas, LA 70570"
-            - "337-678-0551"
-            - "info@javasquare.cafe"
-
-        hours:
-          title: "Hours"
-          lines:
-            - "Monday – Friday"
-            - "7AM – 6PM"
-            - "Saturday – Sunday"
-            - "8AM – 4PM"
-
-        more_info:
-          title: "More Info"
-          links:
-            - title: "Jobs"
-              url: "#"
-            - title: "Get in Touch"
-              url: "#contact"
-            - title: "Privacy Policy"
-              url: "#"
-
+  logo:
+    image: /assets/images/java-logo2.png
+    alt: Java Square Logo
+    description: >-
+      Java Square is a full-service coffee shop proudly serving handcrafted
+      espresso drinks, blended coffees, and fresh-made bites in the heart of
+      Opelousas. Our trained baristas are passionate about delivering the
+      perfect cup-because you deserve nothing less.
+  address:
+    title: Address
+    lines:
+      - 103 West Landry Street Opelousas, LA 70570
+      - 337-678-0551
+      - info@javasquare.cafe
+  hours:
+    title: Hours
+    lines:
+      - Monday – Friday
+      - 7AM – 6PM
+      - Saturday – Sunday
+      - 8AM – 4PM
+  more_info:
+    title: More Info
+    links:
+      - title: Jobs
+        url: '#'
+      - title: Get in Touch
+        url: '#contact'
+      - title: Privacy Policy
+        url: '#'
