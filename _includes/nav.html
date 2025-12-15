@@ -10,7 +10,7 @@
 	<ul class="menu-mobile">
 	  {% for item in site.data.nav.menu %}
 	  <li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
-		{% if item.url contains 'http' %}<a href="{{ item.url }}" target="_blank">{{ item.title }}</a>{% else %} <a href="{{ item.url }}">{{ item.title }}</a>{% endif %}
+		{% if item.url contains 'https://' %}<a href="{{ item.url }}" target="_blank">{{ item.title }}</a>{% else %} <a href="{{ item.url }}">{{ item.title }}</a>{% endif %}
 		{% if item.children %}
 		<ul class="sub-menu">
 		  {% for child in item.children %}
@@ -76,7 +76,7 @@
 	<ul class="menu-nav menu-nav-1">
 	  {% for item in site.data.nav.menu %}
 	  <li class="menu-item{% if item.children %} menu-item-has-children{% endif %}">
-		<a href="{{ item.url }}">{{ item.title }}</a>
+    	{% if item.url contains 'https://' %}<a href="{{ item.url }}" target="_blank">{{ item.title }}</a>{% else %} <a href="{{ item.url }}">{{ item.title }}</a>{% endif %}
 		{% if item.children %}
 		<ul class="sub-menu">
 		  {% for child in item.children %}
