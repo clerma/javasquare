@@ -33,6 +33,8 @@ menu:
     url: /#reviews
   - title: Contact
     url: /#contact
+  - title: Venue Rental
+    url: /venue-rental/
   - title: eGift Cards
     url: https://app.squareup.com/gift/GTC4QNAH5B9DT/order
 footer:
