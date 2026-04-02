@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	{% include head.html %}
+</head>
+<body class="home">
+	<div class="menu-mask"></div>
+	{% include nav.html header="dark" %}
+	<!-- PAGE HERO -->
+	<div class="slider-container-blog" style="height:70vh; margin-bottom:0;">
+	  <div class="owl-carousel owl-theme home-slider">
+		<div class="slider-post slider-item-box-bkg" style="height:70vh;">
+		  <div class="slider-img" style="background-image: url('{{ page.image }}');"></div>
+		  <div class="slider-caption">
+			<div class="slider-text">
+			  <div class="intro-txt">{{ page.subtitle }}</div>
+			  <h2>{{ page.title }}</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!-- /PAGE HERO -->
+	<!-- CONTENT -->
+	<div id="wrap-content" class="page-content custom-page-template">
+	  {{ content }}
+	</div>
+	<!-- /CONTENT -->
+	{% include footer.html %}
+	{% include scripts.html %}
+</body>
+</html>
