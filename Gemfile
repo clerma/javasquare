@@ -15,6 +15,11 @@ gem 'liquid', '~> 4.0', '>= 4.0.4'
 # libffi aarch64 asm uses CFI directives modern clang rejects). 1.17+
 # ships the fix.
 gem 'ffi', '~> 1.17'
+# logger 1.6+ (bundled with Ruby 3.3.11) breaks Jekyll 4.3.2's
+# log_adapter: `@level_override` is nil until `local_level=` is called,
+# so `level` raises NoMethodError. Pin logger back to 1.5.x until we
+# upgrade Jekyll to 4.4+.
+gem 'logger', '~> 1.5.3'
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
