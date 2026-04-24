@@ -1,8 +1,8 @@
 ---
-layout: venue
+layout: design
 title: Small Event Space & Short-Term Venue Rental in Opelousas, LA
-hero_title: Host Your Event at Java Square
-hero_subtitle: Venue Rental — Opelousas, LA
+hero_title: Host your event in our old bank
+hero_subtitle: Venue Rental · Opelousas, LA
 description: >-
   Looking for a small event space or short-term venue rental in Opelousas, LA?
   Java Square offers hourly room rental starting at $35, perfect for meetings,
@@ -17,324 +17,181 @@ keywords: >-
   venue Opelousas
 image: /uploads/img-6430.jpeg
 permalink: /venue-rental/
-intro_label: The Space
-intro_heading: A Venue With Character
+screen_label: Venue
+page_css:
+  - /assets/css/design/venue.css
 intro_body: >-
   Java Square isn't just a coffee shop — it's a place where the community
   gathers. That same warmth and energy is what makes it an exceptional backdrop
   for your event. Whether it's a birthday celebration, a corporate meeting, a
   baby shower, or a pop-up market, you get a space that already feels like
   somewhere, not just a blank room to fill.
-main_space_label: Main Event Space
-main_space_heading: ~1,000 Sqft. All Yours.
 main_space_body: >-
   When you book the main floor, you get exclusive use of the entire space — no
   shared dining room, no strangers at the next table. Just your event, your
   guests, and the full Java Square experience.
-main_space_rate: $175 / hour · 2-hour minimum
-conference_label: Upstairs
-conference_image: /uploads/img-4466.jpeg
-conference_heading: The Conference Room
 conference_body: >-
-  Need a private space for a smaller group? The upstairs conference room is a
-  tucked-away retreat — ideal for team meetings, planning sessions, interview
-  setups, or intimate gatherings of up to 25 people. It seats 17 comfortably
-  with 4 tables, 16 low chairs, and 4 high chairs. Available as a standalone
-  booking or as an add-on to the main event space.
-addons_label: Make It Yours
-addons_heading: Optional Add-Ons
-addons_body: Every event is different. Layer in exactly what you need.
-cta_heading: Ready to Make It Yours?
-cta_body: >-
-  Reach out to check availability, ask questions, or build a custom package for
-  your event. We'd love to host you.
+  A private space for a smaller group — the upstairs conference room is a
+  tucked-away retreat. Ideal for team meetings, planning sessions, interview
+  setups, or intimate gatherings of up to 25. Seats 17 comfortably with 4
+  tables, 16 low chairs, and 4 high chairs. Standalone booking or add-on.
 ---
-<!-- INTRO -->
-<div class="home-section container">
-  <div class="row align-items-center">
-    <div class="col-md-6">
-      <div class="smalltitle editable">
-      	{{ page.intro_label }}
+<header class="venue-hero">
+  <div class="venue-hero__grid">
+    <div>
+      <span class="eyebrow">{{ page.hero_subtitle }}</span>
+      <h1 class="display venue-hero__title">
+        Host your thing<br/>in our <em class="editorial">old bank.</em>
+      </h1>
+      <p class="editorial venue-hero__sub">{{ page.intro_body }}</p>
+      <div class="venue-hero__cta">
+        <a class="btn btn--primary" href="#inquire">Inquire about a date &rarr;</a>
+        <a class="btn btn--ghost" href="#spaces">See the spaces</a>
       </div>
-      <h4 class="editable">
-      	{{ page.intro_heading }}
-      </h4>
-      <p class="editable">
-      	{{ page.intro_body }}
-      </p>
-      <a href="#book" class="view-more" style="margin-top:32px;">Inquire About Booking</a>
     </div>
-    <div class="col-md-6">
-      <img src="{{ page.image }}" alt="Java Square event space" style="width:100%; height:400px; object-fit:cover;" />
+    <figure class="venue-hero__fig ph">
+      <img src="{{ page.image }}" alt="Java Square event space"/>
+    </figure>
+  </div>
+</header>
+
+<section id="spaces" class="venue-spaces">
+  <div class="wrap">
+    <span class="eyebrow">§ 01 — Two rooms, one building</span>
+    <div class="spaces-grid" style="grid-template-columns: repeat(2, 1fr);">
+      <article class="space">
+        <div class="space__img ph"><img src="/assets/images/coffee-reviews.jpeg" alt="Main floor"/></div>
+        <div class="space__meta">
+          <h3 class="display">The Main Floor</h3>
+          <p class="mono">~1,000 sqft · Exclusive use</p>
+          <p class="editorial">{{ page.main_space_body }}</p>
+          <dl class="space__specs">
+            <div><dt>Hourly rate</dt><dd>$175 / hr</dd></div>
+            <div><dt>Minimum</dt><dd>2 hours</dd></div>
+            <div><dt>Overtime</dt><dd>$175 / hr</dd></div>
+          </dl>
+        </div>
+      </article>
+      <article class="space">
+        <div class="space__img ph"><img src="{{ page.conference_image }}" alt="Upstairs conference room"/></div>
+        <div class="space__meta">
+          <h3 class="display">The Conference Room</h3>
+          <p class="mono">Upstairs · Up to 25 · Seats 17</p>
+          <p class="editorial">{{ page.conference_body }}</p>
+          <dl class="space__specs">
+            <div><dt>1 hour</dt><dd>$35</dd></div>
+            <div><dt>2 hours</dt><dd>$50</dd></div>
+            <div><dt>3 hours</dt><dd>$75</dd></div>
+            <div><dt>4 hours</dt><dd>$95</dd></div>
+            <div><dt>5 hours</dt><dd>$120</dd></div>
+          </dl>
+        </div>
+      </article>
     </div>
   </div>
-</div>
-<!-- /INTRO -->
+</section>
 
-<!-- MAIN SPACE -->
-<div class="parallax home-section" style="background-image: url('/assets/images/coffee-reviews.jpeg'); margin-bottom:0;">
-  <div class="container alignc" style="position:relative; z-index:2;">
-    <div class="smalltitle" style="color:#ffffff;">{{ page.main_space_label }}</div>
-    <h4 style="color:#ffffff;" class="editable">
-    	{{ page.main_space_heading }}
-    </h4>
-    <p class="width60 editable">
-    	{{ page.main_space_body }}
-    </p>
-    <p style="font-size:1.3rem; font-weight:700; margin-top:8px;" class="editable">
-    	{{ page.main_space_rate }}
-    </p>
-  </div>
-</div>
-<!-- /MAIN SPACE -->
-
-<!-- WHAT'S INCLUDED -->
-<div class="section-bkg home-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 alignc" style="margin-bottom:54px;">
-        <div class="smalltitle" style="color:#E1EDF0;">Included in Every Rental</div>
-        <h4 style="color:#ffffff;" class="editable">Everything you need to focus on your guests</h4>
-      </div>
+<section class="venue-includes">
+  <div class="includes-grid">
+    <div>
+      <span class="eyebrow">§ 02 — Included in every rental</span>
+      <h2 class="display includes-head">You show up.<br/><em class="editorial">We handle the rest.</em></h2>
     </div>
-    <div class="row">
+    <ul class="includes-list">
+      <li><span class="mono">01</span> 10 tables, 16 chairs, and 2 booth benches — arrange to taste</li>
+      <li><span class="mono">02</span> Background music (plug in your playlist via AUX)</li>
+      <li><span class="mono">03</span> Two pots of freshly brewed coffee, on us</li>
+      <li><span class="mono">04</span> Setup and breakdown time within your rental window</li>
+      <li><span class="mono">05</span> A Java Square team member on-site for access and support</li>
+      <li><span class="mono">06</span> Exclusive use of the ~1,000 sqft main floor — cafe closed to the public</li>
+    </ul>
+  </div>
+</section>
 
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-chair"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Seating for Every Setup</h4>
-            <p class="editable">10 tables, 16 chairs, and 2 booth benches seating 4–6 each — arrange it however works for your crowd.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-music"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Background Music</h4>
-            <p class="editable">Background music is included. Prefer your own playlist? Plug in via AUX and set the tone exactly how you want it.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-coffee"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Fresh Coffee, On Us</h4>
-            <p class="editable">Two pots of freshly brewed coffee are included with every rental. Every great gathering starts with a great cup.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-clock"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Setup &amp; Breakdown Time</h4>
-            <p class="editable">Your rental window covers everything — including time to decorate before guests arrive and clean up after.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-user"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Staff On-Site</h4>
-            <p class="editable">A Java Square team member will be on-site throughout your rental for access and support.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:48px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img" style="color:#E1EDF0;"><i class="fa fa-map-marker-alt"></i></div>
-          <div class="icon-box-content" style="color:rgba(255,255,255,0.85);">
-            <h4 style="color:#ffffff;" class="editable">Exclusive Use</h4>
-            <p class="editable">The entire ~1,000 sqft main floor is yours — the cafe is closed to the public during your event.</p>
-          </div>
-        </div>
-      </div>
-
+<section class="venue-catering wrap">
+  <div class="catering__head">
+    <span class="eyebrow">§ 03 — Optional add-ons</span>
+    <h2 class="display">Make it <em class="editorial">yours.</em></h2>
+    <p class="editorial">Every event is different. Layer in exactly what you need.</p>
+  </div>
+  <div class="catering__grid">
+    <div class="catering__card">
+      <h4 class="mono">Coffee Bar Tab</h4>
+      <ul>
+        <li>Pre-pay a set amount, or</li>
+        <li>Open a tab for your guests</li>
+        <li>Full Java Square coffee bar</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Projector &amp; Screen · $50</h4>
+      <ul>
+        <li>Presentations, film, slideshows</li>
+        <li>Flat rate, set up for you</li>
+        <li>HDMI + laptop friendly</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">PA System · $50</h4>
+      <ul>
+        <li>Mic + speakers</li>
+        <li>Speeches, panels, live sets</li>
+        <li>Reaches every guest</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Photo Booth · from $350</h4>
+      <ul>
+        <li>By <strong>Ohh Snap</strong></li>
+        <li>Prints for your guests</li>
+        <li>Content worth sharing</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Event Photography · $250/hr</h4>
+      <ul>
+        <li>By <strong>Carlos + Ashley</strong></li>
+        <li>Pro coverage, hourly</li>
+        <li>Stay present, capture everything</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Custom Decor Setup · from $75</h4>
+      <ul>
+        <li>Tell us your vision</li>
+        <li>We set up before guests arrive</li>
+        <li>Scales with scope</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Booking &amp; Terms</h4>
+      <ul>
+        <li>50% retainer holds your date</li>
+        <li>Balance due 7 days before</li>
+        <li>Retainer non-refundable within 72 hrs of event</li>
+      </ul>
+    </div>
+    <div class="catering__card">
+      <h4 class="mono">Your Responsibilities</h4>
+      <ul>
+        <li>Decorations, food, trash removed before window closes</li>
+        <li>Leave the space as you found it</li>
+        <li>Questions? Ask — we'll help</li>
+      </ul>
     </div>
   </div>
-</div>
-<!-- /WHAT'S INCLUDED -->
+</section>
 
-<!-- CONFERENCE ROOM -->
-<div class="home-section container">
-  <div class="row align-items-center">
-    <div class="col-md-6">
-      <img src="{{ page.conference_image }}" alt="Java Square conference room" style="width:100%; height:420px; object-fit:cover;" />
+<section id="inquire" class="inquire">
+  <div class="inquire__grid">
+    <div class="inquire__left">
+      <span class="eyebrow">§ 04 — Inquire</span>
+      <h2 class="display">Tell us about<br/>your <em class="editorial">event.</em></h2>
+      <p class="editorial">We reply quickly. For time-sensitive inquiries call <a href="tel:{{ site.data.nav.footer.address.lines[1] }}">{{ site.data.nav.footer.address.lines[1] }}</a>.</p>
     </div>
-    <div class="col-md-6" style="padding-left:48px;">
-      <div class="smalltitle editable">
-      	{{ page.conference_label }}
-      </div>
-      <h4 class="editable">
-      	{{ page.conference_heading }}
-      </h4>
-      <p class="editable">
-      	{{ page.conference_body }}
-      </p>
-      <table style="margin-top:32px; text-align:left;">
-        <thead>
-          <tr>
-            <th>Duration</th>
-            <th>Rate</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>1 hour</td><td>$35</td></tr>
-          <tr><td>2 hours</td><td>$50</td></tr>
-          <tr><td>3 hours</td><td>$75</td></tr>
-          <tr><td>4 hours</td><td>$95</td></tr>
-          <tr><td>5 hours</td><td>$120</td></tr>
-        </tbody>
-      </table>
+    <div class="inquire__form-embed">
+      <div data-paperform-id="hooqjfmd"></div>
+      <script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
     </div>
   </div>
-</div>
-<!-- /CONFERENCE ROOM -->
-
-<!-- ADD-ONS -->
-<div class="home-section" style="background:#f7f8fa; padding:108px 0;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 alignc" style="margin-bottom:54px;">
-        <div class="smalltitle editable">
-        	{{ page.addons_label }}
-        </div>
-        <h4 class="editable">
-        	{{ page.addons_heading }}
-        </h4>
-        <p class="editable">
-        	{{ page.addons_body }}
-        </p>
-      </div>
-    </div>
-    <div class="row">
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-coffee"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">Coffee Bar Tab</h4>
-            <p class="editable">Pre-pay a set amount or open a tab for your guests at the full Java Square coffee bar.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-tv"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">Projector &amp; Screen — $50</h4>
-            <p class="editable">Perfect for presentations, film screenings, or slideshows. Flat rate, fully set up for you.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-microphone"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">PA System — $50</h4>
-            <p class="editable">Mic and speakers so every word reaches every guest. Ideal for speeches, panels, and live sets.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-camera"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">Photo Booth — from $350</h4>
-            <p class="editable">Brought to you by <strong>Ohh Snap</strong>. Guests leave with prints, you leave with content worth sharing.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-image"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">Event Photography — $250/hr</h4>
-            <p class="editable">Professional coverage by <strong>Carlos + Ashley</strong>. Every moment documented so you can stay present.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4" style="margin-bottom:36px;">
-        <div class="icon-box-holder">
-          <div class="icon-box-img"><i class="fa fa-paint-brush"></i></div>
-          <div class="icon-box-content">
-            <h4 class="editable">Custom Decor Setup — from $75</h4>
-            <p class="editable">Tell us your vision and we'll bring it to life before your guests arrive.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- /ADD-ONS -->
-
-<!-- BOOKING TERMS -->
-<div class="home-section container">
-  <div class="row">
-    <div class="col-md-12 alignc" style="margin-bottom:54px;">
-      <div class="smalltitle">Good to Know</div>
-      <h4>Booking &amp; Policies</h4>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="price-box">
-        <div class="price-title">Reserving Your Date</div>
-        <ul class="price-features" style="text-align:left;">
-          <li>50% retainer required to hold your booking</li>
-          <li>Remaining balance due 7 days before the event</li>
-          <li>Overtime billed at $175/hour</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="price-box">
-        <div class="price-title">Cancellations</div>
-        <ul class="price-features" style="text-align:left;">
-          <li>Retainer is non-refundable for cancellations within 72 hours of your event</li>
-          <li>Book early for maximum flexibility</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="price-box">
-        <div class="price-title">Your Responsibilities</div>
-        <ul class="price-features" style="text-align:left;">
-          <li>All decorations, food, and trash removed before the rental window closes</li>
-          <li>Leave the space in the condition you received it</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /BOOKING TERMS -->
-
-<!-- CTA -->
-<div id="book" class="parallax home-section" style="background-image: url('/assets/images/IMG_20210225_0001.jpg'); margin-bottom:0;">
-  <div class="container alignc" style="position:relative; z-index:2;">
-    <div class="smalltitle" style="color:#ffffff;">Java Square</div>
-    <h4 style="color:#ffffff;" class="editable">
-    	{{ page.cta_heading }}
-    </h4>
-    <p class="width60 editable">
-    	{{ page.cta_body }}
-    </p>
-    <a href="/#contact" class="white-btn" style="margin-top:32px;">Get in Touch</a>
-  </div>
-</div>
-<!-- /CTA -->
+</section>

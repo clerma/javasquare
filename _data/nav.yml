@@ -26,17 +26,19 @@ menu:
   - title: Home
     url: /
   - title: Menu
-    url: /#menu
+    url: /menu/
+  - title: About
+    url: /about/
+  - title: Shop
+    url: /shop/
+  - title: Events
+    url: /events/
+  - title: Venue
+    url: /venue-rental/
   - title: Blog
     url: /blog
-  - title: Reviews
-    url: /#reviews
   - title: Contact
-    url: /#contact
-  - title: Venue Rental
-    url: /venue-rental/
-  - title: eGift Cards
-    url: https://app.squareup.com/gift/GTC4QNAH5B9DT/order
+    url: /contact/
 footer:
   logo:
     image: /assets/images/java-logo2.png

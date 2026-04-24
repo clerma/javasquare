@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-palette="navy" data-direction="editorial">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% include design-head.html %}
+</head>
+<body data-screen-label="{{ page.screen_label | default: page.title }}">
+  {% include design-nav.html %}
+  {{ content }}
+  {% include design-foot.html %}
+</body>
+</html>

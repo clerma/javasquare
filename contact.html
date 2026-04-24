@@ -1,0 +1,105 @@
+---
+layout: design
+title: Contact Java Square Cafe | Opelousas coffee shop
+description: >-
+  Find, call, email, or message Java Square Cafe. 103 West Landry St.,
+  Opelousas, LA. Hours, map, and FAQ.
+permalink: /contact/
+screen_label: Contact
+page_css:
+  - /assets/css/design/contact.css
+---
+{%- assign addr = site.data.nav.footer.address.lines -%}
+{%- assign social = site.data.nav.social_links -%}
+
+<header class="contact-hero wrap">
+  <span class="eyebrow">Contact · Say hello</span>
+  <h1 class="display contact-hero__title">Find us. <em class="editorial">Call us.</em> Come by.</h1>
+</header>
+
+<section class="contact-grid">
+  <div class="contact-info">
+    <div class="info-block">
+      <span class="mono">Address</span>
+      <p class="display info-block__big">103 West Landry St.</p>
+      <p>Opelousas, LA 70570</p>
+      <a href="https://g.co/kgs/WZhpdKV" class="info-link" target="_blank" rel="noopener">Open in Google Maps &rarr;</a>
+    </div>
+
+    <div class="info-block">
+      <span class="mono">Reach us</span>
+      <p class="display info-block__big"><a href="tel:{{ addr[1] }}">{{ addr[1] }}</a></p>
+      <p><a href="mailto:{{ addr[2] }}">{{ addr[2] }}</a></p>
+    </div>
+
+    <div class="info-block">
+      <span class="mono">Hours</span>
+      <div class="hours-col">
+        <div><span>Mon — Fri</span><span>7a — 6p</span></div>
+        <div><span>Sat — Sun</span><span>8a — 4p</span></div>
+      </div>
+    </div>
+
+    <div class="info-block">
+      <span class="mono">Follow</span>
+      <div class="social">
+        {%- for s in social -%}
+          <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.platform | capitalize }} &#8599;</a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-map">
+    <div class="map-frame">
+      <iframe
+        title="Map to Java Square Cafe"
+        src="https://www.google.com/maps?q=103+W+Landry+St,+Opelousas,+LA+70570&output=embed"
+        loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="map-caption mono">FIG. M · Downtown Opelousas</div>
+  </div>
+</section>
+
+<section class="contact-form-sec">
+  <div class="contact-form-grid">
+    <div class="contact-form-copy">
+      <span class="eyebrow">Drop a note</span>
+      <h2 class="display">Questions?<br/>Catering? <em class="editorial">Press?</em></h2>
+      <p class="editorial">For venue inquiries head to the <a href="/venue-rental/">Venue</a> page. For anything else — the form is the fastest way. We reply quickly.</p>
+    </div>
+    <div class="contact-form-embed">
+      <div data-paperform-id="hooqjfmd"></div>
+      <script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+    </div>
+  </div>
+</section>
+
+<section class="contact-faq wrap">
+  <div class="faq__head">
+    <span class="eyebrow">§ Questions we hear a lot</span>
+    <h2 class="display">FAQ.</h2>
+  </div>
+  <div class="faq__list">
+    <details>
+      <summary><span class="editorial">Can I really sit in the vault?</span><span class="q-mark">+</span></summary>
+      <p>Yes. Four seats inside the original bank vault. First come, first served on most days; reservable for small events — see our <a href="/venue-rental/">Venue</a> page.</p>
+    </details>
+    <details>
+      <summary><span class="editorial">Do you have Wi-Fi?</span><span class="q-mark">+</span></summary>
+      <p>Fast, free, no time limit on a single coffee. Plenty of outlets.</p>
+    </details>
+    <details>
+      <summary><span class="editorial">Do you take reservations?</span><span class="q-mark">+</span></summary>
+      <p>Not for regular seating. For private events and venue rental, yes — see the <a href="/venue-rental/">Venue</a> page.</p>
+    </details>
+    <details>
+      <summary><span class="editorial">Do you deliver?</span><span class="q-mark">+</span></summary>
+      <p>Yes — through <a href="{{ site.data.nav.cta.url }}" target="_blank" rel="noopener">DoorDash</a> across Opelousas and nearby.</p>
+    </details>
+    <details>
+      <summary><span class="editorial">Are you hiring?</span><span class="q-mark">+</span></summary>
+      <p>Drop a note via the form above with "Careers" as the topic and a little about yourself.</p>
+    </details>
+  </div>
+</section>

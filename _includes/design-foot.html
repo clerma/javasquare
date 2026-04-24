@@ -1,0 +1,38 @@
+{%- assign addr = site.data.nav.footer.address.lines -%}
+<footer class="site-foot">
+  <div class="site-foot__inner">
+    <div class="site-foot__col">
+      <div class="site-foot__brand">Java Square</div>
+      <p class="site-foot__tag">A neighborhood coffee shop brewing connection, quality, and community in every cup — in a 1920s bank building on the square.</p>
+      <div class="site-foot__socials">
+        {%- for social in site.data.nav.social_links -%}
+          <a href="{{ social.url }}" target="_blank" rel="noopener" aria-label="{{ social.platform }}"><i class="{{ social.icon }}"></i></a>
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class="site-foot__col">
+      <h5>Visit</h5>
+      <a href="https://g.co/kgs/WZhpdKV" target="_blank" rel="noopener">{{ addr[0] }}</a>
+      <a href="tel:{{ addr[1] }}">{{ addr[1] }}</a>
+      <a href="mailto:{{ addr[2] }}">{{ addr[2] }}</a>
+    </div>
+    <div class="site-foot__col">
+      <h5>Hours</h5>
+      {%- for line in site.data.nav.footer.hours.lines -%}
+        <a>{{ line }}</a>
+      {%- endfor -%}
+    </div>
+    <div class="site-foot__col">
+      <h5>More</h5>
+      <a href="/menu/">Menu</a>
+      <a href="/venue-rental/">Venue Rental</a>
+      <a href="/shop/">eGift Cards</a>
+      <a href="/blog">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+  <div class="site-foot__bottom">
+    <span>© {{ site.time | date: "%Y" }} Java Square Cafe · Opelousas, LA</span>
+    <span><a href="https://carloslerma.com" target="_blank" rel="noopener" style="opacity:0.75;">Site by CL</a></span>
+  </div>
+</footer>

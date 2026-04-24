@@ -1,38 +1,63 @@
 ---
-layout: default
-title: "Java Square Cafe"
-description: "A full service coffee shop serving espresso coffee drinks, such as lattes, cappuccinos, & much more. Our cafe also has sandwiches, soups, muffins, and more for breakfast and lunch."
-og_image: "/assets/img/logo.png"
-slider:
-  - intro: ""
-    image:
-    heading: "Coffee Blog"
-    text: "Brewed thoughts, local stories, and a little behind-the-scenes from life at Java Square."
-    button_label: ""
-    button_url: ""
+layout: design
+title: Journal — Java Square Cafe
+description: >-
+  Brewed thoughts, local stories, and a little behind-the-scenes from life at
+  Java Square.
+og_image: /assets/img/logo.png
 permalink: blog
+screen_label: Blog
+page_css:
+  - /assets/css/design/blog.css
 ---
- <div class="container blog-holder">
- <div class="row">
-    <div class="col-md-12 posts-holder">
-       <section id="wrap-content" class="blog-classic">
+<header class="blog-hero">
+  <span class="eyebrow">The Journal · Dispatches from the square</span>
+  <h1 class="display blog-hero__title">Notes, <em class="editorial">stories,</em><br/>and the occasional rant.</h1>
+</header>
 
-          {% for post in site.tags.blog %}
-          <article class="blog-item row">
-             <a href="blog-single-post.html" class="col-3">
-                <div class="post-image"> <img src="{{post.image}}" class="img-fluid" alt="Chocolate Muffins Gift"></div>
-             </a>
-             <div class="post-holder post-holder-all col-8">
-                <h2 class="article-title"><a href="{{post.url}}">{{post.title}}</a></h2>
-                <div class="article-excerpt">
-                   <p>{{post.content | truncatewords: 50}}</p>
-                </div>
-                <a class="view-more" href="{{post.url}}">Read More </a>
-             </div>
-          </article>
-          {% endfor %}
-       </section>
+{%- assign posts = site.tags.blog | default: site.posts -%}
+{%- assign featured = posts | first -%}
+{%- if featured -%}
+<section class="blog-feature">
+  <a class="feature" href="{{ featured.url }}">
+    <figure class="feature__img ph">
+      <img src="{{ featured.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ featured.title }}"/>
+    </figure>
+    <div class="feature__meta">
+      <span class="mono">Feature · {{ featured.date | date: "%b %-d, %Y" }}</span>
+      <h2 class="display feature__title">{{ featured.title }}</h2>
+      <p class="editorial">{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 32 }}</p>
+      <span class="feature__read">Read the post &rarr;</span>
     </div>
-    <!-- /col-md-9 -->
+  </a>
+</section>
+{%- endif -%}
 
- </div>
+<section class="blog-list">
+  <div class="blog-list__filters">
+    <button class="pill active" type="button">All</button>
+    <button class="pill" type="button">Coffee</button>
+    <button class="pill" type="button">Community</button>
+    <button class="pill" type="button">Behind the bar</button>
+  </div>
+
+  {%- assign rest = posts | slice: 1, 100 -%}
+  {%- if rest and rest.size > 0 -%}
+  <div class="posts">
+    {%- for post in rest -%}
+      <a class="post" href="{{ post.url }}">
+        <figure class="post__img ph">
+          <img src="{{ post.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ post.title }}"/>
+        </figure>
+        <div class="post__meta">
+          <span class="mono">{% if post.categories.first %}{{ post.categories.first | capitalize }}{% else %}Journal{% endif %} · {{ post.date | date: "%b %-d" }}</span>
+          <h3 class="display">{{ post.title }}</h3>
+          <p class="editorial">{{ post.description | default: post.excerpt | strip_html | truncatewords: 22 }}</p>
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+  {%- else -%}
+    <p class="blog-empty editorial">More stories coming soon. Check back for new posts.</p>
+  {%- endif -%}
+</section>
