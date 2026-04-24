@@ -11,6 +11,10 @@ source "https://rubygems.org"
 #
 gem "jekyll", "~> 4.3.1"
 gem 'liquid', '~> 4.0', '>= 4.0.4'
+# ffi 1.15.x fails to build on newer Xcode / macOS SDKs (the vendored
+# libffi aarch64 asm uses CFI directives modern clang rejects). 1.17+
+# ships the fix.
+gem 'ffi', '~> 1.17'
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
