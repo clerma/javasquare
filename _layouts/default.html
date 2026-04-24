@@ -18,6 +18,7 @@
 <body class="home">
 	<div class="menu-mask"></div>
 	{% include nav.html %}
+	 {% if page.slider %}
 	 <!-- HOME SLIDER -->
 	 <div class="slider-container{% if page.url contains 'blog' %}-blog{% endif %}">
 	   <div class="owl-carousel owl-theme home-slider">
@@ -41,6 +42,7 @@
 	   </div>
 	 </div>
 	 <!-- /HOME SLIDER -->
+	 {% endif %}
 	  <!-- WRAP CONTENT -->
 		<div id="wrap-content" class="page-content custom-page-template">
 			{{ content }}

@@ -14,157 +14,195 @@ keywords: >-
   brewed coffee, local bakery, coffeehouse Opelousas, coffee bar, coffee and
   donuts, locally owned cafe, family friendly cafe, Abacus, Local Coffee Shop
 image: /assets/images/pages-top/image-asset.jpeg
-slider:
-  - intro: ''
-    heading: Java Square Cafe
-    text: >-
-      A neighborhood coffee shop brewing connection, quality, and community in
-      every cup.
-    button_label: ''
-    button_url: ''
 url: /
+custom_fonts: >-
+  https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;500;600&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap
+custom_css:
+  - /assets/css/home-redesign.css
 ---
-<!-- SECTION 1 -->
-  <div id="home-content-1" class="home-section home-section-1">
-     <div class="container">
-        <div class="row align-items-center justify-content-center">
+<div class="home-redesign" data-palette="navy" data-direction="editorial">
 
-
-           <div class="col-md-8">
-              <div class="alignc">
-                 <div class="smalltitle margin-b16">Welcome to</div>
-                 <h2 class="home-title">Opelousas' Local Coffee Shop</h2>
-                 <p>Java Square is a full service coffee shop serving espresso coffee drinks, such as lattes and cappuccinos, blended iced coffees. Our staff of trained baristas strives to pull the perfect shot, steam the most velvety milk and pour the most perfect foam for your individual favorite cup of coffee. We offer muffins, cupcakes, sandwiches, fruit bowls and more. We believe you come to our shop to get the best, and you deserve the best!!</p>
-              </div>
-           </div>
-           <!-- /col-md-6 -->
-
-        </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
-  </div>
-  <!-- /SECTION 1 -->
-  <!-- SECTION 2 -->
-  <div id="home-content-2" class="home-section home-section-2 parallax">
-     <div class="container">
-        <div class="row">
-           <div class="col-md-12">
-              <div class="alignc">
-                 <div class="smalltitle white margin-b16">Come and See</div>
-                 <h2>We create delicious experiences</h2>
-              </div>
-           </div>
-        </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
-  </div>
-  <!-- /SECTION 2 -->
-<!-- Menu SECTION -->
-  <div id="menu" class="home-section home-section-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="alignc">
-            <div class="smalltitle margin-b16">Discover</div>
-            <h2 class="home-title">Our Menu</h2>
-            <div class="width60">
-              Crafted with care and served with purpose, our menu features locally roasted coffee, fresh-made bites, and seasonal favorites. Whether you're here for your morning latte or a midday sandwich, we’ve got something delicious waiting for you.
-            </div>
-          </div>
-
-          <!-- MENU TAB -->
-          <ul class="nav nav-tabs menuTab" id="menuTab" role="tablist">
-            {% for category in site.data.menu %}
-            <li class="nav-item">
-              <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{ category[0] | downcase | replace: ' ', '-' }}-tab" data-toggle="tab" href="#{{ category[0] | downcase | replace: ' ', '-' }}" role="tab" aria-controls="{{ category[0] | downcase | replace: ' ', '-' }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ category[0] }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-
-          <div class="tab-content" id="menuTabContent">
-            {% for category in site.data.menu %}
-            <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{ category[0] | downcase | replace: ' ', '-' }}" role="tabpanel" aria-labelledby="{{ category[0] | downcase | replace: ' ', '-' }}-tab">
-              <ul class="food-menu menu-2cols">
-                {% for item in category[1] %}
-                <li>
-                  <h4><span class="menu-title">{{ item.name }}</span><span class="menu-price">${{ item.price }}</span></h4>
-                  {% if item.description %}
-                  <div class="menu-text">{{ item.description }}</div>
-                  {% endif %}
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endfor %}
-          </div>
-          <!-- /MENU TAB -->
-        </div>
-        <!-- /col-md-12 -->
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__grid wrap">
+      <div class="hero__meta">
+        <span class="eyebrow">Est. 2019 · Opelousas, LA · 103 W Landry</span>
       </div>
-      <!-- /row -->
-    </div>
-    <!-- /container -->
-  </div>
-  <!-- /Menu SECTION -->
-
-
-
-  <!-- SECTION Testimonials -->
-  <div id="reviews" class="home-section home-section-6 parallax padding-tb108">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
-          <div class="alignc">
-            <div class="smalltitle white margin-b16">Testimonials</div>
-            <h2 class="home-title">What Clients Say</h2>
-          </div>
-          <div class="owl-carousel owl-theme testimonial-slider">
-            {% for testimonial in site.data.testimonials %}
-            <div class="testimonial-info">
-              <h4 class="testimonial-desc">"{{ testimonial.quote }}"</h4>
-              <div>{{ testimonial.name }}</div>
-              <span>{{ testimonial.company }}</span>
-            </div>
-            {% endfor %}
-          </div>
-          <!-- /testimonial-slider -->
-        </div>
-        <!-- /col-md-12 -->
+      <div class="hero__headline">
+        <h1 class="display hero__title">
+          Coffee poured<br/>
+          <em class="editorial">slowly,</em><br/>
+          in a room that<br/>
+          used to keep<br/>
+          secrets.
+        </h1>
       </div>
-      <!-- /row -->
-    </div>
-    <!-- /container -->
-  </div>
-  <!-- /SECTION Testimonials -->
-
-  <!-- SECTION 7 -->
-  <div id="contact" class="home-section home-section-7">
-     <div class="container">
-        <div class="row">
-           <div class="col-md-12">
-              <div class="alignc">
-                 <div class="smalltitle margin-b16">Contact</div>
-                 <h2 class="home-title">Drop us a line</h2>
-              </div>
-              <div class="row text-center">
-                 <div class="col-md-12">
-                    <p>We’d love to hear from you! Whether you have a question, a kind word, or just want to say hi, drop us a message and we’ll get back to you soon.</p>
-                 </div>
-
-                 <!-- /col-md-6 -->
-              </div>
-              <!-- /row -->
-              <div id="contact-holder-home">
-                <div data-paperform-id="hooqjfmd"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-              </div>
-              <div id="output-contact"></div>
-           </div>
-           <!-- /col-md-12 -->
+      <aside class="hero__aside">
+        <div class="hero__drink ph" aria-label="Photo: latte with rosetta">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=80" alt="Latte with rosetta"/>
         </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
+        <p class="hero__caption editorial">
+          A full-service coffee shop brewing espresso, pastries, and quiet hours — inside a 1920s bank building on the square.
+        </p>
+        <div class="hero__cta-row">
+          <a href="#menu" class="btn btn--primary">See the menu &rarr;</a>
+          <a href="/venue-rental/" class="btn btn--ghost">Rent the space</a>
+        </div>
+      </aside>
+      <div class="hero__foot">
+        <div class="hero__stat"><span class="mono">01</span><span>Open 7 days</span></div>
+        <div class="hero__stat"><span class="mono">02</span><span>Local roast</span></div>
+        <div class="hero__stat"><span class="mono">03</span><span>Vault seating</span></div>
+        <div class="hero__stat"><span class="mono">04</span><span>Since 2019</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Espresso</span><span>·</span>
+      <span class="editorial">Cortado</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span class="editorial">Café au Lait</span><span>·</span>
+      <span>Boudin Grilled Cheese</span><span>·</span>
+      <span class="editorial">King Cake</span><span>·</span>
+      <span>Hibiscus Mint</span><span>·</span>
+      <span class="editorial">Iced Gelato</span><span>·</span>
+      <span>Espresso</span><span>·</span>
+      <span class="editorial">Cortado</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span class="editorial">Café au Lait</span><span>·</span>
+      <span>Boudin Grilled Cheese</span><span>·</span>
+      <span class="editorial">King Cake</span><span>·</span>
+    </div>
   </div>
-  <!-- /SECTION 7 -->
+
+  <!-- STORY STRIP -->
+  <section class="story wrap">
+    <div class="story__col">
+      <span class="eyebrow">§ 01 — The Room</span>
+      <h2 class="display story__head">
+        An old bank,<br/>
+        <em class="editorial">re-deposited</em><br/>
+        as a living room.
+      </h2>
+    </div>
+    <div class="story__col story__body">
+      <p>The building at 103 West Landry held the town's savings for most of a century. We kept the marble, the tall ceilings, and the vault door — then added cream walls, navy cabinetry, and a bar where the teller line used to be. Sit in the vault with a cappuccino and consider it a small act of civic reclamation.</p>
+      <a href="#reviews" class="story__link">Read the reviews <span>&rarr;</span></a>
+    </div>
+    <figure class="story__figure ph">
+      <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&auto=format&fit=crop&q=80" alt="Cafe interior with warm lighting"/>
+      <figcaption class="mono">FIG. 01 · Interior, west bar</figcaption>
+    </figure>
+  </section>
+
+  <!-- MENU TEASE (data-driven, picks 4 featured items) -->
+  <section class="tease" id="menu">
+    <div class="wrap">
+      <div class="tease__head">
+        <span class="eyebrow">§ 02 — This morning</span>
+        <h2 class="display tease__title">What's <em class="editorial">pulling</em> today.</h2>
+        <a href="#menu-full" class="tease__all">Full menu &rarr;</a>
+      </div>
+      <div class="tease__grid">
+        {% assign featured_names = "Cafe au Lait,Fredda,Boudin Grilled Cheese Sandwich,Stuffed Croissant" | split: "," %}
+        {% assign feature_images = "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80" | split: "|" %}
+        {% assign feature_notes = "Drip coffee stretched with steamed milk. A Louisiana morning, in a cup.|Our blended iced coffee — creamy, sweet, studied.|Cajun boudin, melted cheese, pressed golden. Unapologetic.|Rotating fillings — pumpkin cheesecake, mardi gras, apple crisp." | split: "|" %}
+        {% assign feature_tags = "hot · signature|cold · house favorite|food · local|pastry" | split: "|" %}
+
+        {% for name in featured_names %}
+          {% assign min_price = 9999 %}
+          {% assign max_price = 0 %}
+          {% assign found = false %}
+          {% for category in site.data.menu %}
+            {% for item in category[1] %}
+              {% if item.name == name %}
+                {% assign found = true %}
+                {% assign p = item.price | times: 1.0 %}
+                {% if p < min_price %}{% assign min_price = p %}{% endif %}
+                {% if p > max_price %}{% assign max_price = p %}{% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% if found %}
+        <article class="card">
+          <div class="card__img ph"><img src="{{ feature_images[forloop.index0] }}" alt="{{ name }}"/></div>
+          <div class="card__meta">
+            <span class="mono">{{ feature_tags[forloop.index0] }}</span>
+            <h3 class="card__name">{{ name }}</h3>
+            <p class="card__note editorial">{{ feature_notes[forloop.index0] }}</p>
+            <span class="card__price">
+              {% if min_price == max_price %}
+                ${{ min_price }}
+              {% else %}
+                ${{ min_price }} — ${{ max_price }}
+              {% endif %}
+            </span>
+          </div>
+        </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS + VISIT -->
+  <section class="visit">
+    <div class="wrap visit__grid">
+      <div class="visit__left">
+        <span class="eyebrow">§ 03 — Visit</span>
+        <h2 class="display visit__head">Come sit a while.</h2>
+        <p class="visit__body editorial">Downtown Opelousas, under the oaks, across from the murals. Street parking, fast Wi-Fi, no time limit on a single coffee.</p>
+        <div class="visit__cta">
+          <a class="btn btn--primary" href="https://g.co/kgs/WZhpdKV" target="_blank" rel="noopener">Get directions &rarr;</a>
+          <a class="btn btn--ghost" href="/venue-rental/">Rent the space</a>
+        </div>
+      </div>
+      <div class="visit__hours">
+        <div class="hours-row"><span class="hours-row__day">Monday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Tuesday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Wednesday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Thursday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Friday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Saturday</span><span class="hours-row__rule"></span><span class="hours-row__time">8a — 4p</span></div>
+        <div class="hours-row"><span class="hours-row__day">Sunday</span><span class="hours-row__rule"></span><span class="hours-row__time">8a — 4p</span></div>
+        <p class="visit__addr mono">{{ site.data.nav.footer.address.lines[0] | upcase }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="voices" id="reviews">
+    <div class="wrap">
+      <span class="eyebrow">§ 04 — From the neighborhood</span>
+      <div class="voices__grid">
+        {% assign picks = site.data.testimonials | slice: 0, 3 %}
+        {% for testimonial in picks %}
+          {% assign alt_class = '' %}
+          {% if forloop.index == 2 %}{% assign alt_class = ' voice--alt' %}{% endif %}
+          <blockquote class="voice{{ alt_class }}">
+            <p class="voice__q editorial">&ldquo;{{ testimonial.quote }}&rdquo;</p>
+            <cite>— {{ testimonial.name }}{% if testimonial.company %} · {{ testimonial.company }}{% endif %}</cite>
+          </blockquote>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / SIGNUP -->
+  <section class="signup" id="contact">
+    <div class="wrap signup__grid">
+      <div>
+        <h2 class="display signup__head">Dispatches<br/>from the <em class="editorial">square.</em></h2>
+        <p class="signup__body">New menu items, seasonal events, and the occasional recipe. One email a month, never more.</p>
+      </div>
+      <form class="signup__form" onsubmit="event.preventDefault();this.querySelector('button').textContent='Thanks — see you soon.'">
+        <input type="email" placeholder="you@morning.com" required/>
+        <button class="btn btn--primary" type="submit">Subscribe &rarr;</button>
+      </form>
+    </div>
+  </section>
+
+</div>
