@@ -1,8 +1,6 @@
 ---
 layout: design
 title: Small Event Space & Short-Term Venue Rental in Opelousas, LA
-hero_title: Host your event in our old bank
-hero_subtitle: Venue Rental · Opelousas, LA
 description: >-
   Looking for a small event space or short-term venue rental in Opelousas, LA?
   Java Square offers hourly room rental starting at $35, perfect for meetings,
@@ -20,73 +18,166 @@ permalink: /venue-rental/
 screen_label: Venue
 page_css:
   - /assets/css/design/venue.css
-intro_body: >-
+
+# ──────────── HERO ────────────
+hero_eyebrow: Venue Rental · Opelousas, LA
+hero_title: 'Host your thing in our <em class="editorial">old bank.</em>'
+hero_sub: >-
   Java Square isn't just a coffee shop — it's a place where the community
   gathers. That same warmth and energy is what makes it an exceptional backdrop
   for your event. Whether it's a birthday celebration, a corporate meeting, a
   baby shower, or a pop-up market, you get a space that already feels like
   somewhere, not just a blank room to fill.
-main_space_body: >-
-  When you book the main floor, you get exclusive use of the entire space — no
-  shared dining room, no strangers at the next table. Just your event, your
-  guests, and the full Java Square experience.
-conference_body: >-
-  A private space for a smaller group — the upstairs conference room is a
-  tucked-away retreat. Ideal for team meetings, planning sessions, interview
-  setups, or intimate gatherings of up to 25. Seats 17 comfortably with 4
-  tables, 16 low chairs, and 4 high chairs. Standalone booking or add-on.
+hero_cta_primary_label: Inquire about a date
+hero_cta_primary_url: '#inquire'
+hero_cta_secondary_label: See the spaces
+hero_cta_secondary_url: '#spaces'
+hero_image: /uploads/img-6430.jpeg
+
+# ──────────── SPACES ────────────
+spaces_eyebrow: § 01 — Two rooms, one building
+spaces:
+  - title: The Main Floor
+    image: /assets/images/coffee-reviews.jpeg
+    meta: ~1,000 sqft · Exclusive use
+    body: >-
+      When you book the main floor, you get exclusive use of the entire space
+      — no shared dining room, no strangers at the next table. Just your
+      event, your guests, and the full Java Square experience.
+    specs:
+      - label: Hourly rate
+        value: $175 / hr
+      - label: Minimum
+        value: 2 hours
+      - label: Overtime
+        value: $175 / hr
+
+  - title: The Conference Room
+    image: /uploads/img-4466.jpeg
+    meta: Upstairs · Up to 25 · Seats 17
+    body: >-
+      A private space for a smaller group. The upstairs conference room is a
+      tucked-away retreat — ideal for team meetings, planning sessions,
+      interview setups, or intimate gatherings of up to 25. Seats 17
+      comfortably with 4 tables, 16 low chairs, and 4 high chairs. Standalone
+      booking or add-on.
+    specs:
+      - label: 1 hour
+        value: $35
+      - label: 2 hours
+        value: $50
+      - label: 3 hours
+        value: $75
+      - label: 4 hours
+        value: $95
+      - label: 5 hours
+        value: $120
+
+# ──────────── INCLUDES ────────────
+includes_eyebrow: § 02 — Included in every rental
+includes_title: 'You show up.<br/><em class="editorial">We handle the rest.</em>'
+includes:
+  - num: '01'
+    text: 10 tables, 16 chairs, and 2 booth benches — arrange to taste
+  - num: '02'
+    text: Background music (plug in your playlist via AUX)
+  - num: '03'
+    text: Two pots of freshly brewed coffee, on us
+  - num: '04'
+    text: Setup and breakdown time within your rental window
+  - num: '05'
+    text: A Java Square team member on-site for access and support
+  - num: '06'
+    text: Exclusive use of the main floor — cafe closed to the public
+
+# ──────────── ADD-ONS ────────────
+addons_eyebrow: § 03 — Optional add-ons
+addons_title: 'Make it <em class="editorial">yours.</em>'
+addons_body: Every event is different. Layer in exactly what you need.
+addons:
+  - heading: Coffee Bar Tab
+    items:
+      - Pre-pay a set amount, or
+      - Open a tab for your guests
+      - Full Java Square coffee bar
+  - heading: Projector & Screen · $50
+    items:
+      - Presentations, film, slideshows
+      - Flat rate, set up for you
+      - HDMI + laptop friendly
+  - heading: PA System · $50
+    items:
+      - Mic + speakers
+      - Speeches, panels, live sets
+      - Reaches every guest
+  - heading: Photo Booth · from $350
+    items:
+      - By <strong>Ohh Snap</strong>
+      - Prints for your guests
+      - Content worth sharing
+  - heading: Event Photography · $250/hr
+    items:
+      - By <strong>Carlos + Ashley</strong>
+      - Pro coverage, hourly
+      - Stay present, capture everything
+  - heading: Custom Decor Setup · from $75
+    items:
+      - Tell us your vision
+      - We set up before guests arrive
+      - Scales with scope
+  - heading: Booking & Terms
+    items:
+      - 50% retainer holds your date
+      - Balance due 7 days before
+      - Retainer non-refundable within 72 hrs
+  - heading: Your Responsibilities
+    items:
+      - Decorations, food, trash removed before window closes
+      - Leave the space as you found it
+      - Questions? Ask — we'll help
+
+# ──────────── INQUIRE ────────────
+inquire_eyebrow: § 04 — Inquire
+inquire_title: 'Tell us about your <em class="editorial">event.</em>'
+inquire_body: We reply quickly. For time-sensitive inquiries call us.
+paperform_id: hooqjfmd
 ---
 <header class="venue-hero">
   <div class="venue-hero__grid">
     <div>
-      <span class="eyebrow">{{ page.hero_subtitle }}</span>
-      <h1 class="display venue-hero__title">
-        Host your thing<br/>in our <em class="editorial">old bank.</em>
-      </h1>
-      <p class="editorial venue-hero__sub">{{ page.intro_body }}</p>
+      <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+      <h1 class="display venue-hero__title editable">{{ page.hero_title }}</h1>
+      <p class="editorial venue-hero__sub editable">{{ page.hero_sub }}</p>
       <div class="venue-hero__cta">
-        <a class="btn btn--primary" href="#inquire">Inquire about a date &rarr;</a>
-        <a class="btn btn--ghost" href="#spaces">See the spaces</a>
+        <a class="btn btn--primary" href="{{ page.hero_cta_primary_url }}">{{ page.hero_cta_primary_label }} &rarr;</a>
+        <a class="btn btn--ghost" href="{{ page.hero_cta_secondary_url }}">{{ page.hero_cta_secondary_label }}</a>
       </div>
     </div>
     <figure class="venue-hero__fig ph">
-      <img src="{{ page.image }}" alt="Java Square event space"/>
+      <img src="{{ page.hero_image }}" alt="Java Square event space"/>
     </figure>
   </div>
 </header>
 
 <section id="spaces" class="venue-spaces">
   <div class="wrap">
-    <span class="eyebrow">§ 01 — Two rooms, one building</span>
+    <span class="eyebrow editable">{{ page.spaces_eyebrow }}</span>
     <div class="spaces-grid" style="grid-template-columns: repeat(2, 1fr);">
+      {%- for sp in page.spaces -%}
       <article class="space">
-        <div class="space__img ph"><img src="/assets/images/coffee-reviews.jpeg" alt="Main floor"/></div>
+        <div class="space__img ph"><img src="{{ sp.image }}" alt="{{ sp.title }}"/></div>
         <div class="space__meta">
-          <h3 class="display">The Main Floor</h3>
-          <p class="mono">~1,000 sqft · Exclusive use</p>
-          <p class="editorial">{{ page.main_space_body }}</p>
+          <h3 class="display editable">{{ sp.title }}</h3>
+          <p class="mono editable">{{ sp.meta }}</p>
+          <p class="editorial editable">{{ sp.body }}</p>
           <dl class="space__specs">
-            <div><dt>Hourly rate</dt><dd>$175 / hr</dd></div>
-            <div><dt>Minimum</dt><dd>2 hours</dd></div>
-            <div><dt>Overtime</dt><dd>$175 / hr</dd></div>
+            {%- for s in sp.specs -%}
+            <div><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>
+            {%- endfor -%}
           </dl>
         </div>
       </article>
-      <article class="space">
-        <div class="space__img ph"><img src="{{ page.conference_image }}" alt="Upstairs conference room"/></div>
-        <div class="space__meta">
-          <h3 class="display">The Conference Room</h3>
-          <p class="mono">Upstairs · Up to 25 · Seats 17</p>
-          <p class="editorial">{{ page.conference_body }}</p>
-          <dl class="space__specs">
-            <div><dt>1 hour</dt><dd>$35</dd></div>
-            <div><dt>2 hours</dt><dd>$50</dd></div>
-            <div><dt>3 hours</dt><dd>$75</dd></div>
-            <div><dt>4 hours</dt><dd>$95</dd></div>
-            <div><dt>5 hours</dt><dd>$120</dd></div>
-          </dl>
-        </div>
-      </article>
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -94,103 +185,46 @@ conference_body: >-
 <section class="venue-includes">
   <div class="includes-grid">
     <div>
-      <span class="eyebrow">§ 02 — Included in every rental</span>
-      <h2 class="display includes-head">You show up.<br/><em class="editorial">We handle the rest.</em></h2>
+      <span class="eyebrow editable">{{ page.includes_eyebrow }}</span>
+      <h2 class="display includes-head editable">{{ page.includes_title }}</h2>
     </div>
     <ul class="includes-list">
-      <li><span class="mono">01</span> 10 tables, 16 chairs, and 2 booth benches — arrange to taste</li>
-      <li><span class="mono">02</span> Background music (plug in your playlist via AUX)</li>
-      <li><span class="mono">03</span> Two pots of freshly brewed coffee, on us</li>
-      <li><span class="mono">04</span> Setup and breakdown time within your rental window</li>
-      <li><span class="mono">05</span> A Java Square team member on-site for access and support</li>
-      <li><span class="mono">06</span> Exclusive use of the ~1,000 sqft main floor — cafe closed to the public</li>
+      {%- for inc in page.includes -%}
+      <li><span class="mono">{{ inc.num }}</span> <span class="editable">{{ inc.text }}</span></li>
+      {%- endfor -%}
     </ul>
   </div>
 </section>
 
 <section class="venue-catering wrap">
   <div class="catering__head">
-    <span class="eyebrow">§ 03 — Optional add-ons</span>
-    <h2 class="display">Make it <em class="editorial">yours.</em></h2>
-    <p class="editorial">Every event is different. Layer in exactly what you need.</p>
+    <span class="eyebrow editable">{{ page.addons_eyebrow }}</span>
+    <h2 class="display editable">{{ page.addons_title }}</h2>
+    <p class="editorial editable">{{ page.addons_body }}</p>
   </div>
   <div class="catering__grid">
+    {%- for a in page.addons -%}
     <div class="catering__card">
-      <h4 class="mono">Coffee Bar Tab</h4>
+      <h4 class="mono editable">{{ a.heading }}</h4>
       <ul>
-        <li>Pre-pay a set amount, or</li>
-        <li>Open a tab for your guests</li>
-        <li>Full Java Square coffee bar</li>
+        {%- for it in a.items -%}
+        <li>{{ it }}</li>
+        {%- endfor -%}
       </ul>
     </div>
-    <div class="catering__card">
-      <h4 class="mono">Projector &amp; Screen · $50</h4>
-      <ul>
-        <li>Presentations, film, slideshows</li>
-        <li>Flat rate, set up for you</li>
-        <li>HDMI + laptop friendly</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">PA System · $50</h4>
-      <ul>
-        <li>Mic + speakers</li>
-        <li>Speeches, panels, live sets</li>
-        <li>Reaches every guest</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">Photo Booth · from $350</h4>
-      <ul>
-        <li>By <strong>Ohh Snap</strong></li>
-        <li>Prints for your guests</li>
-        <li>Content worth sharing</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">Event Photography · $250/hr</h4>
-      <ul>
-        <li>By <strong>Carlos + Ashley</strong></li>
-        <li>Pro coverage, hourly</li>
-        <li>Stay present, capture everything</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">Custom Decor Setup · from $75</h4>
-      <ul>
-        <li>Tell us your vision</li>
-        <li>We set up before guests arrive</li>
-        <li>Scales with scope</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">Booking &amp; Terms</h4>
-      <ul>
-        <li>50% retainer holds your date</li>
-        <li>Balance due 7 days before</li>
-        <li>Retainer non-refundable within 72 hrs of event</li>
-      </ul>
-    </div>
-    <div class="catering__card">
-      <h4 class="mono">Your Responsibilities</h4>
-      <ul>
-        <li>Decorations, food, trash removed before window closes</li>
-        <li>Leave the space as you found it</li>
-        <li>Questions? Ask — we'll help</li>
-      </ul>
-    </div>
+    {%- endfor -%}
   </div>
 </section>
 
 <section id="inquire" class="inquire">
   <div class="inquire__grid">
     <div class="inquire__left">
-      <span class="eyebrow">§ 04 — Inquire</span>
-      <h2 class="display">Tell us about<br/>your <em class="editorial">event.</em></h2>
-      <p class="editorial">We reply quickly. For time-sensitive inquiries call <a href="tel:{{ site.data.nav.footer.address.lines[1] }}">{{ site.data.nav.footer.address.lines[1] }}</a>.</p>
+      <span class="eyebrow editable">{{ page.inquire_eyebrow }}</span>
+      <h2 class="display editable">{{ page.inquire_title }}</h2>
+      <p class="editorial editable">{{ page.inquire_body }} <a href="tel:{{ site.data.nav.footer.address.lines[1] }}">{{ site.data.nav.footer.address.lines[1] }}</a>.</p>
     </div>
     <div class="inquire__form-embed">
-      <div data-paperform-id="hooqjfmd"></div>
+      <div data-paperform-id="{{ page.paperform_id }}"></div>
       <script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
     </div>
   </div>

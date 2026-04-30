@@ -9,14 +9,34 @@ permalink: /menu/
 screen_label: Menu
 page_css:
   - /assets/css/design/menu.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: The full menu · Updated regularly
+hero_title: 'Everything we <em class="editorial">pull,</em> <em class="editorial">pour,</em> and press today.'
+hero_sub: >-
+  Locally roasted beans, scratch pastries, and sandwiches pressed to order.
+  Prices in USD.
+
+# ──────────── CATEGORY LABELS / BLURBS ────────────
+cat_hot_label: Hot Drinks
+cat_hot_blurb: Pulled shot by shot, poured with intention.
+cat_cold_label: Cold Drinks
+cat_cold_blurb: Louisiana summers pour hard. These pour harder.
+cat_food_label: Food
+cat_food_blurb: Sandwiches pressed, soups ladled, everything made the morning of.
+cat_pastry_label: Pastries & Sweets
+cat_pastry_blurb: From the case — rotating, usually seasonal.
+
+# ──────────── DELIVERY CTA ────────────
+cta_title: Prefer we bring it to you?
+cta_body: We deliver through DoorDash across Opelousas and nearby.
+cta_button_label: Order delivery
 ---
 <header class="menu-hero">
   <div class="wrap menu-hero__inner">
-    <span class="eyebrow">The full menu · Updated monthly</span>
-    <h1 class="display menu-hero__title">
-      Everything<br/>we <em class="editorial">pull,</em> <em class="editorial">pour,</em><br/>and press today.
-    </h1>
-    <p class="menu-hero__sub editorial">Locally roasted beans, scratch pastries, and sandwiches pressed to order. Prices in USD.</p>
+    <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+    <h1 class="display menu-hero__title editable">{{ page.hero_title }}</h1>
+    <p class="menu-hero__sub editorial editable">{{ page.hero_sub }}</p>
   </div>
 </header>
 
@@ -45,8 +65,9 @@ page_css:
   {%- assign pastry_names = "Apple Crisp Croissant,Bagel,Banana Nut Muffin,Berry Parfait,Blueberry Banana Mix,Blueberry Muffin,Blueberry fig bar,Brownie,Chocolate Muffin,Christmas Cookie,Cookie,Jalapeno Sausage Bread,King cake,Mardi Gras Stuffed Croissant,Mexican Spiced Brownie,Pumpkin cheesecake stuffed croissant,Raspberry fig bar,Scone,Stuffed Croissant" | split: "," -%}
 
   {%- assign cat_order  = "hot,cold,food,pastry" | split: "," -%}
-  {%- assign cat_labels = "Hot Drinks|Cold Drinks|Food|Pastries &amp; Sweets" | split: "|" -%}
-  {%- assign cat_blurbs = "Pulled shot by shot, poured with intention.|Louisiana summers pour hard. These pour harder.|Sandwiches pressed, soups ladled, everything made the morning of.|From the case — rotating weekly, usually seasonal." | split: "|" -%}
+  {%- comment -%} Pull labels/blurbs from page frontmatter so CloudCannon can edit. {%- endcomment -%}
+  {%- assign cat_labels = "" | split: "," | push: page.cat_hot_label | push: page.cat_cold_label | push: page.cat_food_label | push: page.cat_pastry_label -%}
+  {%- assign cat_blurbs = "" | split: "," | push: page.cat_hot_blurb | push: page.cat_cold_blurb | push: page.cat_food_blurb | push: page.cat_pastry_blurb -%}
 
   {%- for cat_key in cat_order -%}
     {%- if cat_key == "hot" -%}{%- assign raw = site.data.menu["Hot Drinks"] -%}
@@ -83,9 +104,9 @@ page_css:
     <header class="menu-cat__head">
       <div>
         <span class="mono menu-cat__num">{% case cat_key %}{% when 'hot' %}01{% when 'cold' %}02{% when 'food' %}03{% when 'pastry' %}04{% endcase %}</span>
-        <h2 class="display menu-cat__title">{{ cat_labels[forloop.index0] }}</h2>
+        <h2 class="display menu-cat__title editable">{{ cat_labels[forloop.index0] }}</h2>
       </div>
-      <p class="editorial menu-cat__blurb">{{ cat_blurbs[forloop.index0] }}</p>
+      <p class="editorial menu-cat__blurb editable">{{ cat_blurbs[forloop.index0] }}</p>
     </header>
     <div class="menu-cat__items">
       {%- for name in names -%}
@@ -133,9 +154,9 @@ page_css:
 
 <section class="menu-cta wrap">
   <div class="menu-cta__inner">
-    <h2 class="display">Prefer we bring it to you?</h2>
-    <p class="editorial">We deliver through DoorDash across Opelousas and nearby.</p>
-    <a class="btn btn--primary" href="{{ site.data.nav.cta.url }}" target="_blank" rel="noopener">Order delivery &rarr;</a>
+    <h2 class="display editable">{{ page.cta_title }}</h2>
+    <p class="editorial editable">{{ page.cta_body }}</p>
+    <a class="btn btn--primary" href="{{ site.data.nav.cta.url }}" target="_blank" rel="noopener">{{ page.cta_button_label }} &rarr;</a>
   </div>
 </section>
 

@@ -18,39 +18,140 @@ url: /
 screen_label: Home
 page_css:
   - /assets/css/design/home.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: Est. · Opelousas, LA · 103 W Landry
+hero_title: 'Coffee poured <em class="editorial">slowly,</em> in a room with a vault.'
+hero_image: https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=80
+hero_caption: >-
+  A full-service coffee shop brewing espresso, pastries, and quiet hours —
+  inside a 1920s bank building on the square.
+hero_cta_primary_label: See the menu
+hero_cta_primary_url: /menu/
+hero_cta_secondary_label: Our story
+hero_cta_secondary_url: /about/
+hero_stats:
+  - num: '01'
+    label: Open 7 days
+  - num: '02'
+    label: Local roast
+  - num: '03'
+    label: Vault seating
+  - num: '04'
+    label: Neighborhood favorite
+
+# ──────────── MARQUEE ────────────
+marquee_items:
+  - text: Espresso
+  - text: Cortado
+    italic: true
+  - text: Cold Brew
+  - text: Café au Lait
+    italic: true
+  - text: Boudin Grilled Cheese
+  - text: King Cake
+    italic: true
+  - text: Hibiscus Mint
+  - text: Iced Gelato
+    italic: true
+
+# ──────────── STORY ────────────
+story_eyebrow: § 01 — The Room
+story_title: 'An old bank, <em class="editorial">re-deposited</em> as a living room.'
+story_body: >-
+  The building at 103 West Landry held the town's savings for most of a
+  century. We kept the marble, the tall ceilings, and the vault door — then
+  added cream walls, navy cabinetry, and a bar where the teller line used to
+  be. Sit in the vault with a cappuccino and consider it a small act of civic
+  reclamation.
+story_link_label: Read the story
+story_link_url: /about/
+story_image: https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&auto=format&fit=crop&q=80
+story_image_caption: FIG. 01 · Interior, west bar
+
+# ──────────── MENU TEASE ────────────
+tease_eyebrow: § 02 — This morning
+tease_title: 'What''s <em class="editorial">pulling</em> today.'
+tease_link_label: Full menu
+tease_link_url: /menu/
+featured_items:
+  - menu_name: Cafe au Lait
+    tag: hot · signature
+    note: Drip coffee stretched with steamed milk. A Louisiana morning, in a cup.
+    image: https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&auto=format&fit=crop&q=80
+  - menu_name: Fredda
+    tag: cold · house favorite
+    note: Our blended iced coffee — creamy, sweet, studied.
+    image: https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80
+  - menu_name: Boudin Grilled Cheese Sandwich
+    tag: food · local
+    note: Cajun boudin, melted cheese, pressed golden. Unapologetic.
+    image: https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&auto=format&fit=crop&q=80
+  - menu_name: Stuffed Croissant
+    tag: pastry
+    note: Rotating fillings — pumpkin cheesecake, mardi gras, apple crisp.
+    image: https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80
+
+# ──────────── VISIT / HOURS ────────────
+visit_eyebrow: § 03 — Visit
+visit_title: Come sit a while.
+visit_body: >-
+  Downtown Opelousas, under the oaks, across from the murals. Street parking,
+  fast Wi-Fi, no time limit on a single coffee.
+visit_cta_primary_label: Get directions
+visit_cta_primary_url: https://g.co/kgs/WZhpdKV
+visit_cta_secondary_label: Rent the space
+visit_cta_secondary_url: /venue-rental/
+hours:
+  - day: Monday
+    time: 7a — 6p
+  - day: Tuesday
+    time: 7a — 6p
+  - day: Wednesday
+    time: 7a — 6p
+  - day: Thursday
+    time: 7a — 6p
+  - day: Friday
+    time: 7a — 6p
+  - day: Saturday
+    time: 8a — 4p
+  - day: Sunday
+    time: 8a — 4p
+
+# ──────────── TESTIMONIALS ────────────
+voices_eyebrow: § 04 — From the neighborhood
+
+# ──────────── NEWSLETTER ────────────
+signup_title: 'Dispatches from the <em class="editorial">square.</em>'
+signup_body: >-
+  New menu items, seasonal events, and the occasional recipe. One email a
+  month, never more.
+signup_placeholder: you@morning.com
+signup_button_label: Subscribe
 ---
 <!-- HERO -->
 <section class="hero">
   <div class="hero__grid wrap">
     <div class="hero__meta">
-      <span class="eyebrow">Est. · Opelousas, LA · 103 W Landry</span>
+      <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
     </div>
     <div class="hero__headline">
-      <h1 class="display hero__title">
-        Coffee poured<br/>
-        <em class="editorial">slowly,</em><br/>
-        in a room that<br/>
-        used to keep<br/>
-        secrets.
-      </h1>
+      <h1 class="display hero__title editable">{{ page.hero_title }}</h1>
     </div>
     <aside class="hero__aside">
-      <div class="hero__drink ph" aria-label="Photo: latte with rosetta">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=80" alt="Latte with rosetta"/>
+      <div class="hero__drink ph">
+        <img src="{{ page.hero_image }}" alt="Java Square"/>
       </div>
-      <p class="hero__caption editorial">
-        A full-service coffee shop brewing espresso, pastries, and quiet hours — inside a 1920s bank building on the square.
-      </p>
+      <p class="hero__caption editorial editable">{{ page.hero_caption }}</p>
       <div class="hero__cta-row">
-        <a href="/menu/" class="btn btn--primary">See the menu &rarr;</a>
-        <a href="/about/" class="btn btn--ghost">Our story</a>
+        <a href="{{ page.hero_cta_primary_url }}" class="btn btn--primary">{{ page.hero_cta_primary_label }} &rarr;</a>
+        <a href="{{ page.hero_cta_secondary_url }}" class="btn btn--ghost">{{ page.hero_cta_secondary_label }}</a>
       </div>
     </aside>
     <div class="hero__foot">
-      <div class="hero__stat"><span class="mono">01</span><span>Open 7 days</span></div>
-      <div class="hero__stat"><span class="mono">02</span><span>Local roast</span></div>
-      <div class="hero__stat"><span class="mono">03</span><span>Vault seating</span></div>
-      <div class="hero__stat"><span class="mono">04</span><span>Neighborhood favorite</span></div>
+      {%- for stat in page.hero_stats -%}
+        <div class="hero__stat"><span class="mono">{{ stat.num }}</span><span class="editable">{{ stat.label }}</span></div>
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -58,109 +159,88 @@ page_css:
 <!-- MARQUEE -->
 <div class="marquee">
   <div class="marquee__track">
-    <span>Espresso</span><span>·</span>
-    <span class="editorial">Cortado</span><span>·</span>
-    <span>Cold Brew</span><span>·</span>
-    <span class="editorial">Café au Lait</span><span>·</span>
-    <span>Boudin Grilled Cheese</span><span>·</span>
-    <span class="editorial">King Cake</span><span>·</span>
-    <span>Hibiscus Mint</span><span>·</span>
-    <span class="editorial">Iced Gelato</span><span>·</span>
-    <span>Espresso</span><span>·</span>
-    <span class="editorial">Cortado</span><span>·</span>
-    <span>Cold Brew</span><span>·</span>
-    <span class="editorial">Café au Lait</span><span>·</span>
-    <span>Boudin Grilled Cheese</span><span>·</span>
-    <span class="editorial">King Cake</span><span>·</span>
+    {%- for pass in (1..2) -%}
+      {%- for m in page.marquee_items -%}
+        <span{% if m.italic %} class="editorial"{% endif %}>{{ m.text }}</span><span>·</span>
+      {%- endfor -%}
+    {%- endfor -%}
   </div>
 </div>
 
-<!-- STORY STRIP -->
+<!-- STORY -->
 <section class="story wrap">
   <div class="story__col">
-    <span class="eyebrow">§ 01 — The Room</span>
-    <h2 class="display story__head">
-      An old bank,<br/>
-      <em class="editorial">re-deposited</em><br/>
-      as a living room.
-    </h2>
+    <span class="eyebrow editable">{{ page.story_eyebrow }}</span>
+    <h2 class="display story__head editable">{{ page.story_title }}</h2>
   </div>
   <div class="story__col story__body">
-    <p>The building at 103 West Landry held the town's savings for most of a century. We kept the marble, the tall ceilings, and the vault door — then added cream walls, navy cabinetry, and a bar where the teller line used to be. Sit in the vault with a cappuccino and consider it a small act of civic reclamation.</p>
-    <a href="/about/" class="story__link">Read the story <span>&rarr;</span></a>
+    <p class="editable">{{ page.story_body }}</p>
+    <a href="{{ page.story_link_url }}" class="story__link">{{ page.story_link_label }} <span>&rarr;</span></a>
   </div>
   <figure class="story__figure ph">
-    <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&auto=format&fit=crop&q=80" alt="Cafe interior"/>
-    <figcaption class="mono">FIG. 01 · Interior, west bar</figcaption>
+    <img src="{{ page.story_image }}" alt=""/>
+    <figcaption class="mono editable">{{ page.story_image_caption }}</figcaption>
   </figure>
 </section>
 
 <!-- MENU TEASE -->
-<section class="tease">
+<section class="tease" id="menu">
   <div class="wrap">
     <div class="tease__head">
-      <span class="eyebrow">§ 02 — This morning</span>
-      <h2 class="display tease__title">What's <em class="editorial">pulling</em> today.</h2>
-      <a href="/menu/" class="tease__all">Full menu &rarr;</a>
+      <span class="eyebrow editable">{{ page.tease_eyebrow }}</span>
+      <h2 class="display tease__title editable">{{ page.tease_title }}</h2>
+      <a href="{{ page.tease_link_url }}" class="tease__all">{{ page.tease_link_label }} &rarr;</a>
     </div>
     <div class="tease__grid">
-      {% assign featured_names   = "Cafe au Lait,Fredda,Boudin Grilled Cheese Sandwich,Stuffed Croissant" | split: "," %}
-      {% assign feature_images   = "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&auto=format&fit=crop&q=80|https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80" | split: "|" %}
-      {% assign feature_notes    = "Drip coffee stretched with steamed milk. A Louisiana morning, in a cup.|Our blended iced coffee — creamy, sweet, studied.|Cajun boudin, melted cheese, pressed golden. Unapologetic.|Rotating fillings — pumpkin cheesecake, mardi gras, apple crisp." | split: "|" %}
-      {% assign feature_tags     = "hot · signature|cold · house favorite|food · local|pastry" | split: "|" %}
-
-      {% for name in featured_names %}
-        {% assign min_price = 9999 %}
-        {% assign max_price = 0 %}
-        {% assign found = false %}
-        {% for category in site.data.menu %}
-          {% for item in category[1] %}
-            {% if item.name == name %}
-              {% assign found = true %}
-              {% assign p = item.price | times: 1.0 %}
-              {% if p < min_price %}{% assign min_price = p %}{% endif %}
-              {% if p > max_price %}{% assign max_price = p %}{% endif %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-        {% if found %}
+      {%- for f in page.featured_items -%}
+        {%- comment -%} Pull min/max prices from _data/menu.yml by name match. {%- endcomment -%}
+        {%- assign min_price = 9999 -%}
+        {%- assign max_price = 0 -%}
+        {%- assign found = false -%}
+        {%- for category in site.data.menu -%}
+          {%- for item in category[1] -%}
+            {%- if item.name == f.menu_name -%}
+              {%- assign found = true -%}
+              {%- assign p = item.price | times: 1.0 -%}
+              {%- if p < min_price %}{% assign min_price = p %}{% endif -%}
+              {%- if p > max_price %}{% assign max_price = p %}{% endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
       <article class="card">
-        <div class="card__img ph"><img src="{{ feature_images[forloop.index0] }}" alt="{{ name }}"/></div>
+        <div class="card__img ph"><img src="{{ f.image }}" alt="{{ f.menu_name }}"/></div>
         <div class="card__meta">
-          <span class="mono">{{ feature_tags[forloop.index0] }}</span>
-          <h3 class="card__name">{{ name }}</h3>
-          <p class="card__note editorial">{{ feature_notes[forloop.index0] }}</p>
+          <span class="mono editable">{{ f.tag }}</span>
+          <h3 class="card__name editable">{{ f.menu_name }}</h3>
+          <p class="card__note editorial editable">{{ f.note }}</p>
+          {% if found %}
           <span class="card__price">
             {% if min_price == max_price %}${{ min_price }}{% else %}${{ min_price }} — ${{ max_price }}{% endif %}
           </span>
+          {% endif %}
         </div>
       </article>
-        {% endif %}
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>
 
-<!-- HOURS + VISIT -->
+<!-- VISIT + HOURS -->
 <section class="visit">
   <div class="wrap visit__grid">
     <div class="visit__left">
-      <span class="eyebrow">§ 03 — Visit</span>
-      <h2 class="display visit__head">Come sit a while.</h2>
-      <p class="visit__body editorial">Downtown Opelousas, under the oaks, across from the murals. Street parking, fast Wi-Fi, no time limit on a single coffee.</p>
+      <span class="eyebrow editable">{{ page.visit_eyebrow }}</span>
+      <h2 class="display visit__head editable">{{ page.visit_title }}</h2>
+      <p class="visit__body editorial editable">{{ page.visit_body }}</p>
       <div class="visit__cta">
-        <a class="btn btn--primary" href="https://g.co/kgs/WZhpdKV" target="_blank" rel="noopener">Get directions &rarr;</a>
-        <a class="btn btn--ghost" href="/venue-rental/">Rent the space</a>
+        <a class="btn btn--primary" href="{{ page.visit_cta_primary_url }}" target="_blank" rel="noopener">{{ page.visit_cta_primary_label }} &rarr;</a>
+        <a class="btn btn--ghost" href="{{ page.visit_cta_secondary_url }}">{{ page.visit_cta_secondary_label }}</a>
       </div>
     </div>
     <div class="visit__hours">
-      <div class="hours-row"><span class="hours-row__day">Monday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Tuesday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Wednesday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Thursday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Friday</span><span class="hours-row__rule"></span><span class="hours-row__time">7a — 6p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Saturday</span><span class="hours-row__rule"></span><span class="hours-row__time">8a — 4p</span></div>
-      <div class="hours-row"><span class="hours-row__day">Sunday</span><span class="hours-row__rule"></span><span class="hours-row__time">8a — 4p</span></div>
+      {%- for h in page.hours -%}
+        <div class="hours-row"><span class="hours-row__day editable">{{ h.day }}</span><span class="hours-row__rule"></span><span class="hours-row__time editable">{{ h.time }}</span></div>
+      {%- endfor -%}
       <p class="visit__addr mono">{{ site.data.nav.footer.address.lines[0] | upcase }}</p>
     </div>
   </div>
@@ -169,17 +249,17 @@ page_css:
 <!-- TESTIMONIALS -->
 <section class="voices" id="reviews">
   <div class="wrap">
-    <span class="eyebrow">§ 04 — From the neighborhood</span>
+    <span class="eyebrow editable">{{ page.voices_eyebrow }}</span>
     <div class="voices__grid">
-      {% assign picks = site.data.testimonials | slice: 0, 3 %}
-      {% for testimonial in picks %}
-        {% assign alt_class = '' %}
-        {% if forloop.index == 2 %}{% assign alt_class = ' voice--alt' %}{% endif %}
+      {%- assign picks = site.data.testimonials | slice: 0, 3 -%}
+      {%- for testimonial in picks -%}
+        {%- assign alt_class = '' -%}
+        {%- if forloop.index == 2 %}{% assign alt_class = ' voice--alt' %}{%- endif -%}
         <blockquote class="voice{{ alt_class }}">
           <p class="voice__q editorial">&ldquo;{{ testimonial.quote }}&rdquo;</p>
           <cite>— {{ testimonial.name }}{% if testimonial.company %} · {{ testimonial.company }}{% endif %}</cite>
         </blockquote>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -188,12 +268,12 @@ page_css:
 <section class="signup" id="contact">
   <div class="wrap signup__grid">
     <div>
-      <h2 class="display signup__head">Dispatches<br/>from the <em class="editorial">square.</em></h2>
-      <p class="signup__body">New menu items, seasonal events, and the occasional recipe. One email a month, never more.</p>
+      <h2 class="display signup__head editable">{{ page.signup_title }}</h2>
+      <p class="signup__body editable">{{ page.signup_body }}</p>
     </div>
     <form class="signup__form" onsubmit="event.preventDefault();this.querySelector('button').textContent='Thanks — see you soon.'">
-      <input type="email" placeholder="you@morning.com" required/>
-      <button class="btn btn--primary" type="submit">Subscribe &rarr;</button>
+      <input type="email" placeholder="{{ page.signup_placeholder }}" required/>
+      <button class="btn btn--primary" type="submit">{{ page.signup_button_label }} &rarr;</button>
     </form>
   </div>
 </section>

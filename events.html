@@ -8,89 +8,69 @@ permalink: /events/
 screen_label: Events
 page_css:
   - /assets/css/design/events.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: Events & Community · Open calendar
+hero_title: 'Come for coffee.<br/><em class="editorial">Stay for the room.</em>'
+hero_sub: >-
+  Live music, open mics, markets, and the occasional latte art throwdown. Most
+  events are free. All are welcome.
+
+# ──────────── EVENTS LIST ────────────
+list_eyebrow: § Upcoming
+
+# ──────────── COMMUNITY ────────────
+community_eyebrow: § Community programs
+community_title: 'We keep a seat for <em class="editorial">the neighborhood.</em>'
 ---
 <header class="events-hero wrap">
-  <span class="eyebrow">Events &amp; Community · Open calendar</span>
-  <h1 class="display events-hero__title">Come for coffee.<br/><em class="editorial">Stay for the room.</em></h1>
-  <p class="editorial events-hero__sub">Live music, open mics, book clubs, pop-up markets, and the occasional latte art throwdown. Most events are free. All are welcome.</p>
+  <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+  <h1 class="display events-hero__title editable">{{ page.hero_title }}</h1>
+  <p class="editorial events-hero__sub editable">{{ page.hero_sub }}</p>
 </header>
 
 <section class="events-list">
   <div class="events-list__head">
-    <span class="eyebrow">§ Upcoming</span>
+    <span class="eyebrow editable">{{ page.list_eyebrow }}</span>
     <div class="events-list__toggle">
       <button class="pill active" type="button">List</button>
       <button class="pill" type="button">Month</button>
     </div>
   </div>
 
+  {%- for ev in site.data.events -%}
   <article class="event">
     <div class="event__date">
-      <span class="event__month">JUL</span>
-      <span class="event__day">11</span>
-      <span class="event__year">2025</span>
+      <span class="event__month">{{ ev.month }}</span>
+      <span class="event__day">{{ ev.day }}</span>
+      <span class="event__year">{{ ev.year }}</span>
     </div>
     <div class="event__body">
-      <span class="mono">Fri · 7a — 10a · Main Floor · Free</span>
-      <h3 class="display">Coffee With The Chief</h3>
-      <p class="editorial">A community conversation with the Opelousas Police Department. Bring your questions, your ideas, your coffee — and sit down face to face.</p>
+      <span class="mono">{{ ev.meta }}</span>
+      <h3 class="display">{{ ev.title }}</h3>
+      <p class="editorial">{{ ev.body }}</p>
     </div>
-    <div class="event__cta"><a class="btn btn--ghost" href="/news/coffee-with-the-chief-building-community-over-a-cup/">Read more &rarr;</a></div>
+    <div class="event__cta">
+      <a class="btn {% if ev.cta_style == 'primary' %}btn--primary{% else %}btn--ghost{% endif %}" href="{{ ev.cta_url }}">{{ ev.cta_label }} &rarr;</a>
+    </div>
   </article>
-
-  <article class="event">
-    <div class="event__date">
-      <span class="event__month">—</span>
-      <span class="event__day">·</span>
-      <span class="event__year">Rotating</span>
-    </div>
-    <div class="event__body">
-      <span class="mono">Sat · 8a — 12p · Around the cafe · Free entry</span>
-      <h3 class="display">St. Landry Farmers &amp; Makers Market</h3>
-      <p class="editorial">Local makers and farmers, weekend mornings. Booth inquiries welcome — see our vendor <a href="/#faq">FAQ</a>.</p>
-    </div>
-    <div class="event__cta"><a class="btn btn--ghost" href="/contact/">Inquire &rarr;</a></div>
-  </article>
-
-  <article class="event">
-    <div class="event__date">
-      <span class="event__month">—</span>
-      <span class="event__day">·</span>
-      <span class="event__year">Ongoing</span>
-    </div>
-    <div class="event__body">
-      <span class="mono">Varies · Private · Rent the space</span>
-      <h3 class="display">Your event, here</h3>
-      <p class="editorial">Birthdays, showers, pop-ups, rehearsal dinners, book launches, team offsites. The main floor and the upstairs conference room are both available for private rental.</p>
-    </div>
-    <div class="event__cta"><a class="btn btn--primary" href="/venue-rental/">Rent the space &rarr;</a></div>
-  </article>
+  {%- endfor -%}
 </section>
 
 <section class="community">
   <div class="wrap">
     <div class="community__grid">
       <div>
-        <span class="eyebrow">§ Community programs</span>
-        <h2 class="community__head">We keep a seat<br/>for <em class="editorial">the neighborhood.</em></h2>
+        <span class="eyebrow editable">{{ page.community_eyebrow }}</span>
+        <h2 class="community__head editable">{{ page.community_title }}</h2>
       </div>
       <div class="community__cards">
+        {%- for c in site.data["community-programs"] -%}
         <div class="comm-card">
-          <h4 class="display">Suspended Coffee</h4>
-          <p>Pay forward a cup when you order. We keep a tab and give them out quietly.</p>
+          <h4 class="display">{{ c.heading }}</h4>
+          <p>{{ c.body }}</p>
         </div>
-        <div class="comm-card">
-          <h4 class="display">Student Hours</h4>
-          <p>Half-price drip for local students — ask at the bar.</p>
-        </div>
-        <div class="comm-card">
-          <h4 class="display">Writers' Room</h4>
-          <p>The conference room is reserved for quiet work on select weekday mornings.</p>
-        </div>
-        <div class="comm-card">
-          <h4 class="display">Non-profit Rate</h4>
-          <p>Discounted space rental for Opelousas 501(c)(3)s. Just ask.</p>
-        </div>
+        {%- endfor -%}
       </div>
     </div>
   </div>

@@ -21,10 +21,11 @@ layout: none
 .hero__meta { grid-area: meta; padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
 .hero__headline { grid-area: headline; padding-top: 2rem; }
 .hero__title {
-  font-size: clamp(3.5rem, 9.5vw, 9rem);
-  line-height: 0.92;
-  letter-spacing: -0.035em;
+  font-size: clamp(2.6rem, 6.5vw, 5.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
   color: var(--fg);
+  max-width: 18ch;
 }
 .hero__title em {
   font-style: italic;

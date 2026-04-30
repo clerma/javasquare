@@ -9,10 +9,15 @@ permalink: blog
 screen_label: Blog
 page_css:
   - /assets/css/design/blog.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: The Journal · Dispatches from the square
+hero_title: 'Notes, <em class="editorial">stories,</em> and the occasional rant.'
+empty_message: More stories coming soon. Check back for new posts.
 ---
 <header class="blog-hero">
-  <span class="eyebrow">The Journal · Dispatches from the square</span>
-  <h1 class="display blog-hero__title">Notes, <em class="editorial">stories,</em><br/>and the occasional rant.</h1>
+  <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+  <h1 class="display blog-hero__title editable">{{ page.hero_title }}</h1>
 </header>
 
 {%- assign posts = site.tags.blog | default: site.posts -%}
@@ -58,6 +63,6 @@ page_css:
     {%- endfor -%}
   </div>
   {%- else -%}
-    <p class="blog-empty editorial">More stories coming soon. Check back for new posts.</p>
+    <p class="blog-empty editorial editable">{{ page.empty_message }}</p>
   {%- endif -%}
 </section>
