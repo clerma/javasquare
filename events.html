@@ -1,0 +1,77 @@
+---
+layout: design
+title: Events & Community — Java Square Cafe
+description: >-
+  Live music, open mics, markets, classes, and community programs at Java
+  Square Cafe in Opelousas, LA. Most events are free. All are welcome.
+permalink: /events/
+screen_label: Events
+page_css:
+  - /assets/css/design/events.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: Events & Community · Open calendar
+hero_title: 'Come for coffee.<br/><em class="editorial">Stay for the room.</em>'
+hero_sub: >-
+  Live music, open mics, markets, and the occasional latte art throwdown. Most
+  events are free. All are welcome.
+
+# ──────────── EVENTS LIST ────────────
+list_eyebrow: § Upcoming
+
+# ──────────── COMMUNITY ────────────
+community_eyebrow: § Community programs
+community_title: 'We keep a seat for <em class="editorial">the neighborhood.</em>'
+---
+<header class="events-hero wrap">
+  <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+  <h1 class="display events-hero__title editable">{{ page.hero_title }}</h1>
+  <p class="editorial events-hero__sub editable">{{ page.hero_sub }}</p>
+</header>
+
+<section class="events-list">
+  <div class="events-list__head">
+    <span class="eyebrow editable">{{ page.list_eyebrow }}</span>
+    <div class="events-list__toggle">
+      <button class="pill active" type="button">List</button>
+      <button class="pill" type="button">Month</button>
+    </div>
+  </div>
+
+  {%- for ev in site.data.events -%}
+  <article class="event">
+    <div class="event__date">
+      <span class="event__month">{{ ev.month }}</span>
+      <span class="event__day">{{ ev.day }}</span>
+      <span class="event__year">{{ ev.year }}</span>
+    </div>
+    <div class="event__body">
+      <span class="mono">{{ ev.meta }}</span>
+      <h3 class="display">{{ ev.title }}</h3>
+      <p class="editorial">{{ ev.body }}</p>
+    </div>
+    <div class="event__cta">
+      <a class="btn {% if ev.cta_style == 'primary' %}btn--primary{% else %}btn--ghost{% endif %}" href="{{ ev.cta_url }}">{{ ev.cta_label }} &rarr;</a>
+    </div>
+  </article>
+  {%- endfor -%}
+</section>
+
+<section class="community">
+  <div class="wrap">
+    <div class="community__grid">
+      <div>
+        <span class="eyebrow editable">{{ page.community_eyebrow }}</span>
+        <h2 class="community__head editable">{{ page.community_title }}</h2>
+      </div>
+      <div class="community__cards">
+        {%- for c in site.data["community-programs"] -%}
+        <div class="comm-card">
+          <h4 class="display">{{ c.heading }}</h4>
+          <p>{{ c.body }}</p>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>

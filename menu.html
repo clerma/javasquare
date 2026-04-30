@@ -1,0 +1,205 @@
+---
+layout: design
+title: Menu — Java Square Cafe
+description: >-
+  The full Java Square menu — hot drinks, cold drinks, food, and pastries.
+  Espresso, lattes, Fredda, boudin grilled cheese, stuffed croissants, and
+  more. Locally roasted, scratch-made, served in Opelousas.
+permalink: /menu/
+screen_label: Menu
+page_css:
+  - /assets/css/design/menu.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: The full menu · Updated regularly
+hero_title: 'Everything we <em class="editorial">pull,</em> <em class="editorial">pour,</em> and press today.'
+hero_sub: >-
+  Locally roasted beans, scratch pastries, and sandwiches pressed to order.
+  Prices in USD.
+
+# ──────────── CATEGORY LABELS / BLURBS ────────────
+cat_hot_label: Hot Drinks
+cat_hot_blurb: Pulled shot by shot, poured with intention.
+cat_cold_label: Cold Drinks
+cat_cold_blurb: Louisiana summers pour hard. These pour harder.
+cat_food_label: Food
+cat_food_blurb: Sandwiches pressed, soups ladled, everything made the morning of.
+cat_pastry_label: Pastries & Sweets
+cat_pastry_blurb: From the case — rotating, usually seasonal.
+
+# ──────────── DELIVERY CTA ────────────
+cta_title: Prefer we bring it to you?
+cta_body: We deliver through DoorDash across Opelousas and nearby.
+cta_button_label: Order delivery
+---
+<header class="menu-hero">
+  <div class="wrap menu-hero__inner">
+    <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+    <h1 class="display menu-hero__title editable">{{ page.hero_title }}</h1>
+    <p class="menu-hero__sub editorial editable">{{ page.hero_sub }}</p>
+  </div>
+</header>
+
+<section class="wrap menu-tools">
+  <div class="menu-tools__search">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="menu-search" type="text" placeholder="Search drinks, food, anything..."/>
+    <button id="menu-clear" aria-label="Clear" style="display:none;">×</button>
+  </div>
+  <div class="menu-tools__filters" id="menu-filters">
+    <button class="pill active" data-cat="all">All</button>
+    <button class="pill" data-cat="hot">Hot Drinks</button>
+    <button class="pill" data-cat="cold">Cold Drinks</button>
+    <button class="pill" data-cat="food">Food</button>
+    <button class="pill" data-cat="pastry">Pastry</button>
+  </div>
+</section>
+
+<main class="wrap menu-list" id="menu-list">
+  {%- comment -%}
+    Re-shape the three categories in _data/menu.yml (Hot Drinks, Cold
+    drinks, Food) into four UI categories. Split "Food" into "Food" vs.
+    "Pastry" via a hand-picked list of pastry names.
+  {%- endcomment -%}
+
+  {%- assign pastry_names = "Apple Crisp Croissant,Bagel,Banana Nut Muffin,Berry Parfait,Blueberry Banana Mix,Blueberry Muffin,Blueberry fig bar,Brownie,Chocolate Muffin,Christmas Cookie,Cookie,Jalapeno Sausage Bread,King cake,Mardi Gras Stuffed Croissant,Mexican Spiced Brownie,Pumpkin cheesecake stuffed croissant,Raspberry fig bar,Scone,Stuffed Croissant" | split: "," -%}
+
+  {%- assign cat_order  = "hot,cold,food,pastry" | split: "," -%}
+  {%- comment -%} Pull labels/blurbs from page frontmatter so CloudCannon can edit. {%- endcomment -%}
+  {%- assign cat_labels = "" | split: "," | push: page.cat_hot_label | push: page.cat_cold_label | push: page.cat_food_label | push: page.cat_pastry_label -%}
+  {%- assign cat_blurbs = "" | split: "," | push: page.cat_hot_blurb | push: page.cat_cold_blurb | push: page.cat_food_blurb | push: page.cat_pastry_blurb -%}
+
+  {%- for cat_key in cat_order -%}
+    {%- if cat_key == "hot" -%}{%- assign raw = site.data.menu["Hot Drinks"] -%}
+    {%- elsif cat_key == "cold" -%}{%- assign raw = site.data.menu["Cold drinks"] -%}
+    {%- elsif cat_key == "food" -%}{%- assign raw = site.data.menu["Food"] -%}
+    {%- elsif cat_key == "pastry" -%}{%- assign raw = site.data.menu["Food"] -%}
+    {%- endif -%}
+
+    {%- comment -%} Filter to the right half of Food vs Pastry. {%- endcomment -%}
+    {%- assign filtered = "" | split: "," -%}
+    {%- for item in raw -%}
+      {%- assign is_pastry = false -%}
+      {%- for p in pastry_names -%}
+        {%- if item.name == p -%}{%- assign is_pastry = true -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+      {%- if cat_key == "food" and is_pastry == false -%}
+        {%- assign filtered = filtered | push: item -%}
+      {%- elsif cat_key == "pastry" and is_pastry -%}
+        {%- assign filtered = filtered | push: item -%}
+      {%- elsif cat_key == "hot" or cat_key == "cold" -%}
+        {%- assign filtered = filtered | push: item -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- comment -%} Collect unique names in first-appearance order. {%- endcomment -%}
+    {%- assign names = "" | split: "," -%}
+    {%- for item in filtered -%}
+      {%- unless names contains item.name -%}
+        {%- assign names = names | push: item.name -%}
+      {%- endunless -%}
+    {%- endfor -%}
+
+  <section class="menu-cat" data-cat="{{ cat_key }}">
+    <header class="menu-cat__head">
+      <div>
+        <span class="mono menu-cat__num">{% case cat_key %}{% when 'hot' %}01{% when 'cold' %}02{% when 'food' %}03{% when 'pastry' %}04{% endcase %}</span>
+        <h2 class="display menu-cat__title editable">{{ cat_labels[forloop.index0] }}</h2>
+      </div>
+      <p class="editorial menu-cat__blurb editable">{{ cat_blurbs[forloop.index0] }}</p>
+    </header>
+    <div class="menu-cat__items">
+      {%- for name in names -%}
+        {%- assign prices = "" | split: "," -%}
+        {%- assign desc = "" -%}
+        {%- for item in filtered -%}
+          {%- if item.name == name -%}
+            {%- assign prices = prices | push: item.price -%}
+            {%- if item.description and desc == "" -%}{%- assign desc = item.description -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- assign price_count = prices | size -%}
+        {%- assign sizes = "" | split: "," -%}
+        {%- if price_count == 1 -%}
+          {%- assign sizes = "—" | split: "|" -%}
+        {%- elsif price_count == 2 -%}
+          {%- assign sizes = "sm|lg" | split: "|" -%}
+        {%- elsif price_count == 3 -%}
+          {%- assign sizes = "sm|md|lg" | split: "|" -%}
+        {%- else -%}
+          {%- comment -%}4+ entries — label sequentially with sizes; fall back to item count. {%- endcomment -%}
+          {%- assign sizes = "" | split: "," -%}
+          {%- for p in prices -%}{%- assign sizes = sizes | push: "—" -%}{%- endfor -%}
+        {%- endif -%}
+
+        <article class="m-item" data-name="{{ name | downcase }}">
+          <div class="m-item__main">
+            <h3 class="m-item__name">{{ name }}</h3>
+            <span class="m-item__dots" aria-hidden="true"></span>
+            <span class="m-item__price">
+              {%- for p in prices -%}
+                <span><em>{{ sizes[forloop.index0] }}</em>${{ p }}</span>
+              {%- endfor -%}
+            </span>
+          </div>
+          {% if desc != "" %}<p class="m-item__desc">{{ desc | strip_html | strip_newlines }}</p>{% endif %}
+        </article>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endfor -%}
+
+  <p class="menu-empty editorial" id="menu-empty">No matches — try another word.</p>
+</main>
+
+<section class="menu-cta wrap">
+  <div class="menu-cta__inner">
+    <h2 class="display editable">{{ page.cta_title }}</h2>
+    <p class="editorial editable">{{ page.cta_body }}</p>
+    <a class="btn btn--primary" href="{{ site.data.nav.cta.url }}" target="_blank" rel="noopener">{{ page.cta_button_label }} &rarr;</a>
+  </div>
+</section>
+
+<script>
+(function(){
+  var filters = document.getElementById('menu-filters');
+  var search = document.getElementById('menu-search');
+  var clearBtn = document.getElementById('menu-clear');
+  var list = document.getElementById('menu-list');
+  var emptyEl = document.getElementById('menu-empty');
+  var curCat = 'all';
+
+  function apply(){
+    var s = (search.value || '').trim().toLowerCase();
+    var totalShown = 0;
+    list.querySelectorAll('.menu-cat').forEach(function(sec){
+      var catMatches = (curCat === 'all' || sec.dataset.cat === curCat);
+      var shown = 0;
+      sec.querySelectorAll('.m-item').forEach(function(it){
+        var text = (it.dataset.name || '') + ' ' + (it.textContent || '').toLowerCase();
+        var match = catMatches && (!s || text.indexOf(s) !== -1);
+        it.classList.toggle('is-hidden', !match);
+        if (match) shown++;
+      });
+      sec.classList.toggle('is-hidden', shown === 0);
+      totalShown += shown;
+    });
+    emptyEl.classList.toggle('is-visible', totalShown === 0);
+  }
+
+  filters.addEventListener('click', function(e){
+    var b = e.target.closest('.pill'); if (!b) return;
+    filters.querySelectorAll('.pill').forEach(function(x){ x.classList.remove('active'); });
+    b.classList.add('active');
+    curCat = b.dataset.cat;
+    apply();
+  });
+  search.addEventListener('input', function(){
+    clearBtn.style.display = search.value ? 'block' : 'none';
+    apply();
+  });
+  clearBtn.addEventListener('click', function(){
+    search.value = ''; clearBtn.style.display = 'none'; apply();
+  });
+})();
+</script>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: design
 title: Local coffee shop serving espresso coffee drinks | Java Square Cafe
 description: >-
   Serving the best espresso coffee drinks, such as lattes, cappuccinos, & much
@@ -12,159 +12,268 @@ keywords: >-
   boudin croissant, latte art, cozy cafe, Louisiana cafe, small town coffee,
   craft coffee, local espresso, study cafe, cafe near me, Opelousas cafe, fresh
   brewed coffee, local bakery, coffeehouse Opelousas, coffee bar, coffee and
-  donuts, locally owned cafe, family friendly cafe, Abacus, Local Coffee Shop
+  donuts, locally owned cafe, family friendly cafe
 image: /assets/images/pages-top/image-asset.jpeg
-slider:
-  - intro: ''
-    heading: Java Square Cafe
-    text: >-
-      A neighborhood coffee shop brewing connection, quality, and community in
-      every cup.
-    button_label: ''
-    button_url: ''
 url: /
+screen_label: Home
+page_css:
+  - /assets/css/design/home.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: Est. · Opelousas, LA · 103 W Landry
+hero_title: 'Coffee poured <em class="editorial">slowly,</em> in a room with a vault.'
+hero_image: https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=80
+hero_caption: >-
+  A full-service coffee shop brewing espresso, pastries, and quiet hours —
+  inside a 1920s bank building on the square.
+hero_cta_primary_label: See the menu
+hero_cta_primary_url: /menu/
+hero_cta_secondary_label: Our story
+hero_cta_secondary_url: /about/
+hero_stats:
+  - num: '01'
+    label: Open 7 days
+  - num: '02'
+    label: Local roast
+  - num: '03'
+    label: Vault seating
+  - num: '04'
+    label: Neighborhood favorite
+
+# ──────────── MARQUEE ────────────
+marquee_items:
+  - text: Espresso
+  - text: Cortado
+    italic: true
+  - text: Cold Brew
+  - text: Café au Lait
+    italic: true
+  - text: Boudin Grilled Cheese
+  - text: King Cake
+    italic: true
+  - text: Hibiscus Mint
+  - text: Iced Gelato
+    italic: true
+
+# ──────────── STORY ────────────
+story_eyebrow: § 01 — The Room
+story_title: 'An old bank, <em class="editorial">re-deposited</em> as a living room.'
+story_body: >-
+  The building at 103 West Landry held the town's savings for most of a
+  century. We kept the marble, the tall ceilings, and the vault door — then
+  added cream walls, navy cabinetry, and a bar where the teller line used to
+  be. Sit in the vault with a cappuccino and consider it a small act of civic
+  reclamation.
+story_link_label: Read the story
+story_link_url: /about/
+story_image: https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&auto=format&fit=crop&q=80
+story_image_caption: FIG. 01 · Interior, west bar
+
+# ──────────── MENU TEASE ────────────
+tease_eyebrow: § 02 — This morning
+tease_title: 'What''s <em class="editorial">pulling</em> today.'
+tease_link_label: Full menu
+tease_link_url: /menu/
+featured_items:
+  - menu_name: Cafe au Lait
+    tag: hot · signature
+    note: Drip coffee stretched with steamed milk. A Louisiana morning, in a cup.
+    image: https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&auto=format&fit=crop&q=80
+  - menu_name: Fredda
+    tag: cold · house favorite
+    note: Our blended iced coffee — creamy, sweet, studied.
+    image: https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80
+  - menu_name: Boudin Grilled Cheese Sandwich
+    tag: food · local
+    note: Cajun boudin, melted cheese, pressed golden. Unapologetic.
+    image: https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&auto=format&fit=crop&q=80
+  - menu_name: Stuffed Croissant
+    tag: pastry
+    note: Rotating fillings — pumpkin cheesecake, mardi gras, apple crisp.
+    image: https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80
+
+# ──────────── VISIT / HOURS ────────────
+visit_eyebrow: § 03 — Visit
+visit_title: Come sit a while.
+visit_body: >-
+  Downtown Opelousas, under the oaks, across from the murals. Street parking,
+  fast Wi-Fi, no time limit on a single coffee.
+visit_cta_primary_label: Get directions
+visit_cta_primary_url: https://g.co/kgs/WZhpdKV
+visit_cta_secondary_label: Rent the space
+visit_cta_secondary_url: /venue-rental/
+hours:
+  - day: Monday
+    time: 7a — 6p
+  - day: Tuesday
+    time: 7a — 6p
+  - day: Wednesday
+    time: 7a — 6p
+  - day: Thursday
+    time: 7a — 6p
+  - day: Friday
+    time: 7a — 6p
+  - day: Saturday
+    time: 8a — 4p
+  - day: Sunday
+    time: 8a — 4p
+
+# ──────────── TESTIMONIALS ────────────
+voices_eyebrow: § 04 — From the neighborhood
+
+# ──────────── NEWSLETTER ────────────
+signup_title: 'Dispatches from the <em class="editorial">square.</em>'
+signup_body: >-
+  New menu items, seasonal events, and the occasional recipe. One email a
+  month, never more.
+signup_placeholder: you@morning.com
+signup_button_label: Subscribe
 ---
-<!-- SECTION 1 -->
-  <div id="home-content-1" class="home-section home-section-1">
-     <div class="container">
-        <div class="row align-items-center justify-content-center">
-
-
-           <div class="col-md-8">
-              <div class="alignc">
-                 <div class="smalltitle margin-b16">Welcome to</div>
-                 <h2 class="home-title">Opelousas' Local Coffee Shop</h2>
-                 <p>Java Square is a full service coffee shop serving espresso coffee drinks, such as lattes and cappuccinos, blended iced coffees. Our staff of trained baristas strives to pull the perfect shot, steam the most velvety milk and pour the most perfect foam for your individual favorite cup of coffee. We offer muffins, cupcakes, sandwiches, fruit bowls and more. We believe you come to our shop to get the best, and you deserve the best!!</p>
-              </div>
-           </div>
-           <!-- /col-md-6 -->
-
-        </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
-  </div>
-  <!-- /SECTION 1 -->
-  <!-- SECTION 2 -->
-  <div id="home-content-2" class="home-section home-section-2 parallax">
-     <div class="container">
-        <div class="row">
-           <div class="col-md-12">
-              <div class="alignc">
-                 <div class="smalltitle white margin-b16">Come and See</div>
-                 <h2>We create delicious experiences</h2>
-              </div>
-           </div>
-        </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
-  </div>
-  <!-- /SECTION 2 -->
-<!-- Menu SECTION -->
-  <div id="menu" class="home-section home-section-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="alignc">
-            <div class="smalltitle margin-b16">Discover</div>
-            <h2 class="home-title">Our Menu</h2>
-            <div class="width60">
-              Crafted with care and served with purpose, our menu features locally roasted coffee, fresh-made bites, and seasonal favorites. Whether you're here for your morning latte or a midday sandwich, we’ve got something delicious waiting for you.
-            </div>
-          </div>
-
-          <!-- MENU TAB -->
-          <ul class="nav nav-tabs menuTab" id="menuTab" role="tablist">
-            {% for category in site.data.menu %}
-            <li class="nav-item">
-              <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{ category[0] | downcase | replace: ' ', '-' }}-tab" data-toggle="tab" href="#{{ category[0] | downcase | replace: ' ', '-' }}" role="tab" aria-controls="{{ category[0] | downcase | replace: ' ', '-' }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ category[0] }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-
-          <div class="tab-content" id="menuTabContent">
-            {% for category in site.data.menu %}
-            <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{ category[0] | downcase | replace: ' ', '-' }}" role="tabpanel" aria-labelledby="{{ category[0] | downcase | replace: ' ', '-' }}-tab">
-              <ul class="food-menu menu-2cols">
-                {% for item in category[1] %}
-                <li>
-                  <h4><span class="menu-title">{{ item.name }}</span><span class="menu-price">${{ item.price }}</span></h4>
-                  {% if item.description %}
-                  <div class="menu-text">{{ item.description }}</div>
-                  {% endif %}
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endfor %}
-          </div>
-          <!-- /MENU TAB -->
-        </div>
-        <!-- /col-md-12 -->
-      </div>
-      <!-- /row -->
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__grid wrap">
+    <div class="hero__meta">
+      <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
     </div>
-    <!-- /container -->
-  </div>
-  <!-- /Menu SECTION -->
-
-
-
-  <!-- SECTION Testimonials -->
-  <div id="reviews" class="home-section home-section-6 parallax padding-tb108">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
-          <div class="alignc">
-            <div class="smalltitle white margin-b16">Testimonials</div>
-            <h2 class="home-title">What Clients Say</h2>
-          </div>
-          <div class="owl-carousel owl-theme testimonial-slider">
-            {% for testimonial in site.data.testimonials %}
-            <div class="testimonial-info">
-              <h4 class="testimonial-desc">"{{ testimonial.quote }}"</h4>
-              <div>{{ testimonial.name }}</div>
-              <span>{{ testimonial.company }}</span>
-            </div>
-            {% endfor %}
-          </div>
-          <!-- /testimonial-slider -->
-        </div>
-        <!-- /col-md-12 -->
-      </div>
-      <!-- /row -->
+    <div class="hero__headline">
+      <h1 class="display hero__title editable">{{ page.hero_title }}</h1>
     </div>
-    <!-- /container -->
+    <aside class="hero__aside">
+      <div class="hero__drink ph">
+        <img src="{{ page.hero_image }}" alt="Java Square"/>
+      </div>
+      <p class="hero__caption editorial editable">{{ page.hero_caption }}</p>
+      <div class="hero__cta-row">
+        <a href="{{ page.hero_cta_primary_url }}" class="btn btn--primary">{{ page.hero_cta_primary_label }} &rarr;</a>
+        <a href="{{ page.hero_cta_secondary_url }}" class="btn btn--ghost">{{ page.hero_cta_secondary_label }}</a>
+      </div>
+    </aside>
+    <div class="hero__foot">
+      {%- for stat in page.hero_stats -%}
+        <div class="hero__stat"><span class="mono">{{ stat.num }}</span><span class="editable">{{ stat.label }}</span></div>
+      {%- endfor -%}
+    </div>
   </div>
-  <!-- /SECTION Testimonials -->
+</section>
 
-  <!-- SECTION 7 -->
-  <div id="contact" class="home-section home-section-7">
-     <div class="container">
-        <div class="row">
-           <div class="col-md-12">
-              <div class="alignc">
-                 <div class="smalltitle margin-b16">Contact</div>
-                 <h2 class="home-title">Drop us a line</h2>
-              </div>
-              <div class="row text-center">
-                 <div class="col-md-12">
-                    <p>We’d love to hear from you! Whether you have a question, a kind word, or just want to say hi, drop us a message and we’ll get back to you soon.</p>
-                 </div>
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee__track">
+    {%- for pass in (1..2) -%}
+      {%- for m in page.marquee_items -%}
+        <span{% if m.italic %} class="editorial"{% endif %}>{{ m.text }}</span><span>·</span>
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+</div>
 
-                 <!-- /col-md-6 -->
-              </div>
-              <!-- /row -->
-              <div id="contact-holder-home">
-                <div data-paperform-id="hooqjfmd"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-              </div>
-              <div id="output-contact"></div>
-           </div>
-           <!-- /col-md-12 -->
+<!-- STORY -->
+<section class="story wrap">
+  <div class="story__col">
+    <span class="eyebrow editable">{{ page.story_eyebrow }}</span>
+    <h2 class="display story__head editable">{{ page.story_title }}</h2>
+  </div>
+  <div class="story__col story__body">
+    <p class="editable">{{ page.story_body }}</p>
+    <a href="{{ page.story_link_url }}" class="story__link">{{ page.story_link_label }} <span>&rarr;</span></a>
+  </div>
+  <figure class="story__figure ph">
+    <img src="{{ page.story_image }}" alt=""/>
+    <figcaption class="mono editable">{{ page.story_image_caption }}</figcaption>
+  </figure>
+</section>
+
+<!-- MENU TEASE -->
+<section class="tease" id="menu">
+  <div class="wrap">
+    <div class="tease__head">
+      <span class="eyebrow editable">{{ page.tease_eyebrow }}</span>
+      <h2 class="display tease__title editable">{{ page.tease_title }}</h2>
+      <a href="{{ page.tease_link_url }}" class="tease__all">{{ page.tease_link_label }} &rarr;</a>
+    </div>
+    <div class="tease__grid">
+      {%- for f in page.featured_items -%}
+        {%- comment -%} Pull min/max prices from _data/menu.yml by name match. {%- endcomment -%}
+        {%- assign min_price = 9999 -%}
+        {%- assign max_price = 0 -%}
+        {%- assign found = false -%}
+        {%- for category in site.data.menu -%}
+          {%- for item in category[1] -%}
+            {%- if item.name == f.menu_name -%}
+              {%- assign found = true -%}
+              {%- assign p = item.price | times: 1.0 -%}
+              {%- if p < min_price %}{% assign min_price = p %}{% endif -%}
+              {%- if p > max_price %}{% assign max_price = p %}{% endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      <article class="card">
+        <div class="card__img ph"><img src="{{ f.image }}" alt="{{ f.menu_name }}"/></div>
+        <div class="card__meta">
+          <span class="mono editable">{{ f.tag }}</span>
+          <h3 class="card__name editable">{{ f.menu_name }}</h3>
+          <p class="card__note editorial editable">{{ f.note }}</p>
+          {% if found %}
+          <span class="card__price">
+            {% if min_price == max_price %}${{ min_price }}{% else %}${{ min_price }} — ${{ max_price }}{% endif %}
+          </span>
+          {% endif %}
         </div>
-        <!-- /row -->
-     </div>
-     <!-- /container -->
+      </article>
+      {%- endfor -%}
+    </div>
   </div>
-  <!-- /SECTION 7 -->
+</section>
+
+<!-- VISIT + HOURS -->
+<section class="visit">
+  <div class="wrap visit__grid">
+    <div class="visit__left">
+      <span class="eyebrow editable">{{ page.visit_eyebrow }}</span>
+      <h2 class="display visit__head editable">{{ page.visit_title }}</h2>
+      <p class="visit__body editorial editable">{{ page.visit_body }}</p>
+      <div class="visit__cta">
+        <a class="btn btn--primary" href="{{ page.visit_cta_primary_url }}" target="_blank" rel="noopener">{{ page.visit_cta_primary_label }} &rarr;</a>
+        <a class="btn btn--ghost" href="{{ page.visit_cta_secondary_url }}">{{ page.visit_cta_secondary_label }}</a>
+      </div>
+    </div>
+    <div class="visit__hours">
+      {%- for h in page.hours -%}
+        <div class="hours-row"><span class="hours-row__day editable">{{ h.day }}</span><span class="hours-row__rule"></span><span class="hours-row__time editable">{{ h.time }}</span></div>
+      {%- endfor -%}
+      <p class="visit__addr mono">{{ site.data.nav.footer.address.lines[0] | upcase }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="voices" id="reviews">
+  <div class="wrap">
+    <span class="eyebrow editable">{{ page.voices_eyebrow }}</span>
+    <div class="voices__grid">
+      {%- assign picks = site.data.testimonials | slice: 0, 3 -%}
+      {%- for testimonial in picks -%}
+        {%- assign alt_class = '' -%}
+        {%- if forloop.index == 2 %}{% assign alt_class = ' voice--alt' %}{%- endif -%}
+        <blockquote class="voice{{ alt_class }}">
+          <p class="voice__q editorial">&ldquo;{{ testimonial.quote }}&rdquo;</p>
+          <cite>— {{ testimonial.name }}{% if testimonial.company %} · {{ testimonial.company }}{% endif %}</cite>
+        </blockquote>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="signup" id="contact">
+  <div class="wrap signup__grid">
+    <div>
+      <h2 class="display signup__head editable">{{ page.signup_title }}</h2>
+      <p class="signup__body editable">{{ page.signup_body }}</p>
+    </div>
+    <form class="signup__form" onsubmit="event.preventDefault();this.querySelector('button').textContent='Thanks — see you soon.'">
+      <input type="email" placeholder="{{ page.signup_placeholder }}" required/>
+      <button class="btn btn--primary" type="submit">{{ page.signup_button_label }} &rarr;</button>
+    </form>
+  </div>
+</section>

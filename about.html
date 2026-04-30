@@ -1,0 +1,160 @@
+---
+layout: design
+title: About Java Square Cafe | Our story, the old bank, the coffee
+description: >-
+  Inside a 1920s bank building on the Opelousas square, Java Square serves
+  espresso, pastries, and quiet hours. Our story and our coffee.
+permalink: /about/
+screen_label: About
+page_css:
+  - /assets/css/design/about.css
+
+# ──────────── HERO ────────────
+hero_eyebrow: Our story
+hero_title: 'We make coffee <em class="editorial">inside a bank vault</em> on purpose.'
+hero_sub: >-
+  Three reasons, in order: the building deserved a second life; downtown
+  deserved a front porch; and Opelousas deserved a better latte.
+hero_image: https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600&auto=format&fit=crop&q=80
+hero_image_caption: FIG. A · Main floor, looking east toward the vault
+
+# ──────────── CHAPTER 1 ────────────
+ch1_label: § 01
+ch1_title: The building
+ch1_lede: >-
+  103 West Landry was built in the 1920s as a bank. It held a town's savings
+  through booms, busts, a hurricane or two, and most of a century of Louisiana
+  Tuesdays.
+ch1_body_1: >-
+  By the time we found it, the marble counters were dusty, the vault door
+  hadn't moved in decades, and the old teller windows were boarded over. We
+  kept the bones: the crown molding, the iron gates, the vault itself. We
+  painted the walls cream, the cabinets navy, and the trim a quiet brown that
+  matches the logo.
+ch1_body_2: >-
+  Everyone asks the same question — <em>can we sit in the vault?</em> Yes.
+  There are four seats inside. They book up fast on Saturdays.
+
+# ──────────── SPLIT IMAGES ────────────
+split_image_1: https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=900&auto=format&fit=crop&q=80
+split_image_2: https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900&auto=format&fit=crop&q=80
+
+# ──────────── CHAPTER 2 ────────────
+ch2_label: § 02
+ch2_title: The coffee
+ch2_lede: >-
+  Beans from local roasters, poured by people who genuinely care what yours
+  tastes like.
+ch2_body_1: >-
+  We buy from roasters we've visited. We dial in every morning. We taste the
+  first shot before the doors open, and we re-dial when the weather changes —
+  because humidity changes everything and pretending otherwise is how you get
+  a bitter cup.
+ch2_body_2: >-
+  Our drip is a medium roast with caramel and red fruit notes. The espresso
+  runs darker, built for milk drinks. Cold brew steeps twelve hours. Everything
+  else — the blends, the seasonals, the Fredda recipe — we tweak until it's
+  right and then we leave it alone.
+
+# ──────────── VALUES ────────────
+values_eyebrow: § 03 — What we believe
+values:
+  - heading: Slower is better.
+    body: >-
+      Nobody ever walked out of a great conversation wishing they'd rushed.
+      Our bar doesn't have a pickup window.
+  - heading: Local over far.
+    body: >-
+      Boudin from down the street. Pastries baked before sunrise by people
+      whose names we know. Beans from roasters we've shaken hands with.
+  - heading: A room, not a transaction.
+    body: >-
+      Bring your laptop, your date, your grandmother, your book club. Stay
+      as long as a single coffee will let you. We don't time-limit the Wi-Fi.
+  - heading: Opelousas, specifically.
+    body: >-
+      We're not trying to be the Opelousas version of a Brooklyn cafe. We're
+      trying to be a great cafe that could only exist here.
+
+# ──────────── END CTA ────────────
+end_title: Come meet us.
+end_body: Downtown Opelousas, across from the murals. The coffee's on.
+end_cta_primary_label: Visit
+end_cta_primary_url: /contact/
+end_cta_secondary_label: See the menu
+end_cta_secondary_url: /menu/
+---
+<header class="about-hero">
+  <div class="wrap about-hero__inner">
+    <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
+    <h1 class="display about-hero__title editable">{{ page.hero_title }}</h1>
+    <p class="editorial about-hero__sub editable">{{ page.hero_sub }}</p>
+  </div>
+</header>
+
+<section class="about-hero-img">
+  <div class="wrap">
+    <figure class="ph about-hero-fig">
+      <img src="{{ page.hero_image }}" alt="Interior of Java Square"/>
+      <figcaption class="mono editable">{{ page.hero_image_caption }}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap about-chapter">
+  <aside class="about-chapter__side">
+    <span class="mono editable">{{ page.ch1_label }}</span>
+    <h2 class="display editable">{{ page.ch1_title }}</h2>
+  </aside>
+  <div class="about-chapter__body">
+    <p class="lede editorial editable">{{ page.ch1_lede }}</p>
+    <p class="editable">{{ page.ch1_body_1 }}</p>
+    <p class="editable">{{ page.ch1_body_2 }}</p>
+  </div>
+</section>
+
+<div class="about-split wrap">
+  <figure class="about-split__fig ph">
+    <img src="{{ page.split_image_1 }}" alt=""/>
+  </figure>
+  <figure class="about-split__fig ph">
+    <img src="{{ page.split_image_2 }}" alt=""/>
+  </figure>
+</div>
+
+<section class="wrap about-chapter about-chapter--reverse">
+  <aside class="about-chapter__side">
+    <span class="mono editable">{{ page.ch2_label }}</span>
+    <h2 class="display editable">{{ page.ch2_title }}</h2>
+  </aside>
+  <div class="about-chapter__body">
+    <p class="lede editorial editable">{{ page.ch2_lede }}</p>
+    <p class="editable">{{ page.ch2_body_1 }}</p>
+    <p class="editable">{{ page.ch2_body_2 }}</p>
+  </div>
+</section>
+
+<section class="values">
+  <div class="wrap">
+    <span class="eyebrow editable">{{ page.values_eyebrow }}</span>
+    <div class="values__grid">
+      {%- for v in page.values -%}
+      <div class="value">
+        <h3 class="display editable">{{ v.heading }}</h3>
+        <p class="editable">{{ v.body }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="about-end">
+  <div class="wrap about-end__inner">
+    <h2 class="display editable">{{ page.end_title }}</h2>
+    <p class="editorial editable">{{ page.end_body }}</p>
+    <div class="about-end__cta">
+      <a class="btn btn--primary" href="{{ page.end_cta_primary_url }}">{{ page.end_cta_primary_label }} &rarr;</a>
+      <a class="btn btn--ghost" href="{{ page.end_cta_secondary_url }}">{{ page.end_cta_secondary_label }}</a>
+    </div>
+  </div>
+</section>

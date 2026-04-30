@@ -9,7 +9,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.5)
+    ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
@@ -51,6 +52,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.5.3)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -71,9 +73,11 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
+  ffi (~> 1.17)
   jekyll (~> 4.3.1)
   jekyll-archives
   jekyll-feed
@@ -81,6 +85,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   liquid (~> 4.0, >= 4.0.4)
+  logger (~> 1.5.3)
 
 BUNDLED WITH
    2.3.17

@@ -1,0 +1,36 @@
+{%- assign current = page.url | default: '/' -%}
+<header class="site-nav" id="site-nav">
+  <div class="site-nav__inner">
+    <a href="/" class="site-nav__brand">
+      <span class="site-nav__logo">JS</span>
+      <span>Java Square</span>
+    </a>
+    <nav class="site-nav__links">
+      {%- for item in site.data.nav.menu -%}
+        {%- assign is_active = false -%}
+        {%- if item.url == '/' and current == '/' -%}{%- assign is_active = true -%}
+        {%- elsif item.url != '/' and current contains item.url -%}{%- assign is_active = true -%}
+        {%- endif -%}
+        {%- if item.url contains 'http' -%}
+          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {%- else -%}
+          <a href="{{ item.url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+    <a href="{{ site.data.nav.cta.url }}" class="site-nav__cta" target="_blank" rel="noopener">Order {{ site.data.nav.cta.label }}</a>
+    <button class="site-nav__toggle" type="button" aria-label="Toggle menu" id="site-nav-toggle"><span></span></button>
+  </div>
+</header>
+<script>
+(function(){
+  var nav = document.getElementById('site-nav');
+  var btn = document.getElementById('site-nav-toggle');
+  if (btn && nav) {
+    btn.addEventListener('click', function(){
+      var open = nav.getAttribute('data-open') === 'true';
+      nav.setAttribute('data-open', open ? 'false' : 'true');
+    });
+  }
+})();
+</script>
