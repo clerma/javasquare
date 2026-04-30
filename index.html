@@ -78,18 +78,22 @@ featured_items:
   - menu_name: Cafe au Lait
     tag: hot · signature
     note: Drip coffee stretched with steamed milk. A Louisiana morning, in a cup.
+    price: $2.35 — $3.35
     image: https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&auto=format&fit=crop&q=80
   - menu_name: Fredda
     tag: cold · house favorite
     note: Our blended iced coffee — creamy, sweet, studied.
+    price: $4.15 — $5.15
     image: https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80
   - menu_name: Boudin Grilled Cheese Sandwich
     tag: food · local
     note: Cajun boudin, melted cheese, pressed golden. Unapologetic.
+    price: $6.75
     image: https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&auto=format&fit=crop&q=80
   - menu_name: Stuffed Croissant
     tag: pastry
     note: Rotating fillings — pumpkin cheesecake, mardi gras, apple crisp.
+    price: $3.75 — $4.75
     image: https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80
 
 # ──────────── VISIT / HOURS ────────────
@@ -159,11 +163,8 @@ signup_button_label: Subscribe
 <!-- MARQUEE -->
 <div class="marquee">
   <div class="marquee__track">
-    {%- for pass in (1..2) -%}
-      {%- for m in page.marquee_items -%}
-        <span{% if m.italic %} class="editorial"{% endif %}>{{ m.text }}</span><span>·</span>
-      {%- endfor -%}
-    {%- endfor -%}
+    {% for m in page.marquee_items %}{% if m.italic %}<span class="editorial">{{ m.text }}</span>{% else %}<span>{{ m.text }}</span>{% endif %}<span>·</span>{% endfor %}
+    {% for m in page.marquee_items %}{% if m.italic %}<span class="editorial">{{ m.text }}</span>{% else %}<span>{{ m.text }}</span>{% endif %}<span>·</span>{% endfor %}
   </div>
 </div>
 
@@ -192,35 +193,17 @@ signup_button_label: Subscribe
       <a href="{{ page.tease_link_url }}" class="tease__all">{{ page.tease_link_label }} &rarr;</a>
     </div>
     <div class="tease__grid">
-      {%- for f in page.featured_items -%}
-        {%- comment -%} Pull min/max prices from _data/menu.yml by name match. {%- endcomment -%}
-        {%- assign min_price = 9999 -%}
-        {%- assign max_price = 0 -%}
-        {%- assign found = false -%}
-        {%- for category in site.data.menu -%}
-          {%- for item in category[1] -%}
-            {%- if item.name == f.menu_name -%}
-              {%- assign found = true -%}
-              {%- assign p = item.price | times: 1.0 -%}
-              {%- if p < min_price %}{% assign min_price = p %}{% endif -%}
-              {%- if p > max_price %}{% assign max_price = p %}{% endif -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endfor -%}
+      {% for f in page.featured_items %}
       <article class="card">
         <div class="card__img ph"><img src="{{ f.image }}" alt="{{ f.menu_name }}"/></div>
         <div class="card__meta">
           <span class="mono editable">{{ f.tag }}</span>
           <h3 class="card__name editable">{{ f.menu_name }}</h3>
           <p class="card__note editorial editable">{{ f.note }}</p>
-          {% if found %}
-          <span class="card__price">
-            {% if min_price == max_price %}${{ min_price }}{% else %}${{ min_price }} — ${{ max_price }}{% endif %}
-          </span>
-          {% endif %}
+          <span class="card__price editable">{{ f.price }}</span>
         </div>
       </article>
-      {%- endfor -%}
+      {% endfor %}
     </div>
   </div>
 </section>
