@@ -67,6 +67,7 @@ story_body: >-
 story_link_label: Read the story
 story_link_url: /about/
 story_image: https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&auto=format&fit=crop&q=80
+story_image_alt: Java Square Cafe interior — west bar in the old bank building
 story_image_caption: FIG. 01 · Interior, west bar
 
 # ──────────── MENU TEASE ────────────
@@ -179,7 +180,7 @@ signup_button_label: Subscribe
     <a href="{{ page.story_link_url }}" class="story__link">{{ page.story_link_label }} <span>&rarr;</span></a>
   </div>
   <figure class="story__figure ph">
-    <img src="{{ page.story_image }}" alt=""/>
+    <img src="{{ page.story_image }}" alt="{{ page.story_image_alt }}"/>
     <figcaption class="mono editable">{{ page.story_image_caption }}</figcaption>
   </figure>
 </section>
