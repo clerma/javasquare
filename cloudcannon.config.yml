@@ -22,23 +22,79 @@ _inputs:
         - Eric Schexnayder
         - Tim Skinner
     cascade: true
-  image-1:
-    type: image
-    cascade: true
-  image-2:
-    type: image
-    cascade: true
-  image-3:
-    type: image
-    cascade: true
-  background_image_2:
-    type: image
-    cascade: true
-  background_image_3:
-    type: image
-    cascade: true
-  keywords:
-    type: textarea
+
+  # ─── Legacy editable image inputs (kept for old pages) ──────────────────
+  image-1: { type: image, cascade: true }
+  image-2: { type: image, cascade: true }
+  image-3: { type: image, cascade: true }
+  background_image_2: { type: image, cascade: true }
+  background_image_3: { type: image, cascade: true }
+  keywords: { type: textarea, cascade: true }
+
+  # ─── Design-system image fields (cascade through all pages/data) ────────
+  image:              { type: image, cascade: true }
+  hero_image:         { type: image, cascade: true }
+  story_image:        { type: image, cascade: true }
+  split_image_1:      { type: image, cascade: true }
+  split_image_2:      { type: image, cascade: true }
+  conference_image:   { type: image, cascade: true }
+
+  # ─── Design-system long-text / body fields ──────────────────────────────
+  description:        { type: textarea, cascade: true }
+  hero_sub:           { type: textarea, cascade: true }
+  hero_caption:       { type: textarea, cascade: true }
+  story_body:         { type: textarea, cascade: true }
+  ch1_lede:           { type: textarea, cascade: true }
+  ch1_body_1:         { type: textarea, cascade: true }
+  ch1_body_2:         { type: textarea, cascade: true }
+  ch2_lede:           { type: textarea, cascade: true }
+  ch2_body_1:         { type: textarea, cascade: true }
+  ch2_body_2:         { type: textarea, cascade: true }
+  visit_body:         { type: textarea, cascade: true }
+  signup_body:        { type: textarea, cascade: true }
+  end_body:           { type: textarea, cascade: true }
+  intro_body:         { type: textarea, cascade: true }
+  main_space_body:    { type: textarea, cascade: true }
+  conference_body:    { type: textarea, cascade: true }
+  addons_body:        { type: textarea, cascade: true }
+  inquire_body:       { type: textarea, cascade: true }
+  hero_sub_text:      { type: textarea, cascade: true }
+  form_body:          { type: textarea, cascade: true }
+  empty_message:      { type: textarea, cascade: true }
+  cta_body:           { type: textarea, cascade: true }
+  body:               { type: textarea, cascade: true }
+  note:               { type: textarea, cascade: true }
+  answer:             { type: textarea, cascade: true }
+  quote:              { type: textarea, cascade: true }
+
+  # ─── Design-system headlines that may include inline HTML (em tags) ─────
+  hero_title:         { type: text, comment: 'Inline HTML allowed (e.g. <em class="editorial">word</em>)', cascade: true }
+  story_title:        { type: text, comment: 'Inline HTML allowed', cascade: true }
+  tease_title:        { type: text, comment: 'Inline HTML allowed', cascade: true }
+  signup_title:       { type: text, comment: 'Inline HTML allowed', cascade: true }
+  community_title:    { type: text, comment: 'Inline HTML allowed', cascade: true }
+  includes_title:     { type: text, comment: 'Inline HTML allowed', cascade: true }
+  addons_title:       { type: text, comment: 'Inline HTML allowed', cascade: true }
+  inquire_title:      { type: text, comment: 'Inline HTML allowed', cascade: true }
+  form_title:         { type: text, comment: 'Inline HTML allowed', cascade: true }
+  contact_hero_title: { type: text, comment: 'Inline HTML allowed', cascade: true }
+
+  # ─── URLs ───────────────────────────────────────────────────────────────
+  hero_cta_primary_url:   { type: url, cascade: true }
+  hero_cta_secondary_url: { type: url, cascade: true }
+  story_link_url:         { type: url, cascade: true }
+  tease_link_url:         { type: url, cascade: true }
+  visit_cta_primary_url:  { type: url, cascade: true }
+  visit_cta_secondary_url:{ type: url, cascade: true }
+  end_cta_primary_url:    { type: url, cascade: true }
+  end_cta_secondary_url:  { type: url, cascade: true }
+  address_link:           { type: url, cascade: true }
+  url:                    { type: url, cascade: true }
+  cta_url:                { type: url, cascade: true }
+
+  # ─── Repeating menu_name picker — pulls names from _data/menu.yml ───────
+  menu_name:
+    comment: Must match exactly an item name in _data/menu.yml so the menu page can group it.
     cascade: true
 _editables:
   block:

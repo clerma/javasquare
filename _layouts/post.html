@@ -1,56 +1,40 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en" data-palette="navy" data-direction="editorial">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	{% capture seo %}
-	{% seo %}
-	<meta name="keywords" content="{{page.keywords}}">
-	{% endcapture %}
-	{{seo | remove: "Jekyll"}}
-	<!-- Styles -->
-	{% include head.html %}
-	<style>
-		{% for slide in page.slider %}
-		.slide-1{background-image:url('/assets/images/pages-top/image-asset.jpeg');}
-		.slide-2{background-image:url('/assets/images/pages-top/slider-2.jpg');}
-		.slide-3{background-image:url('/assets/images/pages-top/slider-3.jpg');}
-		{% endfor %}
-	</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% include design-head.html %}
+  <link rel="stylesheet" href="/assets/css/design/blog.css">
+  <link rel="stylesheet" href="/assets/css/design/post.css">
 </head>
-<body class="home">
-	<div class="menu-mask"></div>
-	{% include nav.html header="dark" %}
-	 <!-- HOME SLIDER -->
-	 <div class="slider-container-blog" style="height: 70vh;margin-bottom: 0px">
-	   <div class="owl-carousel owl-theme home-slider">
+<body data-screen-label="Blog post">
+  {% include design-nav.html %}
 
-		 <div class="slider-post slider-item-box-bkg" style="height: 70vh;">
-		   <div class="slider-img" style="background-image: url('{{page.image}}');"></div>
-		   <div class="slider-caption">
-			 <div class="slider-text">
-			   <div class="intro-txt">{{ slide.intro }}</div>
-			   <h2>{{ page.title }}</h2>
-			   <p>
-				 {{ slide.text }}
-			   </p>
-			 </div>
-		   </div>
-		 </div>
-	   </div>
-	 </div>
-	 <!-- /HOME SLIDER -->
-	  <!-- WRAP CONTENT -->
-		<div id="wrap-content" class="page-content custom-page-template container">
-			<div class="row">
-				<div class="col-md-12 py-5">
-			{{ content }}
-				</div>
-			</div>
-			</div>
-			  <!-- /WRAP CONTENT -->
-		{% include footer.html %}
-	{% include scripts.html %}
+  <header class="post-hero">
+    <a class="post-hero__back" href="/blog">&larr; Back to the journal</a>
+    <span class="post-hero__meta">{% if page.categories.first %}{{ page.categories.first | capitalize }} · {% endif %}{{ page.date | date: "%B %-d, %Y" }}</span>
+    <h1 class="post-hero__title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-hero__sub">{{ page.description }}</p>{% endif %}
+    {% if page.author %}<p class="post-hero__byline">By {{ page.author }}</p>{% endif %}
+  </header>
+
+  {% if page.image %}
+  <section class="post-img">
+    <div class="post-img__inner">
+      <img src="{{ page.image }}" alt="{{ page.title }}"/>
+    </div>
+  </section>
+  {% endif %}
+
+  <article class="post-body">
+    {{ content }}
+  </article>
+
+  <div class="post-end">
+    <span class="editorial">Thanks for reading.</span>
+    <a class="btn btn--ghost" href="/blog">More posts &rarr;</a>
+  </div>
+
+  {% include design-foot.html %}
 </body>
 </html>
