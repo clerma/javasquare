@@ -1,7 +1,45 @@
 name: Java Square Cafe
-address: "103 W. Landry St Opelousas, LA 70570"
-email: "info@javasquare.cafe"
-phone: (337) 678-1055
+url: https://javasquare.cafe
+title_separator: "·"
+description: >-
+  Java Square is a full-service coffee shop in downtown Opelousas, LA —
+  espresso, pastries, and quiet hours inside a 1920s bank building.
+  Locally roasted coffee, scratch-made food, vault seating, and venue
+  rental for private events.
+keywords: >-
+  coffee shop Opelousas, Opelousas coffee, Java Square Cafe, espresso
+  Opelousas, latte Opelousas, cafe near me, Louisiana coffee, vault
+  seating, venue rental Opelousas, downtown Opelousas
+author: Java Square Cafe
+email: info@javasquare.cafe
+phone: (337) 678-0551
+address:
+  street: 103 West Landry St
+  city: Opelousas
+  region: LA
+  zip: "70570"
+  country: US
+latitude: "30.532928"
+longitude: "-92.083115"
+
+logo: /assets/images/java-logo2.png
+favicon: /assets/favicon/favicon-32x32.png
+og_image: /assets/images/pages-top/image-asset.jpeg
+
+locale: en_us
+
+twitter:
+  username: javasquare
+
+social:
+  name: Java Square Cafe
+  links:
+    - https://www.facebook.com/javasquare
+    - https://www.instagram.com/javasquare
+    - https://tiktok.com/@javasquarecafe
+    - https://www.yelp.com/biz/java-square-cafe-opelousas
+    - https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html
+
 collections:
   posts:
     title: Posts
@@ -9,28 +47,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: info@javasquare.cafe
+
 baseurl:
-logo: "/images/logo.png"
-favicon: assets/images/favicon.png
-locale: en_us
-ganalytics: UA-48421544-1
-twitter:
-  username: "javasquare"
-social:
-  name: Java Square Cafe
-  links:
-    - https://twitter.com/javasquare
-    - https://www.facebook.com/javasquare
-    - https://www.instagram.com/javasquare
-    - https://tiktok.com/@javasquarecafe
-    - https://www.yelp.com/biz/java-square-cafe-opelousas
-    - https://www.tripadvisor.com/Restaurant_Review-g40351-d3368937-Reviews-Java_Square-Opelousas_Louisiana.html
-latitude: "30.532928"
-longitude: "-92.083115"
+
 plugins:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
