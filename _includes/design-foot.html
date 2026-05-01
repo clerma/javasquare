@@ -6,7 +6,17 @@
       <p class="site-foot__tag">A neighborhood coffee shop brewing connection, quality, and community in every cup — in a 1920s bank building on the square.</p>
       <div class="site-foot__socials">
         {%- for social in site.data.nav.social_links -%}
-          <a href="{{ social.url }}" target="_blank" rel="noopener" aria-label="{{ social.platform }}"><i class="{{ social.icon }}"></i></a>
+          <a href="{{ social.url }}" target="_blank" rel="noopener" aria-label="{{ social.platform }}">
+            {%- if social.platform == 'tripadvisor' or social.platform == 'TripAdvisor' -%}
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+                <ellipse cx="12" cy="12" rx="11" ry="6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="8" cy="12" r="2.5"/>
+                <circle cx="16" cy="12" r="2.5"/>
+              </svg>
+            {%- else -%}
+              <i class="{{ social.icon }}"></i>
+            {%- endif -%}
+          </a>
         {%- endfor -%}
       </div>
     </div>
