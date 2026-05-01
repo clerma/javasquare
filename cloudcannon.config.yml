@@ -85,7 +85,7 @@ _inputs:
   story_link_url:         { type: url, cascade: true }
   tease_link_url:         { type: url, cascade: true }
   visit_cta_primary_url:  { type: url, cascade: true }
-  visit_cta_secondary_url:{ type: url, cascade: true }
+  visit_cta_secondary_url: { type: url, cascade: true }
   end_cta_primary_url:    { type: url, cascade: true }
   end_cta_secondary_url:  { type: url, cascade: true }
   address_link:           { type: url, cascade: true }
