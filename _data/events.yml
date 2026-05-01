@@ -1,6 +1,3 @@
-# Events list — edit in CloudCannon. Each item shows on /events/.
-# `cta_style` accepts "primary" or "ghost" (default).
-
 - month: JUL
   day: '11'
   year: '2025'
@@ -11,27 +8,3 @@
     questions, your ideas, your coffee — and sit down face to face.
   cta_label: Read more
   cta_url: /news/coffee-with-the-chief-building-community-over-a-cup/
-
-- month: '—'
-  day: '·'
-  year: Rotating
-  meta: Sat · 8a — 12p · Around the cafe · Free entry
-  title: St. Landry Farmers & Makers Market
-  body: >-
-    Local makers and farmers, weekend mornings. Booth inquiries welcome — see
-    our vendor FAQ.
-  cta_label: Inquire
-  cta_url: /contact/
-
-- month: '—'
-  day: '·'
-  year: Ongoing
-  meta: Varies · Private · Rent the space
-  title: Your event, here
-  body: >-
-    Birthdays, showers, pop-ups, rehearsal dinners, book launches, team
-    offsites. The main floor and the upstairs conference room are both
-    available for private rental.
-  cta_label: Rent the space
-  cta_url: /venue-rental/
-  cta_style: primary

@@ -9,15 +9,15 @@ permalink: blog
 screen_label: Blog
 page_css:
   - /assets/css/design/blog.css
-
-# ──────────── HERO ────────────
 hero_eyebrow: The Journal · Dispatches from the square
-hero_title: 'Notes, <em class="editorial">stories,</em> and the occasional rant.'
+hero_title: Notes, <em class="editorial">stories,</em> and the occasional rant.
 empty_message: More stories coming soon. Check back for new posts.
 ---
 <header class="blog-hero">
   <span class="eyebrow editable">{{ page.hero_eyebrow }}</span>
-  <h1 class="display blog-hero__title editable">{{ page.hero_title }}</h1>
+  <h1 class="display blog-hero__title editable">
+    {{ page.hero_title }}
+  </h1>
 </header>
 
 {%- assign posts = site.tags.blog | default: site.posts -%}
@@ -26,7 +26,7 @@ empty_message: More stories coming soon. Check back for new posts.
 <section class="blog-feature">
   <a class="feature" href="{{ featured.url }}">
     <figure class="feature__img ph">
-      <img src="{{ featured.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ featured.title }}"/>
+      <img src="{{ featured.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ featured.title }}" />
     </figure>
     <div class="feature__meta">
       <span class="mono">Feature · {{ featured.date | date: "%b %-d, %Y" }}</span>
@@ -52,7 +52,7 @@ empty_message: More stories coming soon. Check back for new posts.
     {%- for post in rest -%}
       <a class="post" href="{{ post.url }}">
         <figure class="post__img ph">
-          <img src="{{ post.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ post.title }}"/>
+          <img src="{{ post.image | default: '/assets/images/pages-top/image-asset.jpeg' }}" alt="{{ post.title }}" />
         </figure>
         <div class="post__meta">
           <span class="mono">{% if post.categories.first %}{{ post.categories.first | capitalize }}{% else %}Journal{% endif %} · {{ post.date | date: "%b %-d" }}</span>
@@ -63,6 +63,8 @@ empty_message: More stories coming soon. Check back for new posts.
     {%- endfor -%}
   </div>
   {%- else -%}
-    <p class="blog-empty editorial editable">{{ page.empty_message }}</p>
+    <p class="blog-empty editorial editable">
+    {{ page.empty_message }}
+  </p>
   {%- endif -%}
 </section>
